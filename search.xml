@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>1. Hello World</title>
+    <url>/2021/12/17/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>2. 原核蛋白纯化</title>
+    <url>/2021/12/17/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
+    <content><![CDATA[<blockquote>
+<p>原核蛋白提取纯化</p>
+</blockquote>
+<h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
+<li><p>细菌裂解：1x PBS；1mM PMSF</p>
+</li>
+<li><p>Beads Washing Buffer：1x PBS</p>
+</li>
+<li><p>GST wash Binding Buffer：1x PBS</p>
+</li>
+<li><p>His wash Binding Buffer (pH 7.4 )</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>200 mL</th>
+<th>500 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td>1.56 g</td>
+<td>3.1 g</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td>3.5 g</td>
+<td>8.76 g</td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>5 mM</td>
+<td>0.068 g</td>
+<td>0.17 g</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<ul>
+<li><p>His Elution Buffer</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>10 mL</th>
+<th>20 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>250 mM</td>
+<td>0.17 g</td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p>GST Elution Buffer：</p>
+<p>500μL 1M Tris(8.0)；0.03g GSH；H2O up to 10mL</p>
+<p><strong>Tips:</strong></p>
+<ul>
+<li><p>Ni<sup>2+</sup> 亲和柱 在pH7-8（中/弱碱性）条件下结合较好，但pH在蛋白等电点附近会不溶。</p>
+</li>
+<li><p>NaCl 用于保持蛋白可溶性/模拟生理条件，常用 150mM; 高盐可降低非特异结合。</p>
+</li>
+<li><p>惰性蛋白BSA等可增加蛋白稳定性，甘油/PEG可增加缓冲液粘度防止蛋白聚集，少量表面活性剂和离子化合物（硫酸盐/氨基酸/柠檬酸等）可屏蔽蛋白离子相互作用助溶。</p>
+</li>
+<li><p>蛋白质含有半胱氨酸可能会聚集，5-10mM还原剂（DTT/TCEP/β-ME）可防止。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h4><ol>
+<li>200mL LB培养目的蛋白菌株（BL21等）至OD<sub>600</sub>=0.6；</li>
+<li>加入5-300 μM IPTG，16℃诱导蛋白 &gt;12h；</li>
+<li>离心收集菌体，重悬于 20mL 细菌裂解液，超声破碎至澄清，4℃离心</li>
+<li>平衡蛋白柱后（1mL Beads），将上清加入柱中4℃孵育 2h；</li>
+<li>滤下裂解液后，用对应 Wash Binding Buffer 洗涤 3-5 次，5min each；</li>
+<li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>3. 常见组蛋白修饰</title>
+    <url>/2021/12/17/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>常见组蛋白修饰及其生物学功能</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>H2A</th>
+<th>修饰类型</th>
+<th>生物学功能</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td><strong>H2AS1P</strong></td>
+<td>Mitosis;  chromatin assembly</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">98]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK4/5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1085">99]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK7ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK119P</strong></td>
+<td>Spermatogenesis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">101]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK119uq</strong></td>
+<td>Transcriptional  repression</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1100">102]</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H2B</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS14P</strong></td>
+<td>Apoptosis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1105">103]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS33P</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1110">104]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">105]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK11/12ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK15/16ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK20ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">105]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK120uq</strong></td>
+<td>Spermatogenesis/meiosis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">101]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK123uq</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1120">106]</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H3</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>**H3K4me2 **</td>
+<td>Permissive  euchromatin</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">107]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K4me3</strong></td>
+<td>Transcriptional  elongation; active euchromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">107</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1130">108</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">109</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K9me3</strong></td>
+<td>Transcriptional  repression; imprinting; DNA methylation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">110</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3R17me</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1145">111</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1150">112</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K27me3</strong></td>
+<td>Transcriptional  silencing; X-inactivation; bivalent genes/gene poising</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K36me3</strong></td>
+<td>Transcriptional  elongation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K4ac</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">109]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K9ac</strong></td>
+<td>Histone  deposition; transcriptional activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K14ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H1K18ac</strong></td>
+<td>Transcriptional  activation; DNA repair; DNA replication</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K23ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K27ac</strong></td>
+<td>Transcriptional  activation</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T3P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3S10P</strong></td>
+<td>Mitosis;  meiosis; transcriptional activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">110]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T11/S28P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H4</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4R3me</strong></td>
+<td>Transcriptional  activation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1025">87]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me1</strong></td>
+<td>Transcriptional  silencing</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1155">113]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me3</strong></td>
+<td>Heterochromatin</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1160">114]</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K5ac</strong></td>
+<td>Histone  deposition; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K8ac</strong></td>
+<td>Transcriptional  activation; DNA repair; transcriptional elongation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K12ac</strong></td>
+<td>Histone  deposition; telomeric silencing; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K16ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0670">16</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4S1P</strong></td>
+<td>Mitosis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">98]</a></td>
+</tr>
+</tbody></table>
+<ul>
+<li>原文来自 <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub">https://www.sciencedirect.com/science/article/pii/S0168952515001936?via%3Dihub</a> </li>
+</ul>
+]]></content>
+  </entry>
+</search>
