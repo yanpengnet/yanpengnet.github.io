@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1. 原核蛋白纯化</title>
+    <url>/2021/12/17/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
+    <content><![CDATA[<blockquote>
+<p>原核蛋白提取纯化</p>
+</blockquote>
+<h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
+<li><p>细菌裂解：1x PBS；1mM PMSF</p>
+</li>
+<li><p>Beads Washing Buffer：1x PBS<span id="more"></span></p>
+</li>
+<li><p>GST wash Binding Buffer：1x PBS</p>
+</li>
+<li><p>His wash Binding Buffer (pH 7.4 )</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>200 mL</th>
+<th>500 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td>1.56 g</td>
+<td>3.1 g</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td>3.5 g</td>
+<td>8.76 g</td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>5 mM</td>
+<td>0.068 g</td>
+<td>0.17 g</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<ul>
+<li><p>His Elution Buffer</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>10 mL</th>
+<th>20 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>250 mM</td>
+<td>0.17 g</td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p>GST Elution Buffer：</p>
+<p>500μL 1M Tris(8.0)；0.03g GSH；H2O up to 10mL</p>
+<p><strong>Tips:</strong></p>
+<ul>
+<li><p>Ni<sup>2+</sup> 亲和柱 在pH7-8（中/弱碱性）条件下结合较好，但pH在蛋白等电点附近会不溶。</p>
+</li>
+<li><p>NaCl 用于保持蛋白可溶性/模拟生理条件，常用 150mM; 高盐可降低非特异结合。</p>
+</li>
+<li><p>惰性蛋白BSA等可增加蛋白稳定性，甘油/PEG可增加缓冲液粘度防止蛋白聚集，少量表面活性剂和离子化合物（硫酸盐/氨基酸/柠檬酸等）可屏蔽蛋白离子相互作用助溶。</p>
+</li>
+<li><p>蛋白质含有半胱氨酸可能会聚集，5-10mM还原剂（DTT/TCEP/β-ME）可防止。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h4><ol>
+<li>200mL LB培养目的蛋白菌株（BL21等）至OD<sub>600</sub>=0.6；</li>
+<li>加入5-300 μM IPTG，16℃诱导蛋白 &gt;12h；</li>
+<li>离心收集菌体，重悬于 20mL 细菌裂解液，超声破碎至澄清，4℃离心</li>
+<li>平衡蛋白柱后（1mL Beads），将上清加入柱中4℃孵育 2h；</li>
+<li>滤下裂解液后，用对应 Wash Binding Buffer 洗涤 3-5 次，5min each；</li>
+<li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>实验操作</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3. 植物DNA甲基化</title>
     <url>/2021/12/31/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
     <content><![CDATA[<blockquote>
@@ -440,112 +546,6 @@
       </categories>
       <tags>
         <tag>epigenetic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1. 原核蛋白纯化</title>
-    <url>/2021/12/17/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
-    <content><![CDATA[<blockquote>
-<p>原核蛋白提取纯化</p>
-</blockquote>
-<h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
-<li><p>细菌裂解：1x PBS；1mM PMSF</p>
-</li>
-<li><p>Beads Washing Buffer：1x PBS<span id="more"></span></p>
-</li>
-<li><p>GST wash Binding Buffer：1x PBS</p>
-</li>
-<li><p>His wash Binding Buffer (pH 7.4 )</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Final</th>
-<th>200 mL</th>
-<th>500 mL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>NaH<sub>2</sub>PO<sub>4</sub></td>
-<td>50 mM</td>
-<td>1.56 g</td>
-<td>3.1 g</td>
-</tr>
-<tr>
-<td>NaCl</td>
-<td>300 mM</td>
-<td>3.5 g</td>
-<td>8.76 g</td>
-</tr>
-<tr>
-<td>咪唑 Imidazole</td>
-<td>5 mM</td>
-<td>0.068 g</td>
-<td>0.17 g</td>
-</tr>
-</tbody></table>
-</li>
-</ul>
-<ul>
-<li><p>His Elution Buffer</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Final</th>
-<th>10 mL</th>
-<th>20 mL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>NaH<sub>2</sub>PO<sub>4</sub></td>
-<td>50 mM</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>NaCl</td>
-<td>300 mM</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>咪唑 Imidazole</td>
-<td>250 mM</td>
-<td>0.17 g</td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
-<li><p>GST Elution Buffer：</p>
-<p>500μL 1M Tris(8.0)；0.03g GSH；H2O up to 10mL</p>
-<p><strong>Tips:</strong></p>
-<ul>
-<li><p>Ni<sup>2+</sup> 亲和柱 在pH7-8（中/弱碱性）条件下结合较好，但pH在蛋白等电点附近会不溶。</p>
-</li>
-<li><p>NaCl 用于保持蛋白可溶性/模拟生理条件，常用 150mM; 高盐可降低非特异结合。</p>
-</li>
-<li><p>惰性蛋白BSA等可增加蛋白稳定性，甘油/PEG可增加缓冲液粘度防止蛋白聚集，少量表面活性剂和离子化合物（硫酸盐/氨基酸/柠檬酸等）可屏蔽蛋白离子相互作用助溶。</p>
-</li>
-<li><p>蛋白质含有半胱氨酸可能会聚集，5-10mM还原剂（DTT/TCEP/β-ME）可防止。</p>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h4><ol>
-<li>200mL LB培养目的蛋白菌株（BL21等）至OD<sub>600</sub>=0.6；</li>
-<li>加入5-300 μM IPTG，16℃诱导蛋白 &gt;12h；</li>
-<li>离心收集菌体，重悬于 20mL 细菌裂解液，超声破碎至澄清，4℃离心</li>
-<li>平衡蛋白柱后（1mL Beads），将上清加入柱中4℃孵育 2h；</li>
-<li>滤下裂解液后，用对应 Wash Binding Buffer 洗涤 3-5 次，5min each；</li>
-<li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>实验操作</tag>
       </tags>
   </entry>
 </search>
