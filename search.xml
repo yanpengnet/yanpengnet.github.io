@@ -1,25 +1,449 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>1. Hello World</title>
-    <url>/2021/12/17/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>3. 植物DNA甲基化</title>
+    <url>/2021/12/31/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>背景：</p>
+</blockquote>
+<ul>
+<li><p>一、表观遗传学</p>
+<p>主要涉及 DNA 甲基化对基因表达的抑制、组蛋白修饰对基因表达的调控、small RNA 对靶基因的干扰以及 ATP 依赖的染色质重塑等表观遗传调控过程。<span id="more"></span></p>
+</li>
+<li><p>二、DNA甲基化</p>
+<p>甲基化酶介导的将一个或多个甲基基团从 S-腺苷甲硫氨酸选择性地转移到DNA上的一种化学修饰。DNA 甲基化主要形成 5-甲基胞嘧啶和少量的N6-甲基嘌呤及 7-甲基鸟嘌呤。</p>
+</li>
+</ul>
+<p>在哺乳动物中，胞嘧啶甲基化大多存在于CG 序列上；而植物中除了CG 甲基化外, 还有CHG 和CHH 的甲基化(H = A, C 或T)。拟南芥(Arabidopsis thaliana)中CG、CHG 和CHH 的甲基化程度分别为24%、6.7%和1.7% （Cokus SJ等2008）。</p>
+<p><span style='color:red'>植物DNA甲基化</span></p>
+<ul>
+<li><strong>一、植物DNA甲基化的方式</strong></li>
+</ul>
+<p><u><em>从头甲基化 de novo methylation</em></u></p>
+<blockquote>
+<ul>
+<li>两条链均未甲基化，由不同的DNA甲基转移酶催化完成，不依赖复制。</li>
+</ul>
+</blockquote>
+<p><em><u>维持甲基化 maintenance methylation</u></em></p>
+<blockquote>
+<ul>
+<li>双链DNA中一条链已存在甲基化，另一条未甲基化链被甲基化，以半保留复制方式传递给子代。</li>
+</ul>
+</blockquote>
+<p>在对拟南芥有性生殖过程中的DNA甲基化动态变化进行研究时发现，在雌配子发生过程中，维持甲基化方式几乎不发生，而受精后在胚胎中从头甲基化与维持甲基化明显发生，并且维持一定甲基化水平直到成株（ Jullien 等2012）。</p>
+<ul>
+<li><strong>二、植物DNA甲基化过程中的几类关键酶</strong></li>
+</ul>
+<blockquote>
+<ul>
+<li>植物DNA甲基化的发生和维持主要依赖于4种在结构和功能上不同的胞嘧啶甲基转移酶。</li>
+</ul>
+</blockquote>
+<p><em><u>1、维持DNA甲基转移酶(methyltransferase 1, MET1)家族</u></em></p>
+<ul>
+<li>是DNMT1甲基化酶的同系物，维持对称序列CG位点的甲基化的主要酶。某些位点的MET1也具有从头甲基化活性，可以使得丢失甲基化位点被重新甲基化，且发生重新甲基化的CG位点是随机的，这可能有助于稳定植物体内甲基化水平，并且提高甲基化模式的多样性。</li>
+</ul>
+<p><u><em>2、染色质甲基化酶(chromo-methylase, CMT)家族</em></u></p>
+<ul>
+<li>植物所特有，负责维持CHG位点的甲基化，对维持基因组异染色质状态起一定作用。</li>
+</ul>
+<p><u><em>3、结构域重排甲基转移酶(domains rearranged methyltransferase, DRM)家族</em></u></p>
+<ul>
+<li>从头甲基化，DRM2和CMT3以及一些siRNA共同作用与非对称位点CHH处的甲基。</li>
+</ul>
+<p><u><em>4、其他保守甲基转移酶</em></u></p>
+<ul>
+<li><p>如玉米(Zea mays) 中的DMT104、拟南芥中的DMT11, 它们可能是DNMT2 (DNA meth-yltransferase 2) 家族的同系物, 虽然它们在不少植物中是保守的, 但其功能目前还不清楚(Goodrich和Tweedie 2002)。</p>
+</li>
+<li><p><strong>三、植物DNA甲基化发生机制</strong></p>
+</li>
+</ul>
+<p><u><em>由RNA介导的DNA甲基化(RNA-dependent DNA methylation, RdDM )</em></u></p>
+<p> RdDM 现象首次在受到类病毒感染的植物中发现，被认为是植物基因转录沉默的主要机制，参与多种表观遗传现象，如基因沉默、转座子抑制、基因组印记和副突变。</p>
+<p>RdDM过程中，所产生的 dsRNA (double-standed RNA) 和 siRNA (small inter-fering RNA) 给DNA甲基转移酶提供一种甲基化的信号， DNA甲基转移酶在接收到信号后作用于DNA靶位点上，建立起一种甲基化印记，然后通过DNA复制过程将这种甲基化状态传递下去。</p>
+<p>在RdDM中，除了典型的 RNAi 元件（即 Dicer 和 Argonaute 家族的成员）和 DRM2 之外，还需要两种植物特异 RNA 聚合酶，Pol IV 和 Pol V，两种酶被推断为染色质重塑因子。</p>
+<p>RdDM的发生机制主要包括两个步骤：24-nt siRNAs的生物合成及siRNAs信号定位到靶DNA区域, 启动从头甲基化的发生。</p>
+<p>Pol IV 被 SHH1(Sawadee homeodomain homolog 1)招募在目标转录区编码单链 RNA (single-stranded RNA)，RDR2(RNA-DEPENDENT RNA POLUMERASE )与 Pol IV 结合在一起，将单链 RNA 转化为双链RNA (double-stranded RNA)，然后DCL3 (DICER-LIKE 3)进行剪切双链RNA，初步形成 24nt 的 siRNA，HEN1 (HUA-ENHANCER 1)将 siRNA 的 3′末端甲基化，然后与 AGO4 (ARGONAUTE 4)结合形成小 RNA 介导的沉默复合体(RNA-induced silencing complex, RISC)。后由SUVH2/9招募DRM2，对靶位点进行从头甲基化。</p>
+<ul>
+<li><strong>四、植物DNA甲基化的生物学功能</strong></li>
+</ul>
+<p><u><em>1、维持基因组稳定性</em></u></p>
+<p>植物通过DNA甲基化方式阻止转座子在基因组内或基因组间跳跃，减少转座子移动可能带来的危害。</p>
+<p>如：邓兴旺研究组以玉米为研究对象，系统分析了DNA甲基化对转座子的影响，发现转座元件区域被高度甲基化，缺少转录活性；烟草花叶病毒侵染烟草后, 导致烟草及其后代基因组DNA甲基化水平整体升高, 但编码抗病基因LRR (leucine rich repeats)结构域的区段甲基化水平降低, 同时抗病基因的重组率升高。</p>
+<p>   植物DNA甲基化可以抑制转座子和外源DNA的转录, 降低因非等位基因间的转座和重组导致的基因座破坏, 抵御外来基因的干扰, 从而维持基因组稳定性。</p>
+<p><u><em>2、调节基因表达</em></u></p>
+<p>​    当基因处于表达状态时甲基化水平往往很低，随着生长发育的进行需要将该基因关闭，就会在该基因的启动子或编码区发生甲基化，使基因转录受到抑制，基因失活，终止其表达；而一些处于关闭状态的基因应生长发育的需求要进行活化，开启表达，这时该基因的启动子区或编码区发生去甲基化，转录表达。</p>
+<p>如：北大-耶鲁联合研究中心利用高覆盖率的tiling-path芯片技术深入分析了水稻第IV、X号染色体的DNA甲基化，发现DNA甲基化通过引起染色质结构、DNA构象、DNA稳定性及DNA与蛋白质相互作用方式的改变, 从而抑制转录, 进而调控基因表达。</p>
+<p><u><em>3、植物基因组印迹</em></u></p>
+<p>物基因组印迹是某些开花植物在子代中部分基因单亲表达的一种表观遗传修饰现象, 具有组织和发育时间特异性。</p>
+<p>​    印迹基因的表达是通过DNA甲基化和组蛋白甲基化修饰、ncRNA (noncoding RNA)及 RNAi 的调控来实现的, 其中DNA甲基化是印迹过程的基础, 许多印迹调控区域(imprinting control regions, ICRs)都包含差异甲基化区域。</p>
+<p><u><em>4、生物和非生物胁迫</em></u></p>
+<p><u><em>5、杂种优势</em></u></p>
+<ul>
+<li><strong>五、DNA甲基化的检测</strong></li>
+</ul>
+<blockquote>
+<p>1、待检测样品的前期处理</p>
+<blockquote>
+<p>1.1 限制性内切酶消化法  </p>
+<ul>
+<li>甲基化敏感的内切酶HpaII/MspI能够切断非甲基化的识别为点。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.2 亲和层析和免疫沉淀法  </p>
+<ul>
+<li>利用甲基结合域蛋白结合甲基化的CpG位点, 或者通过单克隆抗体特异性识别m5C来分离、 富集得到甲基化DNA。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.3 亚硫酸氢盐转化法</p>
+<ul>
+<li>用亚硫酸氢盐处理DNA样品, 未甲基化的胞嘧啶(C)处理后转化为尿嘧啶(U), 而甲基化的胞嘧啶保持不变，PCR扩增使尿嘧啶(U)转化为胸腺嘧啶(T)，测序。</li>
+</ul>
+</blockquote>
+<p>2、目标序列的定位、甲基化状态的检测</p>
+<blockquote>
+<p>2.1 凝胶分析</p>
+<ul>
+<li>二维凝胶电泳技术或聚丙烯酰胺凝胶电泳技术</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.2 基因芯片技术分析</p>
+<ul>
+<li>DNA样品预处理，与芯片杂交，分析杂交结果</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.3 高通量测序技术</p>
+<ul>
+<li>测序的序列信息对比</li>
+</ul>
+</blockquote>
+</blockquote>
+<p>参考文献：</p>
+<p>Bouyer D, Kramdi A, Kassam M, et al. DNA methylation dynamics during early plant life. Genome Biol. 2017;18(1):179. </p>
 ]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+      </tags>
   </entry>
   <entry>
-    <title>2. 原核蛋白纯化</title>
+    <title>2. 常见组蛋白修饰</title>
+    <url>/2021/12/17/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>常见组蛋白修饰及其生物学功能</p>
+<ul>
+<li>组蛋白修饰对染色质结构和基因表达具有重要的作用和影响，了解目前已经报道的组蛋白修饰对基因表达影响，能够对基因表达相关课题研究提供很好的帮助。</li>
+<li>以下是一些常见的组蛋白修饰：</li>
+</ul>
+</blockquote>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>H2A</th>
+<th>修饰类型</th>
+<th>生物学功能</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td><strong>H2AS1P</strong></td>
+<td>Mitosis;  chromatin assembly</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK4/5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1085">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK7ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK119P</strong></td>
+<td>Spermatogenesis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">4</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H2AK119ub</span></strong></td>
+<td>Transcriptional  repression</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1100">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H2B</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS14P</strong></td>
+<td>Apoptosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1105">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS33P</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1110">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK11/12ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK15/16ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK20ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">6</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK120ub</strong></td>
+<td>Spermatogenesis/meiosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK123ub</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1120">8</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H3</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>**<span style='color:red'>H3K4me2</span> **</td>
+<td>Permissive  euchromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K4me3</span></strong></td>
+<td>Transcriptional  elongation; active euchromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">2</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">3</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1130">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K9me3</span></strong></td>
+<td>Transcriptional  repression; imprinting; DNA methylation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3R17me</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1145">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1150">9</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K27me3</span></strong></td>
+<td>Transcriptional  silencing; X-inactivation; bivalent genes/gene poising</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">10</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K36me3</strong></td>
+<td>Transcriptional  elongation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">11</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K4ac</span></strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">12</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K9ac</span></strong></td>
+<td>Histone  deposition; transcriptional activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">13</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K14ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">14</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H1K18ac</strong></td>
+<td>Transcriptional  activation; DNA repair; DNA replication</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">15</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K23ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">16</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K27ac</span></strong></td>
+<td>Transcriptional  activation</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T3P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3S10P</strong></td>
+<td>Mitosis;  meiosis; transcriptional activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">17</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T11/S28P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H4</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4R3me</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1025">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me1</strong></td>
+<td>Transcriptional  silencing</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1155">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me3</strong></td>
+<td>Heterochromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1160">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K5ac</strong></td>
+<td>Histone  deposition; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K8ac</strong></td>
+<td>Transcriptional  activation; DNA repair; transcriptional elongation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K12ac</strong></td>
+<td>Histone  deposition; telomeric silencing; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">9</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K16ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0670">10</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">11</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">12</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4S1P</strong></td>
+<td>Mitosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">13</a></td>
+</tr>
+</tbody></table>
+<ul>
+<li>原文来自 <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub">https://www.sciencedirect.com/science/article/pii/S0168952515001936?via%3Dihub</a> </li>
+</ul>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+        <tag>Histone</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>4. 拟南芥和水稻中Pi吸收和分配</title>
+    <url>/2021/12/31/%E6%8B%9F%E5%8D%97%E8%8A%A5%E5%92%8C%E6%B0%B4%E7%A8%BB%E4%B8%ADPi%E5%90%B8%E6%94%B6%E5%92%8C%E5%88%86%E9%85%8D/</url>
+    <content><![CDATA[<h1 id="拟南芥和水稻中Pi吸收和分配"><a href="#拟南芥和水稻中Pi吸收和分配" class="headerlink" title="拟南芥和水稻中Pi吸收和分配"></a>拟南芥和水稻中Pi吸收和分配</h1><p>涉及蛋白：PHT1，PHT2，PHT3，PHT4，PHT5(VPT1)，SPX-MFS，PHO1，phosphate translocators</p>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>&emsp;&emsp;磷是植物生长发育所必需的大量营养元素之一，但由于其在土壤溶液中的溶解度和迁移性较差，以及磷与有机化合物的结合性，磷也是较难获取的元素之一。<span id="more"></span>据估计，土壤中约<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'> 20-80% </span>的磷主要以<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'>植酸</span>的形式存在于有机质中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B139">Richardson, 1994</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B141">Schachtman et al., 1998</a>)</sub>。此外，在<span style='font-size:1.3rem;font-family:楷体;color:red;background:lightblue'>酸性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;color:black;background:lightblue'>磷与铝（Al）和铁（Fe）形成不溶性沉淀</span>，而在<span style='font-size:1.3rem;font-family:楷体;color:red;background:#76EEC6'>碱性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;background:#76EEC6'>磷与钙（Ca）和镁（Mg）</span><sub>（ <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B50">Hirsch et al., 2006</a>）</sub>。<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'><strong>植物磷的主要来源是无机磷酸盐（Pi）</strong></span>，并且在中性pH下，主要形式 <strong>H<sub>2</sub>PO<sub>4</sub><sup>-</sup></strong> 被运输到植物细胞中。尽管其在土壤溶液中的浓度相当低<u><em>（从1到10μM）</em></u>，但在植物组织中的磷酸盐浓度相对较高，约为<u><em>5–20 mM</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B49">Hinsinger, 2001</a>)</sub>。这并不奇怪，因为磷是DNA、RNA、ATP、NADPH和膜磷脂等基本生物分子的基本元素。它还在植物的生命维持过程中起着至关重要的作用，包括<span style='font-size:1.3rem;font-family:times;color:black;background:lightgreen'>光合作用、呼吸作用和通过磷酸化激活蛋白质</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>)</sub>。然而，也有报道称，拟南芥细胞质中的PI浓度仅为<span style='font-size:1.3rem;font-family:;color:black;'>60–80μM</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B126">Pratt et al., 2009</a>)</sub>。<br>&emsp;&emsp;为了应对环境中的Pi限制，植物已经进化出一系列生理和形态反应，这可能会增强Pi的获得：通过共生策略、根结构变化、根排出有机酸和酸性磷酸酶 <sub>(reviewed by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B2">Amtmann et al., 2006</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B202">Zhang Z. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B142">Scheible and Rojas-Triana, 2015</a>)</sub> ，并优化内部PI利用率。<span style='font-size:1.0rem;font-family:楷体0;color:red;'>在磷限制期间，一些膜磷脂被半乳糖脂和硫脂部分取代</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B156">Siebers et al., 2015</a>)</sub>此外，<span style='font-size:1.0rem;font-family:楷;color:red;'>在 Pi 饥饿胁迫下，观察到磷从较老的叶片转移到较年轻的器官</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B160">Smith et al., 2003</a>)</sub>。<br>许多植物中 Pi 饥饿的一个明显可见的症状是花青素积累，导致叶、茎甚至根变成紫色。已知磷和氮缺乏以及其他环境胁迫（盐度、低温、高光强）都能诱导花青素的产生，但环境胁迫对花青素的调控尚不清楚。最近的一份报告表明，花青素在光系统中捕光蛋白的光保护中发挥着重要作用<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B48">Henry et al., 2012</a>)</sub>。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B55">Ito et al.<sub> (2015)</sub></a>将拟南芥的紫化归因于 <code>独脚金内酯</code> 信号通路，并提出独脚金内酯在低 Pi 条件下调节花青素积累。<br>&emsp;&emsp;二十年前，两个拟南芥 Pi 转运蛋白的发现是磷酸盐营养的植物分子生物学的里程碑<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B104">Muchhal et al., 1996</a>)</sub>，在破译特定组织、细胞和细胞器中的 Pi 转运蛋白网络响应磷缺乏的潜在作用机制方面已取得重大进展<sub>(described by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B120">2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B7">Baker et al., 2015</a>)</sub>。最近的文章对野生和栽培植物中（包括水稻和拟南芥）调节编码磷酸盐转运蛋白表达和信号途径的分子机制进行了全面的综述<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B17">Chiou and Lin, 2011</a>)</sub>。先前的研究已经确定了植物根部中高亲和力和低亲和力磷酸盐转运系统的共存<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>)</sub>。<span style='font-size:1.0rem;font-family:楷;color:red;background:yellow'>高亲和力转运蛋白是负责从土壤中摄取Pi的质膜蛋白，这些蛋白质由 PHT1（磷酸转运蛋白）家族基因编码，是质子偶联的 H<sub>2</sub>PO<sub>4</sub><sup>-</sup> 同向转运蛋白。</span><strong>无机磷酸盐通过 PHT1 的转运是由质膜 H<sup>+</sup>-ATP 酶驱动的</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B174">Ullrich-Eberius et al., 1981</a>)</sub>。<u><strong>Pi 从根部通过<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'> PHO1</span> 转运蛋白装载到木质部，其中Pi被分配到植物的地上部分</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B95">López-Arredondo et al., 2014</a>)</sub>。<u><strong>Pi 的有机形式如核苷酸（ATP）和磷酸己糖在韧皮部汁液中运输</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。为了在细胞水平上维持 Pi 的动态平衡，植物将 Pi <strong><u>储存在液泡</u><strong>中，最近VPT1（Vapolar Phosphate Transporter 1）已被鉴定为液泡膜内流转运蛋白<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B90">Liu et al., 2015</a>)</sub>。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>控制 Pi 水平的重要性还延伸到其他细胞器，包括质体、线粒体和高尔基体。通过</strong>质体</strong>、<strong>线粒体</strong>和<strong>高尔基体</strong>膜的磷酸盐转运分别由 <strong>PHT2/4</strong> 和<strong>PHT3</strong>和<strong>PHT4</strong>家族的蛋白质介导</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。下面将更详细地描述参与细胞区室之间 Pi 的获得和易位的所有蛋白质。</p>
+<h2 id="Part-1-质膜磷转运体（Phosphate-Transporters）"><a href="#Part-1-质膜磷转运体（Phosphate-Transporters）" class="headerlink" title="Part.1 质膜磷转运体（Phosphate Transporters）"></a>Part.1 质膜磷转运体（Phosphate Transporters）</h2><p>&emsp;&emsp;如上所述，两种类型的转运蛋白 :<strong>PHT1</strong> 和 <strong>PHO1</strong> 负责从土壤中吸收磷酸盐并将其进一步分配到地上植物器官和植物组织之间。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>PHT1蛋白是研究最多的植物磷酸盐转运蛋白。它们属于主要促进剂超家族（MFS）中的磷酸：H<sup>+</sup> 同向转运体（PHS）家族。对于每个Pi，磷酸盐和质子传输化学计量为2至4个 H<sup>+</sup> 离子。</span></p>
+<h4 id="1-1-PHT1"><a href="#1-1-PHT1" class="headerlink" title="1.1 PHT1"></a>1.1 PHT1</h4><p>&emsp;&emsp;PHT1转运蛋白仅在植物和真菌细胞中被鉴定，计算机分析已经确定它们的二级结构具有共同的结构模式，12个假定的跨膜结构域（TM）通过 TM6 和 TM7 之间的大亲水环分为两组。蛋白质的 N- 和 C- 末端朝向细胞质<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。印度梨形孢菌（<em>Piriformospora indica</em>）真菌高亲和力磷酸转运蛋白 PiPT 的晶体结构证实了预测的 PHT1 拓扑结构，并证明该结构<strong>在植物和真菌中是保守</strong>的<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B118">Pedersen et al., 2013</a>)</sub>。PHT1 转运蛋白在许多植物物种中都有描述。但它们在拟南芥（<em>A.thaliana</em>）和栽培稻（<em>O.sativa</em>）中得到了最好的表征，其基因组<span style='font-size:1.0rem;font-family:宋体;color:;background:lightgreen'>分别编码9个和13个PHT1</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。在磷剥夺期间，<em>PHT1</em> 的表达被诱导或强烈上调，但一些 <em>PHT1</em> 基因的表达与环境中的磷酸盐浓度无关<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>)</sub>。还报道了<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'> PHT1 蛋白可以转运其它溶质，例如亚磷酸盐、砷酸盐、亚硒酸盐、硝酸盐、硫酸盐或氯离子</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B38">Gu et al., 2016</a>)</sub>。但是在许多情况下，特定 PHT1 蛋白的功能分析是困难的，由于它们在大多数植物器官中广泛表达谱，以及从突变体分析结果的复杂解释。</p>
+<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g001.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g001.jpg"></p>
+<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B115">Omasits et al., 2014</a>）</p>
+<h4 id="1-2-PHO1"><a href="#1-2-PHO1" class="headerlink" title="1.2 PHO1"></a>1.2 PHO1</h4><p>&emsp;&emsp;参与植物体内磷酸盐分布的第二类转运蛋白是 PHO1 蛋白。与 PHT1 相反，<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'>PHO1 不属于 MFS 而是属于 SPX-EXS 蛋白家族</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>)</sub>。<strong>除了运输特性外，PHO1 蛋白还在信号传导中发挥作用，并参与 Pi 缺乏下的长距离（根到芽）信号转导级联反应</strong>。最近分析了来自拟南芥的PHO1的拓扑结构——它由 <span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'><code>1）含有三部分SPX结构域的长细胞质N末端、 2）含有EXS结构域的细胞质C末端、 3）六个跨膜螺旋组成。</code></span>最后两个跨膜螺旋通过位于细胞质中的环与其他四个分开，它们是EXS结构域的一部分。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>EXS</span>结构域在PHO1功能中起着至关重要的作用——它负责 PHO1 的信号传导能力和 Pi 转运活性（尽管它本身并不转运 Pi ）以及在高尔基体结构中的适当蛋白质定位<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。PHO1 同系物广泛分布于许多生物中，包括所有陆地植物（苔藓植物、石松植物、裸子植物和被子植物）、真菌和动物（例如在果蝇、秀丽隐杆线虫 <em>Caenorhabditis elegans</em> 和哺乳动物中），但在细菌或单细胞绿藻莱茵衣藻（<em>Chlamydomonas reinhardtii</em>）中尚未发现<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。生物信息学分析表明，拟南芥基因组中有10个 PHO1 同源物（PHO1;H1–PHO;H10），但到目前为止，仅对 PHO1 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B45">Hamburger et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B163">2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B3">Arpat et al., 2012</a>) </sub>和两个 PHO1 同系物，即 PHO1;H1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>) </sub>和 PHO1;H3 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。<strong>PHO1;H1 能够补偿 PHO1 功能的丧失，而PHO1；H3调节PHO1在锌缺乏下的功能</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。水稻 PHO1<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>家族由三个成员组成：OsPHO1;1，OsPHO1;2和 OsPHO1;3，但只有 OsPHO1;2似乎与拟南芥的PHO1具有类似的作用</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B146">Secco et al., 2010</a>)</sub>。</p>
+<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g002.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g002.jpg"></p>
+<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。)</p>
+<h2 id="Part-2-PHT1家族在土壤直接磷吸收中的作用"><a href="#Part-2-PHT1家族在土壤直接磷吸收中的作用" class="headerlink" title="Part.2 PHT1家族在土壤直接磷吸收中的作用"></a>Part.2 PHT1家族在土壤直接磷吸收中的作用</h2><p>&emsp;&emsp;植物可以<span style='color:red'> <strong>1# 直接从土壤中吸收磷素</strong></span>，也可以通过 <span style=color:red><strong>2# 光合作用产生的碳水化合物与真菌菌丝释放的磷素进行交换</strong></span>，形成菌根 mycorrhizal 联合体间接吸收磷素<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。磷酸盐吸收的直接策略涉及存在于根皮rhizodermis（特别是毛细胞trichoblast cells）中的 PHT1 转运蛋白，以及在较小程度上存在于皮层细胞 cortical cells 中的 PHT1 转运蛋白。<strong>在拟南芥中，9个 PHT1 中的8个在根组织中表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>)</sub>，而在<strong>稻根中检测到所有13个 OsPHT1 的转录本</strong>。尽管从不同的遗传实验中获得的结果有时是不一致的<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>，突变体分析证实，在拟南芥的磷酸盐吸收中主要有四种转运蛋白 <span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>AtPHT1;1–AtPHT1;4</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>和 O.sativa 中至少6个PHT1：<span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>OsPHT1;1/2/4/6/8/9/10</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。<br>&emsp;&emsp;综合分析 AtPHT1 基因在高磷胁迫下的拟南芥根中的表达，发现 AtPHT1;1 启动子的活性最高<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。ATPHT1;2–ATPHT1;4 的转录本在磷酸盐喂养的根中也可检测到。另一方面，在缺乏 Pi 的植物中，AtPHT1;1 的 mRNA 水平仅轻微增加：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>3至4倍</span>，而来自AtPHT1家族的其他基因的表达增加更为明显：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>25至70倍</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。<strong>由 AtPHT1;1 启动子驱动的报告基因（Gus或GFP）表达揭示了其在根皮 rhizodermis 中的定位，主要是在根毛root hairs中，但也在侧根冠 lateral root caps、小柱细胞 columella cells 中，并且在根毛区的皮层细胞 cortical cells 中在相对弱的水平上表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。类似地，AtPHT1;2 在成毛细胞和根较老部分的皮层中表达，AtPHT1;3 分别存在于侧根的生毛细胞和主根近根尖的表皮中，以及在主根的中柱鞘细胞中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，而 AtPHT1;4 在表皮、皮层、中柱和根尖中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>)</sub>。这些结果表明，<u><em>AtPHT1;1，AtPHT1;2，ATPHT1;3，和AtPht1;4可以具有类似的、部分重叠的功能</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，后来通过实验证实了这一点<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。即显示在高 Pi 下通过 <em>atpht1;1</em> 插入突变体的磷酸盐吸收<strong>减少到 60% 左右</strong>，而双突变体 <em>atpht1;1Δ4Δ</em> 至野生型比率的<strong>约 30%</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>)</sub>。**<span style='font-size:1.3rem;font-family:宋体;color:red;background:lightgreen'>这些数据表明 AtPHT1;1 的主要作用于高 Pi 条件下拟南芥根系磷吸收</span><strong>。相反，<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在</strong>缺磷<strong>植物中，在 Pi 获得中起主导作用的是 AtPHT1;4，其负责约 40-48% 的 Pi 的摄取，而 AtPHT1;1 仅占摄取的15-20%，和 AtPHT1;2 和 AtPHT1;3 共占 Pi 的30%左右</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。除了四种主要转运蛋白（AtPHT1;2–AtPHT1;4）不能排除其他 AtPHT1 成员在 Pi 获得中的作用。例如，<em>atpht1;5</em> 突变体表现出对砷酸盐（Pi 结构类似物，对植物有毒，通过PHT运输）的中等耐受性，提示 AtPht1;5 的可能作用在 Pi 摄取中<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B107">Nagarajan et al., 2011</a>)</sub>。<br>&emsp;&emsp;水稻 OsPHT1 转运蛋白在</strong>敲除或敲低（RNAi）品系中的 Pi 吸收减少和在过表达品系中的吸收增强**已得到证实（也称为OsPT），包括<span style='color:red'>OSPHT1;1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>)</sub>，OSPHT1;2<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B85">Liu et al., 2010</a>)</sub>，OsPHT1;4<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，OsPHT1;6<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>)</sub>，OsPHT1;8<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>)</sub>，OSPHT1;9，和OsPHT1;10<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub></span>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>其中只有 OsPHT1;1是组成性表达的，而其余的在 Pi 剥夺下显著上调</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>只有一个来自 OsPHT1 家族的蛋白，即 OsPHT1;2 ，是一种低亲和力转运蛋白</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>)</sub>。大多数 OsPHT1 不表现出组织特异性表达，但它们在各种根组织和其他一些植物器官中普遍表达。因此，可以合理地得出结论这些转运蛋白可能在磷酸盐的获取和转运中起着广泛的作用<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>。此外，一些 OsPHT1 的组织特异性表达依赖于植物的发育阶段。一个很好的例子是 OSPHT1;4 ，在胚根的所有组织中均检测到其启动子活性<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，而在正常 Pi 下生长的成熟植物中，仅在外皮层（皮层细胞的外层，参与调节根中水和离子的径向流动）中发现。在长时间的 Pi 饥饿期间，OsPHT1;4 开始在皮层细胞中表达，这表明其在这种应激条件下参与共质体 Pi 运输<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。考虑到所有这些数据以及 PHT1 之一的过表达或突变可能改变其他表达的事实<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>，很难确定这些转运蛋白中的哪一个对 Pi 的吸收和分布至关重要。</p>
+<h2 id="Part-3-PHT1家族蛋白在菌根磷吸收中的作用"><a href="#Part-3-PHT1家族蛋白在菌根磷吸收中的作用" class="headerlink" title="Part.3 PHT1家族蛋白在菌根磷吸收中的作用"></a>Part.3 PHT1家族蛋白在菌根磷吸收中的作用</h2><p>&emsp;&emsp;据估计，<strong>90%的陆生植物物种可以被菌根真菌定殖<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>) </sub>，超过80%的维管植物，包括主要作物，形成丛枝菌根</strong><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。而拟南芥属于少数不形成菌根群丛的植物物种<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B175">Vance, 2008</a>)</sub>，<em>O.Sativa</em> 是一种丛枝菌根（AM: arbuscular mycorrhizal）植物<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。<br>&emsp;<span style='font-size:1.3rem;font-family:宋体;color:blue;background:yellow'>&emsp;丛枝菌根</span>真菌属于球囊菌门（<em>Glomeromycota</em>）。它们的菌丝穿透植物根部，进入皮层细胞，在每个细胞内形成菌丝卷曲或称为丛枝（AM: arbuscular mycorrhizal）的高度分支结构。丛枝或菌丝卷曲不破坏植物质膜的完整性，但通过其内陷形成细胞内空间。真菌感染改变了细胞质膜的结构，允许丛枝/菌丝卷曲的生长，并产生丛枝周膜（在菌丝卷曲形成的情况下称为菌丝周膜）。.这种膜和菌丝质膜之间的界面是共生伙伴之间进行营养交换的地方<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B10">Bucher, 2007</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。<br>&emsp;&emsp;除了 AM 形成的其他积极方面，如保护免受非生物胁迫和病原体以及改善从土壤中获取水分，这类菌根最广为人知的功能是真菌对植物磷营养的贡献<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B58">Jeffries et al., 2003</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。另一方面，植物的 Pi 状态是调节定殖过程、向菌丝递送糖和共生结构形成的主要因素<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。在接种 AM 真菌的植物中，两种磷吸收途径共存。第一种是从土壤通过根表皮细胞膜的直接途径，涉及上述 PHT1 转运蛋白。第二种是通过真菌菌丝体的间接途径，与位于丛枝分支域的丛枝周围膜中的植物Pht1转运蛋白结合，其被 AM 形成特异性诱导或上调<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。这些 PHT1 转运蛋白的表达与根的定殖程度密切相关，与丛枝的形成和崩溃密切相关-在单细胞水平上<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>对几种植物（亚麻、番茄、水稻、蒺藜苜蓿）的生理学研究表明，在低磷浓度下，菌根途径占主导地位</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。这并不令人惊讶，因为菌根的形成通常伴随着参与直接 Pi 吸收途径的 PHT1 表达的减少<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在水稻 PHT1 基因中，OsPHT1;11<sub>（Paszkowski等人，2002年；Kobea和Hata，2010年；Yang等人，2012）</sub>和OsPHT1;13<sub>（Güimil等人，2005年；Yang et al.，2012）</sub>被认为参与了<strong>共生 Pi 吸收途径</strong>。</span><br>&emsp;&emsp;事实上，在大多数形成菌根共生体的植物物种中，已经发现了至少一种菌根特异性或上调的 PHT1 基因。此外，PHT1 蛋白序列的系统发育分析表明，与 AM 相关的 PHT1 形成了自己的谱系，与非 AM 相关的 PHT1 在进化上相距较远。在这个谱系中，可以区分出几个类群<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。例如，OsPHT1;11 同源物在单子叶植物和双子叶植物中是常见的，并且在进化上更古老，与来自古老植物小立碗藓的Pht1转运蛋白密切相关（苔藓植物）和江南卷柏（石松植物），而 OsPHT1;13 直向同源物在单子叶植物中是保守的，但在双子叶植物中不是 (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)。</p>
+<p>—-<weiwan>—-</p>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1. 原核蛋白纯化</title>
     <url>/2021/12/17/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
     <content><![CDATA[<blockquote>
 <p>原核蛋白提取纯化</p>
@@ -27,7 +451,7 @@
 <h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
 <li><p>细菌裂解：1x PBS；1mM PMSF</p>
 </li>
-<li><p>Beads Washing Buffer：1x PBS</p>
+<li><p>Beads Washing Buffer：1x PBS<span id="more"></span></p>
 </li>
 <li><p>GST wash Binding Buffer：1x PBS</p>
 </li>
@@ -117,278 +541,11 @@
 <li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>3. 常见组蛋白修饰</title>
-    <url>/2021/12/17/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
-    <content><![CDATA[<blockquote>
-<p>常见组蛋白修饰及其生物学功能</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>H2A</th>
-<th>修饰类型</th>
-<th>生物学功能</th>
-<th>References</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td><strong>H2AS1P</strong></td>
-<td>Mitosis;  chromatin assembly</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">98]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK4/5ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1085">99]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK7ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK119P</strong></td>
-<td>Spermatogenesis</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">101]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK119uq</strong></td>
-<td>Transcriptional  repression</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1100">102]</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H2B</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BS14P</strong></td>
-<td>Apoptosis</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1105">103]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BS33P</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1110">104]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK5ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">105]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK11/12ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK15/16ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK20ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">105]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK120uq</strong></td>
-<td>Spermatogenesis/meiosis</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">101]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK123uq</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1120">106]</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H3</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>**H3K4me2 **</td>
-<td>Permissive  euchromatin</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">107]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K4me3</strong></td>
-<td>Transcriptional  elongation; active euchromatin</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">107</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1130">108</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">109</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K9me3</strong></td>
-<td>Transcriptional  repression; imprinting; DNA methylation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">110</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3R17me</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1145">111</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1150">112</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K27me3</strong></td>
-<td>Transcriptional  silencing; X-inactivation; bivalent genes/gene poising</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K36me3</strong></td>
-<td>Transcriptional  elongation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K4ac</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">109]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K9ac</strong></td>
-<td>Histone  deposition; transcriptional activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K14ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H1K18ac</strong></td>
-<td>Transcriptional  activation; DNA repair; DNA replication</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K23ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">26]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K27ac</strong></td>
-<td>Transcriptional  activation</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3T3P</strong></td>
-<td>Mitosis</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3S10P</strong></td>
-<td>Mitosis;  meiosis; transcriptional activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">110]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3T11/S28P</strong></td>
-<td>Mitosis</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H4</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4R3me</strong></td>
-<td>Transcriptional  activation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1025">87]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K20me1</strong></td>
-<td>Transcriptional  silencing</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1155">113]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K20me3</strong></td>
-<td>Heterochromatin</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1160">114]</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K5ac</strong></td>
-<td>Histone  deposition; transcriptional activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K8ac</strong></td>
-<td>Transcriptional  activation; DNA repair; transcriptional elongation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K12ac</strong></td>
-<td>Histone  deposition; telomeric silencing; transcriptional activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K16ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0670">16</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">100</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">115</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4S1P</strong></td>
-<td>Mitosis</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">98]</a></td>
-</tr>
-</tbody></table>
-<ul>
-<li>原文来自 <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub">https://www.sciencedirect.com/science/article/pii/S0168952515001936?via%3Dihub</a> </li>
-</ul>
-]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>实验操作</tag>
+      </tags>
   </entry>
 </search>
