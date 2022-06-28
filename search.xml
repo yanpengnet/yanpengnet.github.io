@@ -13,6 +13,711 @@
       </tags>
   </entry>
   <entry>
+    <title>1. 植物DNA甲基化</title>
+    <url>/2022/01/14/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>背景：</p>
+</blockquote>
+<ul>
+<li><p>一、表观遗传学</p>
+<p>主要涉及 DNA 甲基化对基因表达的抑制、组蛋白修饰对基因表达的调控、small RNA 对靶基因的干扰以及 ATP 依赖的染色质重塑等表观遗传调控过程。<span id="more"></span></p>
+</li>
+<li><p>二、DNA甲基化</p>
+<p>甲基化酶介导的将一个或多个甲基基团从 S-腺苷甲硫氨酸选择性地转移到DNA上的一种化学修饰。DNA 甲基化主要形成 5-甲基胞嘧啶和少量的N6-甲基嘌呤及 7-甲基鸟嘌呤。</p>
+</li>
+</ul>
+<p>在哺乳动物中，胞嘧啶甲基化大多存在于CG 序列上；而植物中除了CG 甲基化外, 还有CHG 和CHH 的甲基化(H = A, C 或T)。拟南芥(Arabidopsis thaliana)中CG、CHG 和CHH 的甲基化程度分别为24%、6.7%和1.7% （Cokus SJ等2008）。</p>
+<p><span style='color:red'>植物DNA甲基化</span></p>
+<ul>
+<li><strong>一、植物DNA甲基化的方式</strong></li>
+</ul>
+<p><u><em>从头甲基化 de novo methylation</em></u></p>
+<blockquote>
+<ul>
+<li>两条链均未甲基化，由不同的DNA甲基转移酶催化完成，不依赖复制。</li>
+</ul>
+</blockquote>
+<p><em><u>维持甲基化 maintenance methylation</u></em></p>
+<blockquote>
+<ul>
+<li>双链DNA中一条链已存在甲基化，另一条未甲基化链被甲基化，以半保留复制方式传递给子代。</li>
+</ul>
+</blockquote>
+<p>在对拟南芥有性生殖过程中的DNA甲基化动态变化进行研究时发现，在雌配子发生过程中，维持甲基化方式几乎不发生，而受精后在胚胎中从头甲基化与维持甲基化明显发生，并且维持一定甲基化水平直到成株（ Jullien 等2012）。</p>
+<ul>
+<li><strong>二、植物DNA甲基化过程中的几类关键酶</strong></li>
+</ul>
+<blockquote>
+<ul>
+<li>植物DNA甲基化的发生和维持主要依赖于4种在结构和功能上不同的胞嘧啶甲基转移酶。</li>
+</ul>
+</blockquote>
+<p><em><u>1、维持DNA甲基转移酶(methyltransferase 1, MET1)家族</u></em></p>
+<ul>
+<li>是DNMT1甲基化酶的同系物，维持对称序列CG位点的甲基化的主要酶。某些位点的MET1也具有从头甲基化活性，可以使得丢失甲基化位点被重新甲基化，且发生重新甲基化的CG位点是随机的，这可能有助于稳定植物体内甲基化水平，并且提高甲基化模式的多样性。</li>
+</ul>
+<p><u><em>2、染色质甲基化酶(chromo-methylase, CMT)家族</em></u></p>
+<ul>
+<li>植物所特有，负责维持CHG位点的甲基化，对维持基因组异染色质状态起一定作用。</li>
+</ul>
+<p><u><em>3、结构域重排甲基转移酶(domains rearranged methyltransferase, DRM)家族</em></u></p>
+<ul>
+<li>从头甲基化，DRM2和CMT3以及一些siRNA共同作用与非对称位点CHH处的甲基。</li>
+</ul>
+<p><u><em>4、其他保守甲基转移酶</em></u></p>
+<ul>
+<li><p>如玉米(Zea mays) 中的DMT104、拟南芥中的DMT11, 它们可能是DNMT2 (DNA meth-yltransferase 2) 家族的同系物, 虽然它们在不少植物中是保守的, 但其功能目前还不清楚(Goodrich和Tweedie 2002)。</p>
+</li>
+<li><p><strong>三、植物DNA甲基化发生机制</strong></p>
+</li>
+</ul>
+<p><u><em>由RNA介导的DNA甲基化(RNA-dependent DNA methylation, RdDM )</em></u></p>
+<p> RdDM 现象首次在受到类病毒感染的植物中发现，被认为是植物基因转录沉默的主要机制，参与多种表观遗传现象，如基因沉默、转座子抑制、基因组印记和副突变。</p>
+<p>RdDM过程中，所产生的 dsRNA (double-standed RNA) 和 siRNA (small inter-fering RNA) 给DNA甲基转移酶提供一种甲基化的信号， DNA甲基转移酶在接收到信号后作用于DNA靶位点上，建立起一种甲基化印记，然后通过DNA复制过程将这种甲基化状态传递下去。</p>
+<p>在RdDM中，除了典型的 RNAi 元件（即 Dicer 和 Argonaute 家族的成员）和 DRM2 之外，还需要两种植物特异 RNA 聚合酶，Pol IV 和 Pol V，两种酶被推断为染色质重塑因子。</p>
+<p>RdDM的发生机制主要包括两个步骤：24-nt siRNAs的生物合成及siRNAs信号定位到靶DNA区域, 启动从头甲基化的发生。</p>
+<p>Pol IV 被 SHH1(Sawadee homeodomain homolog 1)招募在目标转录区编码单链 RNA (single-stranded RNA)，RDR2(RNA-DEPENDENT RNA POLUMERASE )与 Pol IV 结合在一起，将单链 RNA 转化为双链RNA (double-stranded RNA)，然后DCL3 (DICER-LIKE 3)进行剪切双链RNA，初步形成 24nt 的 siRNA，HEN1 (HUA-ENHANCER 1)将 siRNA 的 3′末端甲基化，然后与 AGO4 (ARGONAUTE 4)结合形成小 RNA 介导的沉默复合体(RNA-induced silencing complex, RISC)。后由SUVH2/9招募DRM2，对靶位点进行从头甲基化。</p>
+<ul>
+<li><strong>四、植物DNA甲基化的生物学功能</strong></li>
+</ul>
+<p><u><em>1、维持基因组稳定性</em></u></p>
+<p>植物通过DNA甲基化方式阻止转座子在基因组内或基因组间跳跃，减少转座子移动可能带来的危害。</p>
+<p>如：邓兴旺研究组以玉米为研究对象，系统分析了DNA甲基化对转座子的影响，发现转座元件区域被高度甲基化，缺少转录活性；烟草花叶病毒侵染烟草后, 导致烟草及其后代基因组DNA甲基化水平整体升高, 但编码抗病基因LRR (leucine rich repeats)结构域的区段甲基化水平降低, 同时抗病基因的重组率升高。</p>
+<p>   植物DNA甲基化可以抑制转座子和外源DNA的转录, 降低因非等位基因间的转座和重组导致的基因座破坏, 抵御外来基因的干扰, 从而维持基因组稳定性。</p>
+<p><u><em>2、调节基因表达</em></u></p>
+<p>​    当基因处于表达状态时甲基化水平往往很低，随着生长发育的进行需要将该基因关闭，就会在该基因的启动子或编码区发生甲基化，使基因转录受到抑制，基因失活，终止其表达；而一些处于关闭状态的基因应生长发育的需求要进行活化，开启表达，这时该基因的启动子区或编码区发生去甲基化，转录表达。</p>
+<p>如：北大-耶鲁联合研究中心利用高覆盖率的tiling-path芯片技术深入分析了水稻第IV、X号染色体的DNA甲基化，发现DNA甲基化通过引起染色质结构、DNA构象、DNA稳定性及DNA与蛋白质相互作用方式的改变, 从而抑制转录, 进而调控基因表达。</p>
+<p><u><em>3、植物基因组印迹</em></u></p>
+<p>物基因组印迹是某些开花植物在子代中部分基因单亲表达的一种表观遗传修饰现象, 具有组织和发育时间特异性。</p>
+<p>​    印迹基因的表达是通过DNA甲基化和组蛋白甲基化修饰、ncRNA (noncoding RNA)及 RNAi 的调控来实现的, 其中DNA甲基化是印迹过程的基础, 许多印迹调控区域(imprinting control regions, ICRs)都包含差异甲基化区域。</p>
+<p><u><em>4、生物和非生物胁迫</em></u></p>
+<p><u><em>5、杂种优势</em></u></p>
+<ul>
+<li><strong>五、DNA甲基化的检测</strong></li>
+</ul>
+<blockquote>
+<p>1、待检测样品的前期处理</p>
+<blockquote>
+<p>1.1 限制性内切酶消化法  </p>
+<ul>
+<li>甲基化敏感的内切酶HpaII/MspI能够切断非甲基化的识别为点。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.2 亲和层析和免疫沉淀法  </p>
+<ul>
+<li>利用甲基结合域蛋白结合甲基化的CpG位点, 或者通过单克隆抗体特异性识别m5C来分离、 富集得到甲基化DNA。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.3 亚硫酸氢盐转化法</p>
+<ul>
+<li>用亚硫酸氢盐处理DNA样品, 未甲基化的胞嘧啶(C)处理后转化为尿嘧啶(U), 而甲基化的胞嘧啶保持不变，PCR扩增使尿嘧啶(U)转化为胸腺嘧啶(T)，测序。</li>
+</ul>
+</blockquote>
+<p>2、目标序列的定位、甲基化状态的检测</p>
+<blockquote>
+<p>2.1 凝胶分析</p>
+<ul>
+<li>二维凝胶电泳技术或聚丙烯酰胺凝胶电泳技术</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.2 基因芯片技术分析</p>
+<ul>
+<li>DNA样品预处理，与芯片杂交，分析杂交结果</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.3 高通量测序技术</p>
+<ul>
+<li>测序的序列信息对比</li>
+</ul>
+</blockquote>
+</blockquote>
+<p>参考文献：</p>
+<p>Bouyer D, Kramdi A, Kassam M, et al. DNA methylation dynamics during early plant life. Genome Biol. 2017;18(1):179. </p>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>7. 泛素化修饰在调节植物 PSR 中的作用</title>
+    <url>/2022/06/28/7.Regulation%20of%20Ubiquitination%20Is%20Central%20to%20the%20Phosphate%20Starvation%20Response/</url>
+    <content><![CDATA[<h1 id="Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review"><a href="#Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review" class="headerlink" title="Regulation of Ubiquitination Is Central to the Phosphate Starvation Response Review"></a>Regulation of Ubiquitination Is Central to the Phosphate Starvation Response <sup><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub"><strong>Review</strong></a></sup></h1><blockquote>
+<p>泛素化在植物 PSR，Pi acquisition, and utilization efficiency 中具有重要的调节作用。<br>ER 相关的自噬受到磷酸盐饥饿刺激，从而调节根尖的局部磷感知。<br>不同磷酸盐供给条件下，磷酸盐转运体的内部分选和降解取决于泛素化。<br>泛素化和 SUMO化反应能够调节 PSR 途径中的转录因子和其他功能元件。</p>
+</blockquote>
+<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><ul>
+<li>PSR<ul>
+<li>Plants modulate their root system architecture by developing shorter primary roots and increasing <a href="%E4%BE%A7%E6%A0%B9">lateral root</a> length and <a href="%E5%AF%86%E5%BA%A6">density</a> to increase the root surface area.</li>
+<li>Plants improve Pi uptake and translocation by regulating the expression and activity of Pi transporters, such as PHOSPHATE TRANSPORTER 1s (<strong>PHT1s</strong>) and PHOSPHATE 1 (<strong>PHO1</strong>).</li>
+<li>Plants secrete organic acids and enzymes, such as phosphatases, to activate Pi in the soil and increase their association with <a href="%E8%8F%8C%E6%A0%B9">mycorrhiza</a> to enhance Pi uptake.</li>
+<li>PSR <a href="%E8%B0%83%E8%8A%82">modulates</a> plant metabolism pathways, such as <a href="%E8%8A%B1%E9%9D%92%E7%B4%A0">anthocyanin</a> accumulation and Pi remobilization from <a href="%E8%A1%B0%E8%80%81">senescing</a> organs, via enzymes such as phosphatases.</li>
+</ul>
+</li>
+<li>PTMs, including <strong>ubiquitination</strong> and <strong>SUMOylation</strong>, show a different and more precise mechanism.<ul>
+<li>Attachment of the small molecule ubiquitin (Ub) could regulate the activity, <a href="%E5%AF%BF%E5%91%BD">longevity</a>, and/or localization of intracellular molecules.</li>
+<li>Ub is often <a href="%E5%85%B1%E8%BD%AD%EF%BC%8C%E7%BB%93%E5%90%88">conjugated</a> to the <code>lysine residue</code> of target <a href="%E5%BA%95%E7%89%A9">substrates</a> or <code>another Ub</code> to form polyubiquitin chains via the <strong>E1-E2-E3</strong> <a href="%E7%BA%A7%E8%81%94">cascade</a>.</li>
+<li>Ubiquitin Code: different Ub linkage sites and types determine the distinct fates of target proteins.</li>
+<li>Ub can be reversibly erased by deubiquitinating enzymes (<strong>DUBs</strong>), which specifically function in different processes.<span id="more"></span></li>
+</ul>
+</li>
+</ul>
+<h2 id="Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation"><a href="#Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation" class="headerlink" title="Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation."></a>Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation.</h2><blockquote>
+<p>根系统调节植物从土壤中的 Pi 吸收，该过程决定了植物整体的 Pi 水平。<br>根系统通过[构象重塑](architecture remodeling)来响应缺磷，通过此途径获得土壤表层中更多的磷，并且增加根表面积来提高磷酸盐获取效率。</p>
+</blockquote>
+<h3 id="The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways"><a href="#The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways" class="headerlink" title="The Crosstalk between Ubiquitination and Plant Hormone Signal Pathways."></a>The Crosstalk between Ubiquitination and <strong>Plant Hormone Signal Pathways</strong>.</h3><ul>
+<li>AUXIN signaling<ul>
+<li>Expression of the auxin receptor <em>TRANSPPORT INHIBITOR RESPONSE 1</em> (<em><strong>TIR1</strong></em>) is specifically induced under Pi starvation, and encodes an F-box protein that forms part of the <strong>SCF complex-type E3 ligase</strong>, to increase auxin sensitivity and <u>accelerate the degradation of AUX/IAA repressors</u>, such as AUXIN RESISTANT 3 (<strong>AXR3</strong>), thus <a href="%E8%A7%A3%E6%94%BE">liberating</a> auxin response factor (<strong>ARF</strong>) transcription factors (e.g., <strong>ARF19</strong>) to activate downstream components and regulate lateral root growth.</li>
+<li>Pi starvation leads to the redistribution of local auxin concentration mediated by the auxin transporter PIN-FORMED 2 (<strong>PIN2</strong>) in the PM, which is regulated by <strong><u>Lys63-linked</u></strong> ubiquitination-mediated <a href="%E5%86%85%E4%BD%93%EF%BC%8C%E8%83%9E%E5%90%9E%E4%BD%9C%E7%94%A8%E5%BD%A2%E6%88%90%E7%9A%84%E8%86%9C%E5%8C%85%E8%A2%AB%E5%9B%8A%E6%B3%A1%E7%BB%93%E6%9E%84">endosome</a> trafficking.</li>
+<li>Mutants of <em>pin2</em> and [*tir3*](a PIN-trafficking-associated protein) are less sensitive to Pi starvation, indicating that the Lys63-linked ubiquitination of PIN2 is specific and <a href="important">vital</a> in root system architecture remodeling under Pi starvation.</li>
+</ul>
+</li>
+<li><a href="%E7%8B%AC%E8%A7%92%E9%87%91%E5%86%85%E9%85%AF">Strigolactone</a> (SL) and <a href="%E6%B2%B9%E8%8F%9C%E7%B4%A0%E5%86%85%E9%85%AF">Brassinosteroid</a> (BR)<ul>
+<li>TIR1 和一些 PSIs 基因的诱导，以及在缺磷下 PIN2 运输和<a href="polarization">极化</a>的减少，依赖于 SL 信号通路。</li>
+<li>一个 F-box 蛋白 MORE AXILLARY BRANCHES 2 (<strong>MAX2</strong>) 能够泛素化 SL 通路的抑制蛋白 D53，在缺磷下 MAX2 的缺失会导致主根长度变短、侧根数目减少。</li>
+<li>MAX2 也能够泛素化 BR 信号通路中的一个转录因子 BRI1-EMS-SUPPRESSOR 1 (<strong>BES1</strong>)。<u>The dominant muntant <em>bes1-D</em> is to XXX resistant to low Pi availibility and maintains nomral root morphology under Pi starvation.</u></li>
+<li>缺磷条件下，会诱导细胞质中 BES1 的积累和 BR 介导的根生长抑制，暗示在缺磷下 BES1 的降解和可能的泛素化受到<a href="hindered">抑制</a>，但是其中是否有 MAX2 的参与仍需要证据。</li>
+<li>BES1 的积累可能由于 BES1 的 <a href="autophagy">自噬</a>减少。泛素化的 BES1 会结合泛素受体 DOMINANT SUPPRESSOR OF KAR 2 (<strong>DSK2</strong>) ，DSK2-BES1 complex 通过募集 <strong>ATG8</strong> （which is a ubiquitin-like protein required for the formation of autophagosomal membranes）定位与自噬体降解。</li>
+<li>番茄中的研究发现，BR处理能够通过 BES1 诱导的 ATGs 基因表达激活自噬，能够提高番茄的缺氮耐受。这种 BES1 和 自噬之间的反馈调节揭示了一种植物激素相关的机制，可在缺氮条件下增加营养的循环利用以及减少泛素化的错误折叠蛋白或不可溶蛋白的积累。</li>
+<li>许多研究中报道了<u>缺氮和缺磷响应之间的 crosstalk</u>，并且许多形态学和对这些环境的分子适应性是相似的。这些结果表明，缺磷条件下BES1 的自噬降解在平衡植物生长生存上发挥作用。</li>
+<li>或许，植物缺磷时的根尖部位的自噬激活，可能是 <strong>ER stress</strong> 应答，而非为了 Pi 循环。缺磷刺激的自噬体组建需要 <strong>LPR1</strong> 和 <strong>PDR2</strong>，其可激活 ER stress 和 ATGs 基因的表达，进而造成缺磷条件下[根尖分生组织](root apical meristem)的早期分化和主根生长的抑制。PDR2 的缺失增加了主根对缺磷的敏感性，依赖于 LPR1/2。已知 SCARECROW (<strong>SCR</strong>, 在 Pi-deprived roots 中对[根模式形成](root patterning)和[干细胞维持](stem cell maintenance)是必须的)的表达量在 <em>pdr2</em> 突变体中显著下降，<u>PDR2, LPR1, LPR2被认为在 PSR 下调节 local Pi sensing</u>。</li>
+<li>The unfolded protien response (<strong>UPR</strong>) 在 PSR 中被激活（given that the expression of several UPR genes is induced under Pi starvation, and is highter in <em>pdr2</em> mutant than in wild-type plants）。Pi starvation-stimulated 自噬体组装在 pdr2 突变体中增加，but decreased by disruption of INCREASED ORGAN REGENERATION 1a and b (<strong>IRE1a/b</strong>, two sensors of ER stress)。ER stress <a href="triggers">触发</a>了自噬体组装，且在ER stress过程中，部分 ER 通过自噬移动到了液泡中，被称之为 “<strong>ER-phagy</strong>”。</li>
+<li>其他泛素系统的成员（如 DUBs），也参与了 Pi诱导的[根形态建成](root architecture remodeling)。UBIQUITIN-SPECIFIC PROTEASE 14 (<strong>UBP14</strong>) 弱等位基因突变体 <em>per1</em> 在 Pi 缺乏时表现出营养特异性抑制根毛伸长的表型。OTU5 也被发现调节 PSR 诱导的根重建， otu5 表现出组成型 Pi 缺陷表型，由于染色质重塑和 ROS 状态的变化。</li>
+</ul>
+</li>
+</ul>
+<h3 id="Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake"><a href="#Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake" class="headerlink" title="Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake"></a>Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake</h3><ul>
+<li>The PHT1 family of high-affinity Pi transporters, which are resopnsible for Pi uptake in the root system, are regulated by several PTMs to <a href="%E7%B2%BE%E7%A1%AE%E7%9A%84">precisely</a> modulate protein levels. There are 9 members in Arabidopsis (PHT1;1-PHT1;9), all of which are expressed in roots. Under Pi-limiting conditions, plants relocate more active PHT1s in the PM to increase Pi uptake. While, in Pi-sufficient conditions, the levels of PHT1s in the PM are reduced through degradation.</li>
+<li>PHF1 影响PHT1s的质膜定位。The plant-specific SEC12-like protein PHOSPHATE TRANSPORTER TRAFFIC FACILATOR 1 (<strong>PHF1</strong>), which is required for the formation or budding of transport vesicles from the ER, specifically regulates the subcellular localization of PHT1;1. <u>Mutation of PHF1 resulted in ER retention and reduced the PM accumulation of PHT1;1</u>. </li>
+<li>PHT1 的磷酸水平会影响其质膜定位和降解。The posphorylation status of PHT1s is closed related to its subcelluar localization and protein level. In rice, the protein kinase CASEIN KINASE II (<strong>OsCK2</strong>) mediates the phosphorylation of OsPT8, and inhibits the interaction between OsPHF1 and OsPT8 to retain OsPT8 in ER under normal conditions. Although OsCK2β3 functions by forming holoenzymes OsCK2 with OsCK2α3, <u>only the degradation of OsCK2β3 by the 26S proteasome is promoted under Pi starvation</u>, which leads to reduced OsPT8 phosphorylation status and eventually ER export to the PM.</li>
+<li>内吞作用调节PM PHT1s 进而调节植物磷吸收。Plants use another trafficking-associated degradation mechanism to reduce the function of PHT1s under normal growth conditions. PHT1s are located in the endosomes for <a href="%E5%86%85%E5%90%9E%E4%BD%9C%E7%94%A8">endocytosis</a>, as demonstrated by the colocalization of PHT1 with several endosome markers. <u>The <strong>endosomal sorting complexes required for transport (ESCRTs)</strong> are responsible for recognizing ubiquitinated PM cargo proteins for endocytosis and mediating their sorting into <a href="%E8%85%94%E5%86%85%E5%9B%8A%E6%B3%A1">intraluminal vesicles</a>.</u> The localization and degradation rate of PHT1s are changed by disrupting the Bro1/ALIX-related protein <strong>ALIX</strong> (ALG2-interacting protein X), which is part of the arabidopsis ESCRT-III complex, demonstrating that <u>the ESCRT mechinery is required for PHT1s endosome trafficking</u>. The <em>alix-1</em> mutant has a high Pi content, further conforming the importance of ESCRT in Pi uptake.</li>
+<li>不同条件下，PHT1 的内体运输表现出两种不同的功能。The endosome localization of PHT1s is independent of Pi supplementation, while Pi starvation stablizes PHT1s at the PM. 在缺磷条件下，**<a href="internalized">内化</a>的 PHT1s 通过[网格蛋白包被的囊泡](clathrin-coated vesicles)复合体进行[后续的回收](subsequent recycling)** [which probably requires the clathrin adaptor, adaptor protein 2 (AP2)]。在磷充足的时候，PHT1s 则通过 ESCRT 机制靶向[溶解液泡](lytic vacuoles)进行降解。The ESCRT machinery selectively binds to monoubiquitinated or <strong>Lys63-linked ubiquitinated proteins</strong>. 并根据此利用蛋白质组发现了 PHT1;1 Lys63链接多泛素链。<em>这种依赖 ESCRT 的调节机制也在一些其他营养转运体途径发现，可能是一种保守的调节机制。</em><br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr1.jpg" alt="img"><br>【Figure】Under inorganic phosphate-sufficient conditions, plants need to reduce the protein levels of the Pi transporter PHT1 on the PM to <a href="%E9%98%BB%E7%A2%8D">hinder</a> Pi uptake. <strong>The protein kinase CK2 phosphorylates PHT1 and inhibits the ER export of PHT1.</strong> The ER and endosome-localized E2 ubiquitin-conjugating enzyme PHOSPHATE 2 (<strong>PHO2</strong>) interacts with several PHT1s. 泛素化的 PHT1 的内吞作用和内体分选成多泡体/晚期内体（MVBs/LEs）最后在溶解液泡中降解，需要 the endosome sorting complexes (required for ESCRT complexes)。<strong>质膜上的 PHT1;4 的泛素化需要 PHO2 和 质膜定位的 E3 ligase NITROGEN LIMITATION ADAPTATION (NLA) 的参与，最终通过 26S 蛋白酶体途径降解。在缺磷条件下，CK2 泛素化降解，导致 PHT1 的磷酸化水平降低，最终在 PHF1 的协助下从 ER 输出，并最终增加质膜上的 PHT1 蛋白水平</strong>。</li>
+</ul>
+<h3 id="NLA-regulates-the-ubiquitination-of-PHT1s"><a href="#NLA-regulates-the-ubiquitination-of-PHT1s" class="headerlink" title="NLA regulates the ubiquitination of PHT1s"></a>NLA regulates the ubiquitination of PHT1s</h3><ul>
+<li>NLA 最早发现可以调节低氮适应性，<em>nla</em> 突变表型可以被 <em>PHF1</em> 和 <em>PHT1;1</em> 突变抑制。高磷条件下，NLA 的转录水平上调（其也是 低磷诱导的miR827 的靶基因）。在低氮和高磷条件下，<em>nla</em> 突变体 shoots 的磷含量要高于野生型，表明其也参与磷吸收。之后的研究发现 NLA 能够结合并泛素化一些 PHT1s，包括 PHT1;1和PHT1;4，NLA 在质膜上与 PHT1s 相互作用，并且促进其内体定位。泛素化的 PHT1s 通过内吞作用从质膜经[多泡体途径](the multivesicular body sorting pathway)运输至液泡降解。</li>
+<li>NLA 主要定位于 PM，PHO2 主要定位于内膜系统，但是 PHT1;4 会在 <em>nla</em> 中积累，而不会再 <em>pho2</em> 中积累，且在双突中磷含量以及 PHT1;1/2/3 的蛋白水平均高于单突。作者认为 PHO2 和 NLA <a href="independently">独立</a>但<a href="cooperatively">协同</a>调控 PHT1。但是之后的研究发现 NLA 能够和 PHO2 特异泛素化 PHT1;4，但是不能泛素化 PHT1;1，最终导致 PHT1;4 通过26S 蛋白酶体降解。体内和体外实验证明 NLA 能够和 UBC8 相互作用，但是 PHO2 而不是 UBC8 参与 NLA自泛素化和 PHT1;4 的泛素化。pho2 突变体或者 MG132 能够抑制 PHT1;4 的降解，但是 E64d 不行，表明 PHO2 能够通过 26S 蛋白酶体途径控制 PHT1;4 的降解，而非是 NLA 的溶解液泡途径。</li>
+<li>PHT1;1 和 PHT1;4 的溶解液泡降解途径能够被 PHO2 和 NLA 以独立于 26S 蛋白酶体的途径促进，但是 26S 蛋白酶体途径降解 PHT1;4 却必须要 NLA 和 PHO2 存在。<u>PHT1;4 能够和 NLA 相互作用而其他 PHT 不能，暗示这些 PHT1s 降解可能依赖于不同的 E2 和 E3</u>。PHO2 和 NLA 的不同[时空表达模式](temporal and spatial expression patterns)也暗示 PHT1s 调节机制的复杂性。<strong>在发育早期（6-day-old seedings），<em>pho2</em> 突变体中 PHT1s 的泛素化水平显著降低。</strong>然而，<u>在之后的时期（12-day-old seedings）发现，只有在 EM 处的 PHT1s 能够受到 PHO2 的影响</u>，PM 定位的 PHT1s 并没有受到影响。并且在 <em>pho2</em> 突变体中 PHT1s 的总泛素化水平与在野生型中相似。<strong>在 <em>nla</em> 突变体中，过度的 Pi 只在 14d 以后的苗中积累，暗示 PHO2 和 NLA 的功能会随时间变化。</strong><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bbb0335">Park</a> 等对于 10d 苗的研究发现， PHT1;4 通过 26S 蛋白酶体途径降解（在该时间段 NLA 不影响 Pi 吸收）。Lin 等人对 19d 的幼苗研究发现（该生长阶段 PHO2 和 NLA 同时参与磷吸收）， PHO2 和 NLA 在 PHT1s 的内吞作用和内体分选上起到[协同作用](synergistic relationship)，因为 PM 定位的 PHT1s 受 NLA 调节，而 EM 定位的 PHT1s 受到 PHO2 调节。</li>
+<li>在水稻 nla 突变体中会出现 Pi 积累。OsNLA1 能和 OsPT2/8 相互作用，泛素化并使其降解。而 NLA 和 PHO2 的相互作用尚未阐明（二者的点突变蛋白不会互作）。<strong>在缺磷条件下， OsPHO2 能够和 OsGI (GIGANTEA) 相互作用</strong>，且这两个基因表现出类似的抑制生长、延迟花期和 Pi 积累的表型。有研究表明 NLA 能够和 PHO2 共同发挥功能泛素化 ORE1 (ORESARA 1) 使其通过 26s 蛋白酶体途径降解，进而调节缺氮条件下的叶片衰老。只是文章未能解释 EM 定位的 PHO2 如何能够调节核定位的转录因子 ORE1 (其和 NLA 在核中互作)。</li>
+</ul>
+<h3 id="Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation"><a href="#Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation" class="headerlink" title="Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation."></a>Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation.</h3><ul>
+<li>先前的数据已经展示了泛素化调节 PHTs 的稳定性和亚细胞定位进而影响磷吸收，同样，<strong>PHO1</strong> 转运体也受到泛素调节，从而影响 Pi 从根部到地上部的转运，以及再磷饥饿环境下 Pi 从老叶向新叶的转运。</li>
+<li>The PHO1 fanmily has 11 members in arabidopsis, of which PHO1 is the dominant component; PHO1 is  localized in the vascular system, with a critical role in loading Pi into the xylem of roots. <u><em>pho1</em> 突变体表现出强烈的地上部缺磷。</u>拟南芥的泛素蛋白亲和纯化富集了泛素化的 PHO1 蛋白，之后的研究发现其受到 PHO2 泛素化。PHO1 作为一个跨膜磷转运体蛋白，其定位在 ER, Golgi，也被发现和内体 marker 共定位，且 <strong>PHO1 和 PHO2 在细胞中点状区室相互作用，暗示 PHO1 通过内体运输通路被液泡降解，并且可能需要 ESCRT 复合体</strong>。不过至今 PHO1 的 E3 尚未可知。<strong>一些研究者认为 PHO2 是一个 E2-E3 双功能酶</strong>。 人体中的 PHO2 同源蛋白 Apollon/BIRC6 可以在不存在其他 E2 或 E3 的时候泛素化 SMAC 蛋白，而其他 E2/E3 存在的时候能够强化其泛素活性。</li>
+<li>Tight control of PHO1 transporters by transcription factors is regulated by ubiquitination. 在正常生长条件下，<strong>WRKY 家族转录因子 WRKY6/42 结合在 PHO1 启动子上的 W-box 阻止其表达</strong>；当低磷的时候，WRKY6/42 通过 26S 蛋白酶体途径降解以确保 PHO1 的表达。最近的研究发现一个 F-box 蛋白 PRU1 能够结合并泛素化 WRKY6，PRU1 受到缺磷诱导，且其特异地结合 WRKY6 的 C 末端促进其降解。尽管 WRKY6 和 WRKY42 表现出功能冗余，但是 PRU1 与 WRKY42 并不相互作用。WRKY42 与 6 不同的是，其能够促进 PHT1;1 的表达，在磷吸收平衡和转运中存在一些相反的功能。</li>
+<li>Regulation of transcription factors are also related to ubiquitionation. AtPHR1 和 OsPHR2 是磷稳态的核心转录因子，其可以结合 PSI 基因（如 PHO1;H1）的 P1BS motif。PHRs 的转录活性受到 SPXs 蛋白的负调控：<u><strong>在磷充足条件下，SPXs 蛋白通过其 SPX domain 与 OsPHR2 结合从而阻止其结合 P1BS</strong></u>。在缺磷条件下，RING-type E3 连接酶 OsSDEL1/2 能够和 OsPHR2 竞争结合 SPX4 并使其降解以释放 OsPHR2。<strong>尽管 OsSDEL1/2 的转录水平不受磷浓度影响，但是其蛋白水平在缺磷下显著诱导</strong>。此外，硝酸盐感知能够加强 OsNRT1.1B（Nitrate transporter 1.1B）和 OsSPX4 的相互作用，并且征召 NRT1.1B 互作蛋白 NBIP1（一个 RING-type E3）来加速 OsSPX4 的降解以释放 PHR2。核定位的 OsSPX2 也能够被缺磷诱导的 RING-type E3 蛋白 <strong>OsPIE1</strong> 降解。PM 定位的 RING-type E3 AtATL80，受到缺磷诱导并参与磷<a href="translocation">转位</a>。在高磷情况下， atatl80 突变体地上部的 Pi 要低于野生型，PUE 会更高。这些结果暗示 <strong>AtATL80</strong> 在正常生理条件下调节 Pi 的转位。<br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr2.jpg" alt="Figure 2"><br>[Figure]</li>
+</ul>
+<h3 id="Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response"><a href="#Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response" class="headerlink" title="Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response."></a>Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response.</h3><ul>
+<li>泛素化蛋白质谱结果表明，许多 PSR 相关蛋白都存在泛素化修饰，如<u>线粒体内膜定位的 <strong>PHT3;1</strong></u>。<strong>PHT1;5</strong>（参与将老叶中贮存的 Pi 转运到其他组织的过程），在其 <strong>Lys634</strong> 位置发生泛素化。<strong>WRKY45</strong> （结合 PHT1;1启动子并在缺磷下促进其表达）在 <strong>Lys39</strong> 位发生泛素化修饰。然而这些蛋白在缺磷下发生泛素化的功能尚待解释。</li>
+<li>SUMO conjugation in plants controls several important biological progress. SUMO E3 连接酶 <strong>SIZ1</strong> 参与根构型重建以及缺磷下的花青素积累。<strong>研究表明 PHR1 是 SIZ1 的底物</strong>。<u>The SUMOylation of TFs often represses their transcription activity.</u> 许多 PHR1 的靶基因在 <em>siz1</em> 中的表达量都有所提高。但是 phr1 中并没有根构型的改变，所以在此过程可能有其它蛋白被 SIZ1  SUMO 化修饰。LPR2 也能够发生 SUMO 化修饰，其在根尖部位调节缺磷响应。拟南芥中两个碱性磷酸酶 PAP10/26 也能够被 SUMO 化修饰，其可以调节内部 Pi 循环以及从外部有机磷酸盐中释放 Pi 以供植物吸收。但是 SUMO 化是否受到磷饥饿调节或能够调节植物磷响应仍需要研究。</li>
+</ul>
+<p>附表：已报导的参与PSR基因的泛素化成员</p>
+<table>
+<thead>
+<tr>
+<th>Gene</th>
+<th>Locus</th>
+<th>Description</th>
+<th>Refs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>E2</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>PHO2</em></td>
+<td>AT2G33770</td>
+<td>Ubiquitinates PHO1 and PHT1s to reduce uptake and root-to-shoot translocation of Pi</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0320">64.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a></td>
+</tr>
+<tr>
+<td><strong>E3</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>AtATL80</em></td>
+<td>AT1G20823</td>
+<td>Regulates Pi translocation in Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0440">88]</a></td>
+</tr>
+<tr>
+<td><em>MAX2</em></td>
+<td>AT2G42620</td>
+<td>Positively regulates lateral root growth, phosphate starvation-induced genes and TIR1 expression; regulates D53 degradation and PIN2 localization</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27]</a></td>
+</tr>
+<tr>
+<td><em>MdSIZ1</em></td>
+<td>MD03G008530</td>
+<td>Regulates MdPHR1 in response to Pi deficiency; promotes anthocyanin accumulation by SUMOylating MdMYB1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0525">105.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0530">106.</a></td>
+</tr>
+<tr>
+<td><em>NLA</em></td>
+<td>AT1G02860</td>
+<td>Mutant accumulates higher Pi content; ubiquitinates PHT1;4 and PHT1;1</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0200">40]</a></td>
+</tr>
+<tr>
+<td><em>OsNBIP1</em></td>
+<td>LOC_Os01g55110</td>
+<td>Mediates ubiquitination and degradation of OsSPX4 at high levels of nitrate to activate downstream phosphate signaling</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0430">86]</a></td>
+</tr>
+<tr>
+<td><em>OsNLA</em></td>
+<td>LOC_Os03g44810</td>
+<td>Interacts with and ubiquitinates rice Pi transporters OsPT2 and OsPT8 to regulate phosphate homeostasis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0345">69]</a></td>
+</tr>
+<tr>
+<td><em>OsPIE1</em></td>
+<td>LOC_Os01g72480</td>
+<td>Positively regulates expression of OsPT2, OsPT3, and OsPT10 by affecting protein level of OsSPX2 to increase Pi accumulation under Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0435">87]</a></td>
+</tr>
+<tr>
+<td><em>OsSDEL1</em>, <em>OsSDEL2</em></td>
+<td>LOC_Os12g35320, LOC_Os03g22680</td>
+<td>OsSDEL1/2 directly interact with and ubiquitinate SPX4, resulting in release of OsPHR2, thus positively regulating PSR</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
+</tr>
+<tr>
+<td><em>SIZ1</em></td>
+<td>AT5G60410</td>
+<td>SUMO E3 ligase; regulates root architecture remodeling and anthocyanin accumulation without Pi content change under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11]</a></td>
+</tr>
+<tr>
+<td><em>PRU1</em></td>
+<td>AT3G42770</td>
+<td>Positively regulates Pi translocation; specifically targets WRKY6 but not WRKY42 for degradation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80]</a></td>
+</tr>
+<tr>
+<td><em>TIR1</em></td>
+<td>AT3G62980</td>
+<td>Positively regulates lateral root growth and promotes AUX/IAA repressors degradation under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0125">25]</a></td>
+</tr>
+<tr>
+<td><strong>Substrate</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>BES1</em></td>
+<td>AT1G19350</td>
+<td>Negatively regulates Pi starvation-induced root inhibition; ubiquitinated by MAX2 and SINATs</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0165">33]</a></td>
+</tr>
+<tr>
+<td><em>LPR2</em></td>
+<td>AT1G71040</td>
+<td>Regulates autophagy-related local Pi sensing; necessary for main root growth inhibition under Pi starvation; identified as a SUMOylated protein</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0225">45.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0500">100.</a></td>
+</tr>
+<tr>
+<td><em>OsCK2b3</em></td>
+<td>LOC_Os07g31280</td>
+<td>Phosphorylates PHT1, promoted to degradation under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0290">58]</a></td>
+</tr>
+<tr>
+<td><em>OsSPX4</em></td>
+<td>LOC_Os03g61200</td>
+<td>Inhibits activity of OsPHR2; ubiquitinated by OsSDEL1/2; degradation is accelerated under Pi deficiency</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
+</tr>
+<tr>
+<td><em>OsGI</em></td>
+<td>LOC_Os01g08700</td>
+<td>Ubiquitinated by OsPHO2 and regulates Pi remobilization in leaves under Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0350">70]</a></td>
+</tr>
+<tr>
+<td><em>PAP10, PAP26</em></td>
+<td>AT2G16430, AT5G34850</td>
+<td>Purple acid phosphatases; secreted in Pi starvation to release Pi from soil; identified as SUMOylated proteins</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0505">101.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0535">107.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0540">108.</a></td>
+</tr>
+<tr>
+<td><em>PHO1</em></td>
+<td>AT3G23430</td>
+<td>Pi transporter for Pi relocation; mutants accumulate high Pi content in all aboveground tissues; substrate of PHO2</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0365">73.</a></td>
+</tr>
+<tr>
+<td><em>PHR1</em></td>
+<td>AT4G28610</td>
+<td>Binds P1BS site in Pi starvation-induced gene promoters; regulates anthocyanin accumulation; substrate of SIZ1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0405">81.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;1</em></td>
+<td>AT1G20860</td>
+<td>Responsible for Pi uptake from soil; target of PHO2; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;4</em></td>
+<td>AT2G38940</td>
+<td>Responsible for Pi uptake from soil; target of PHO2 and NLA; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0285">57.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;5</em></td>
+<td>AT2G32830</td>
+<td>Pi transporter for Pi uptake from soil; ubiquitinated at Lys634</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0475">95]</a></td>
+</tr>
+<tr>
+<td><em>PIN2</em></td>
+<td>AT5G57090</td>
+<td>Auxin transporter for auxin efflux; Lys63-linked ubiquitination-mediated PIN2 trafficking reduced under Pi starvation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0150">30.</a></td>
+</tr>
+<tr>
+<td><em>WRKY6</em></td>
+<td>AT1G62300</td>
+<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation; substrate of PRU1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80.</a></td>
+</tr>
+<tr>
+<td><em>WRKY42</em></td>
+<td>AT4G04450</td>
+<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79]</a></td>
+</tr>
+<tr>
+<td><em>WRKY45</em></td>
+<td>AT3G01970</td>
+<td>Activates <em>PHT1</em> expression; identified as a ubiquitinated protein</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0485">97]</a></td>
+</tr>
+<tr>
+<td><strong>DUB</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>UBP14</em></td>
+<td>AT3G20630</td>
+<td>Required for root hair elongation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0260">52]</a></td>
+</tr>
+<tr>
+<td><em>OTU5</em></td>
+<td>AT3G62940</td>
+<td>Regulates root hairs and primary root growth</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0265">53]</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>磷信号</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3. 常见组蛋白修饰</title>
+    <url>/2022/01/14/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>常见组蛋白修饰及其生物学功能</p>
+<ul>
+<li>组蛋白修饰对染色质结构和基因表达具有重要的作用和影响，了解目前已经报道的组蛋白修饰对基因表达影响，能够对基因表达相关课题研究提供很好的帮助。</li>
+<li>以下是一些常见的组蛋白修饰：</li>
+</ul>
+</blockquote>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th>H2A</th>
+<th>修饰类型</th>
+<th>生物学功能</th>
+<th>References</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td><strong>H2AS1P</strong></td>
+<td>Mitosis;  chromatin assembly</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK4/5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1085">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK7ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2AK119P</strong></td>
+<td>Spermatogenesis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">4</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H2AK119ub</span></strong></td>
+<td>Transcriptional  repression</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1100">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H2B</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS14P</strong></td>
+<td>Apoptosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1105">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BS33P</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1110">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK5ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK11/12ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK15/16ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK20ac</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">6</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK120ub</strong></td>
+<td>Spermatogenesis/meiosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H2BK123ub</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1120">8</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H3</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>**<span style='color:red'>H3K4me2</span> **</td>
+<td>Permissive  euchromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K4me3</span></strong></td>
+<td>Transcriptional  elongation; active euchromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">2</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">3</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1130">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K9me3</span></strong></td>
+<td>Transcriptional  repression; imprinting; DNA methylation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3R17me</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1145">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1150">9</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K27me3</span></strong></td>
+<td>Transcriptional  silencing; X-inactivation; bivalent genes/gene poising</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">10</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K36me3</strong></td>
+<td>Transcriptional  elongation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">11</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K4ac</span></strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">12</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K9ac</span></strong></td>
+<td>Histone  deposition; transcriptional activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">13</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K14ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">14</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H1K18ac</strong></td>
+<td>Transcriptional  activation; DNA repair; DNA replication</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">15</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3K23ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">16</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong><span style='color:red'>H3K27ac</span></strong></td>
+<td>Transcriptional  activation</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T3P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3S10P</strong></td>
+<td>Mitosis;  meiosis; transcriptional activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">17</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H3T11/S28P</strong></td>
+<td>Mitosis</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>H4</strong></td>
+<td><strong>修饰类型</strong></td>
+<td><strong>生物学功能</strong></td>
+<td><strong>References</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4R3me</strong></td>
+<td>Transcriptional  activation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1025">1</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me1</strong></td>
+<td>Transcriptional  silencing</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1155">2</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K20me3</strong></td>
+<td>Heterochromatin</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1160">3</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K5ac</strong></td>
+<td>Histone  deposition; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">5</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K8ac</strong></td>
+<td>Transcriptional  activation; DNA repair; transcriptional elongation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">7</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K12ac</strong></td>
+<td>Histone  deposition; telomeric silencing; transcriptional activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">9</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4K16ac</strong></td>
+<td>Transcriptional  activation; DNA repair</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0670">10</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">11</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">12</a></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>H4S1P</strong></td>
+<td>Mitosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">13</a></td>
+</tr>
+</tbody></table>
+<ul>
+<li>原文来自 <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub">https://www.sciencedirect.com/science/article/pii/S0168952515001936?via%3Dihub</a> </li>
+</ul>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+        <tag>Histone</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>5. 组蛋白 H3 上主要的四种甲基化修饰</title>
     <url>/2022/04/29/H3%20histone%20methylation/</url>
     <content><![CDATA[<h1 id="组蛋白-H3-上主要的四种甲基化修饰"><a href="#组蛋白-H3-上主要的四种甲基化修饰" class="headerlink" title="组蛋白 H3 上主要的四种甲基化修饰"></a>组蛋白 H3 上主要的四种甲基化修饰</h1><h2 id="H3K4-Methylation"><a href="#H3K4-Methylation" class="headerlink" title="H3K4 Methylation"></a>H3K4 Methylation</h2><h4 id="Plant-H3K4-methylation-occurs-almost-exclusively-in-gene-coding-regions"><a href="#Plant-H3K4-methylation-occurs-almost-exclusively-in-gene-coding-regions" class="headerlink" title="Plant H3K4 methylation occurs almost exclusively in gene-coding regions."></a>Plant H3K4 methylation occurs almost exclusively in gene-coding regions.</h4><table>
@@ -305,139 +1010,6 @@
       </tags>
   </entry>
   <entry>
-    <title>1. 植物DNA甲基化</title>
-    <url>/2022/01/14/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
-    <content><![CDATA[<blockquote>
-<p>背景：</p>
-</blockquote>
-<ul>
-<li><p>一、表观遗传学</p>
-<p>主要涉及 DNA 甲基化对基因表达的抑制、组蛋白修饰对基因表达的调控、small RNA 对靶基因的干扰以及 ATP 依赖的染色质重塑等表观遗传调控过程。<span id="more"></span></p>
-</li>
-<li><p>二、DNA甲基化</p>
-<p>甲基化酶介导的将一个或多个甲基基团从 S-腺苷甲硫氨酸选择性地转移到DNA上的一种化学修饰。DNA 甲基化主要形成 5-甲基胞嘧啶和少量的N6-甲基嘌呤及 7-甲基鸟嘌呤。</p>
-</li>
-</ul>
-<p>在哺乳动物中，胞嘧啶甲基化大多存在于CG 序列上；而植物中除了CG 甲基化外, 还有CHG 和CHH 的甲基化(H = A, C 或T)。拟南芥(Arabidopsis thaliana)中CG、CHG 和CHH 的甲基化程度分别为24%、6.7%和1.7% （Cokus SJ等2008）。</p>
-<p><span style='color:red'>植物DNA甲基化</span></p>
-<ul>
-<li><strong>一、植物DNA甲基化的方式</strong></li>
-</ul>
-<p><u><em>从头甲基化 de novo methylation</em></u></p>
-<blockquote>
-<ul>
-<li>两条链均未甲基化，由不同的DNA甲基转移酶催化完成，不依赖复制。</li>
-</ul>
-</blockquote>
-<p><em><u>维持甲基化 maintenance methylation</u></em></p>
-<blockquote>
-<ul>
-<li>双链DNA中一条链已存在甲基化，另一条未甲基化链被甲基化，以半保留复制方式传递给子代。</li>
-</ul>
-</blockquote>
-<p>在对拟南芥有性生殖过程中的DNA甲基化动态变化进行研究时发现，在雌配子发生过程中，维持甲基化方式几乎不发生，而受精后在胚胎中从头甲基化与维持甲基化明显发生，并且维持一定甲基化水平直到成株（ Jullien 等2012）。</p>
-<ul>
-<li><strong>二、植物DNA甲基化过程中的几类关键酶</strong></li>
-</ul>
-<blockquote>
-<ul>
-<li>植物DNA甲基化的发生和维持主要依赖于4种在结构和功能上不同的胞嘧啶甲基转移酶。</li>
-</ul>
-</blockquote>
-<p><em><u>1、维持DNA甲基转移酶(methyltransferase 1, MET1)家族</u></em></p>
-<ul>
-<li>是DNMT1甲基化酶的同系物，维持对称序列CG位点的甲基化的主要酶。某些位点的MET1也具有从头甲基化活性，可以使得丢失甲基化位点被重新甲基化，且发生重新甲基化的CG位点是随机的，这可能有助于稳定植物体内甲基化水平，并且提高甲基化模式的多样性。</li>
-</ul>
-<p><u><em>2、染色质甲基化酶(chromo-methylase, CMT)家族</em></u></p>
-<ul>
-<li>植物所特有，负责维持CHG位点的甲基化，对维持基因组异染色质状态起一定作用。</li>
-</ul>
-<p><u><em>3、结构域重排甲基转移酶(domains rearranged methyltransferase, DRM)家族</em></u></p>
-<ul>
-<li>从头甲基化，DRM2和CMT3以及一些siRNA共同作用与非对称位点CHH处的甲基。</li>
-</ul>
-<p><u><em>4、其他保守甲基转移酶</em></u></p>
-<ul>
-<li><p>如玉米(Zea mays) 中的DMT104、拟南芥中的DMT11, 它们可能是DNMT2 (DNA meth-yltransferase 2) 家族的同系物, 虽然它们在不少植物中是保守的, 但其功能目前还不清楚(Goodrich和Tweedie 2002)。</p>
-</li>
-<li><p><strong>三、植物DNA甲基化发生机制</strong></p>
-</li>
-</ul>
-<p><u><em>由RNA介导的DNA甲基化(RNA-dependent DNA methylation, RdDM )</em></u></p>
-<p> RdDM 现象首次在受到类病毒感染的植物中发现，被认为是植物基因转录沉默的主要机制，参与多种表观遗传现象，如基因沉默、转座子抑制、基因组印记和副突变。</p>
-<p>RdDM过程中，所产生的 dsRNA (double-standed RNA) 和 siRNA (small inter-fering RNA) 给DNA甲基转移酶提供一种甲基化的信号， DNA甲基转移酶在接收到信号后作用于DNA靶位点上，建立起一种甲基化印记，然后通过DNA复制过程将这种甲基化状态传递下去。</p>
-<p>在RdDM中，除了典型的 RNAi 元件（即 Dicer 和 Argonaute 家族的成员）和 DRM2 之外，还需要两种植物特异 RNA 聚合酶，Pol IV 和 Pol V，两种酶被推断为染色质重塑因子。</p>
-<p>RdDM的发生机制主要包括两个步骤：24-nt siRNAs的生物合成及siRNAs信号定位到靶DNA区域, 启动从头甲基化的发生。</p>
-<p>Pol IV 被 SHH1(Sawadee homeodomain homolog 1)招募在目标转录区编码单链 RNA (single-stranded RNA)，RDR2(RNA-DEPENDENT RNA POLUMERASE )与 Pol IV 结合在一起，将单链 RNA 转化为双链RNA (double-stranded RNA)，然后DCL3 (DICER-LIKE 3)进行剪切双链RNA，初步形成 24nt 的 siRNA，HEN1 (HUA-ENHANCER 1)将 siRNA 的 3′末端甲基化，然后与 AGO4 (ARGONAUTE 4)结合形成小 RNA 介导的沉默复合体(RNA-induced silencing complex, RISC)。后由SUVH2/9招募DRM2，对靶位点进行从头甲基化。</p>
-<ul>
-<li><strong>四、植物DNA甲基化的生物学功能</strong></li>
-</ul>
-<p><u><em>1、维持基因组稳定性</em></u></p>
-<p>植物通过DNA甲基化方式阻止转座子在基因组内或基因组间跳跃，减少转座子移动可能带来的危害。</p>
-<p>如：邓兴旺研究组以玉米为研究对象，系统分析了DNA甲基化对转座子的影响，发现转座元件区域被高度甲基化，缺少转录活性；烟草花叶病毒侵染烟草后, 导致烟草及其后代基因组DNA甲基化水平整体升高, 但编码抗病基因LRR (leucine rich repeats)结构域的区段甲基化水平降低, 同时抗病基因的重组率升高。</p>
-<p>   植物DNA甲基化可以抑制转座子和外源DNA的转录, 降低因非等位基因间的转座和重组导致的基因座破坏, 抵御外来基因的干扰, 从而维持基因组稳定性。</p>
-<p><u><em>2、调节基因表达</em></u></p>
-<p>​    当基因处于表达状态时甲基化水平往往很低，随着生长发育的进行需要将该基因关闭，就会在该基因的启动子或编码区发生甲基化，使基因转录受到抑制，基因失活，终止其表达；而一些处于关闭状态的基因应生长发育的需求要进行活化，开启表达，这时该基因的启动子区或编码区发生去甲基化，转录表达。</p>
-<p>如：北大-耶鲁联合研究中心利用高覆盖率的tiling-path芯片技术深入分析了水稻第IV、X号染色体的DNA甲基化，发现DNA甲基化通过引起染色质结构、DNA构象、DNA稳定性及DNA与蛋白质相互作用方式的改变, 从而抑制转录, 进而调控基因表达。</p>
-<p><u><em>3、植物基因组印迹</em></u></p>
-<p>物基因组印迹是某些开花植物在子代中部分基因单亲表达的一种表观遗传修饰现象, 具有组织和发育时间特异性。</p>
-<p>​    印迹基因的表达是通过DNA甲基化和组蛋白甲基化修饰、ncRNA (noncoding RNA)及 RNAi 的调控来实现的, 其中DNA甲基化是印迹过程的基础, 许多印迹调控区域(imprinting control regions, ICRs)都包含差异甲基化区域。</p>
-<p><u><em>4、生物和非生物胁迫</em></u></p>
-<p><u><em>5、杂种优势</em></u></p>
-<ul>
-<li><strong>五、DNA甲基化的检测</strong></li>
-</ul>
-<blockquote>
-<p>1、待检测样品的前期处理</p>
-<blockquote>
-<p>1.1 限制性内切酶消化法  </p>
-<ul>
-<li>甲基化敏感的内切酶HpaII/MspI能够切断非甲基化的识别为点。</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>1.2 亲和层析和免疫沉淀法  </p>
-<ul>
-<li>利用甲基结合域蛋白结合甲基化的CpG位点, 或者通过单克隆抗体特异性识别m5C来分离、 富集得到甲基化DNA。</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>1.3 亚硫酸氢盐转化法</p>
-<ul>
-<li>用亚硫酸氢盐处理DNA样品, 未甲基化的胞嘧啶(C)处理后转化为尿嘧啶(U), 而甲基化的胞嘧啶保持不变，PCR扩增使尿嘧啶(U)转化为胸腺嘧啶(T)，测序。</li>
-</ul>
-</blockquote>
-<p>2、目标序列的定位、甲基化状态的检测</p>
-<blockquote>
-<p>2.1 凝胶分析</p>
-<ul>
-<li>二维凝胶电泳技术或聚丙烯酰胺凝胶电泳技术</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>2.2 基因芯片技术分析</p>
-<ul>
-<li>DNA样品预处理，与芯片杂交，分析杂交结果</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>2.3 高通量测序技术</p>
-<ul>
-<li>测序的序列信息对比</li>
-</ul>
-</blockquote>
-</blockquote>
-<p>参考文献：</p>
-<p>Bouyer D, Kramdi A, Kassam M, et al. DNA methylation dynamics during early plant life. Genome Biol. 2017;18(1):179. </p>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>epigenetic</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2. 原核蛋白纯化</title>
     <url>/2022/01/14/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
     <content><![CDATA[<blockquote>
@@ -544,292 +1116,6 @@
       </tags>
   </entry>
   <entry>
-    <title>3. 常见组蛋白修饰</title>
-    <url>/2022/01/14/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
-    <content><![CDATA[<blockquote>
-<p>常见组蛋白修饰及其生物学功能</p>
-<ul>
-<li>组蛋白修饰对染色质结构和基因表达具有重要的作用和影响，了解目前已经报道的组蛋白修饰对基因表达影响，能够对基因表达相关课题研究提供很好的帮助。</li>
-<li>以下是一些常见的组蛋白修饰：</li>
-</ul>
-</blockquote>
-<span id="more"></span>
-
-<table>
-<thead>
-<tr>
-<th>H2A</th>
-<th>修饰类型</th>
-<th>生物学功能</th>
-<th>References</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td><strong>H2AS1P</strong></td>
-<td>Mitosis;  chromatin assembly</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">1</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK4/5ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1085">2</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK7ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">3</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2AK119P</strong></td>
-<td>Spermatogenesis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">4</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H2AK119ub</span></strong></td>
-<td>Transcriptional  repression</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1100">5</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H2B</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BS14P</strong></td>
-<td>Apoptosis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1105">1</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BS33P</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1110">2</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK5ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">3</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK11/12ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK15/16ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">5</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK20ac</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1115">6</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK120ub</strong></td>
-<td>Spermatogenesis/meiosis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1095">7</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H2BK123ub</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1120">8</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H3</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>**<span style='color:red'>H3K4me2</span> **</td>
-<td>Permissive  euchromatin</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">1</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K4me3</span></strong></td>
-<td>Transcriptional  elongation; active euchromatin</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">2</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1125">3</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1130">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">5</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K9me3</span></strong></td>
-<td>Transcriptional  repression; imprinting; DNA methylation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">7</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3R17me</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1145">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1150">9</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K27me3</span></strong></td>
-<td>Transcriptional  silencing; X-inactivation; bivalent genes/gene poising</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">10</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K36me3</strong></td>
-<td>Transcriptional  elongation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">11</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K4ac</span></strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1135">12</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K9ac</span></strong></td>
-<td>Histone  deposition; transcriptional activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">13</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K14ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">14</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H1K18ac</strong></td>
-<td>Transcriptional  activation; DNA repair; DNA replication</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">15</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3K23ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0720">16</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong><span style='color:red'>H3K27ac</span></strong></td>
-<td>Transcriptional  activation</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3T3P</strong></td>
-<td>Mitosis</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3S10P</strong></td>
-<td>Mitosis;  meiosis; transcriptional activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1140">17</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H3T11/S28P</strong></td>
-<td>Mitosis</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>H4</strong></td>
-<td><strong>修饰类型</strong></td>
-<td><strong>生物学功能</strong></td>
-<td><strong>References</strong></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4R3me</strong></td>
-<td>Transcriptional  activation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1025">1</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K20me1</strong></td>
-<td>Transcriptional  silencing</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1155">2</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K20me3</strong></td>
-<td>Heterochromatin</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1160">3</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K5ac</strong></td>
-<td>Histone  deposition; transcriptional activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">4</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">5</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K8ac</strong></td>
-<td>Transcriptional  activation; DNA repair; transcriptional elongation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">6</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">7</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K12ac</strong></td>
-<td>Histone  deposition; telomeric silencing; transcriptional activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">8</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">9</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4K16ac</strong></td>
-<td>Transcriptional  activation; DNA repair</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib0670">10</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1090">11</a>, <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1165">12</a></td>
-</tr>
-<tr>
-<td></td>
-<td><strong>H4S1P</strong></td>
-<td>Mitosis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub#bib1080">13</a></td>
-</tr>
-</tbody></table>
-<ul>
-<li>原文来自 <a href="https://www.sciencedirect.com/science/article/pii/S0168952515001936?via=ihub">https://www.sciencedirect.com/science/article/pii/S0168952515001936?via%3Dihub</a> </li>
-</ul>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>epigenetic</tag>
-        <tag>Histone</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>4. 拟南芥和水稻中Pi吸收和分配</title>
     <url>/2022/01/14/%E6%8B%9F%E5%8D%97%E8%8A%A5%E5%92%8C%E6%B0%B4%E7%A8%BB%E4%B8%ADPi%E5%90%B8%E6%94%B6%E5%92%8C%E5%88%86%E9%85%8D/</url>
     <content><![CDATA[<h1 id="拟南芥和水稻中Pi吸收和分配"><a href="#拟南芥和水稻中Pi吸收和分配" class="headerlink" title="拟南芥和水稻中Pi吸收和分配"></a>拟南芥和水稻中Pi吸收和分配</h1><p>涉及蛋白：PHT1，PHT2，PHT3，PHT4，PHT5(VPT1)，SPX-MFS，PHO1，phosphate translocators</p>
@@ -849,7 +1135,7 @@
         <category>Biology</category>
       </categories>
       <tags>
-        <tag>epigenetic</tag>
+        <tag>磷信号</tag>
       </tags>
   </entry>
 </search>
