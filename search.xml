@@ -13,6 +13,531 @@
       </tags>
   </entry>
   <entry>
+    <title>1. 植物DNA甲基化</title>
+    <url>/2022/01/14/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>背景：</p>
+</blockquote>
+<ul>
+<li><p>一、表观遗传学</p>
+<p>主要涉及 DNA 甲基化对基因表达的抑制、组蛋白修饰对基因表达的调控、small RNA 对靶基因的干扰以及 ATP 依赖的染色质重塑等表观遗传调控过程。<span id="more"></span></p>
+</li>
+<li><p>二、DNA甲基化</p>
+<p>甲基化酶介导的将一个或多个甲基基团从 S-腺苷甲硫氨酸选择性地转移到DNA上的一种化学修饰。DNA 甲基化主要形成 5-甲基胞嘧啶和少量的N6-甲基嘌呤及 7-甲基鸟嘌呤。</p>
+</li>
+</ul>
+<p>在哺乳动物中，胞嘧啶甲基化大多存在于CG 序列上；而植物中除了CG 甲基化外, 还有CHG 和CHH 的甲基化(H = A, C 或T)。拟南芥(Arabidopsis thaliana)中CG、CHG 和CHH 的甲基化程度分别为24%、6.7%和1.7% （Cokus SJ等2008）。</p>
+<p><span style='color:red'>植物DNA甲基化</span></p>
+<ul>
+<li><strong>一、植物DNA甲基化的方式</strong></li>
+</ul>
+<p><u><em>从头甲基化 de novo methylation</em></u></p>
+<blockquote>
+<ul>
+<li>两条链均未甲基化，由不同的DNA甲基转移酶催化完成，不依赖复制。</li>
+</ul>
+</blockquote>
+<p><em><u>维持甲基化 maintenance methylation</u></em></p>
+<blockquote>
+<ul>
+<li>双链DNA中一条链已存在甲基化，另一条未甲基化链被甲基化，以半保留复制方式传递给子代。</li>
+</ul>
+</blockquote>
+<p>在对拟南芥有性生殖过程中的DNA甲基化动态变化进行研究时发现，在雌配子发生过程中，维持甲基化方式几乎不发生，而受精后在胚胎中从头甲基化与维持甲基化明显发生，并且维持一定甲基化水平直到成株（ Jullien 等2012）。</p>
+<ul>
+<li><strong>二、植物DNA甲基化过程中的几类关键酶</strong></li>
+</ul>
+<blockquote>
+<ul>
+<li>植物DNA甲基化的发生和维持主要依赖于4种在结构和功能上不同的胞嘧啶甲基转移酶。</li>
+</ul>
+</blockquote>
+<p><em><u>1、维持DNA甲基转移酶(methyltransferase 1, MET1)家族</u></em></p>
+<ul>
+<li>是DNMT1甲基化酶的同系物，维持对称序列CG位点的甲基化的主要酶。某些位点的MET1也具有从头甲基化活性，可以使得丢失甲基化位点被重新甲基化，且发生重新甲基化的CG位点是随机的，这可能有助于稳定植物体内甲基化水平，并且提高甲基化模式的多样性。</li>
+</ul>
+<p><u><em>2、染色质甲基化酶(chromo-methylase, CMT)家族</em></u></p>
+<ul>
+<li>植物所特有，负责维持CHG位点的甲基化，对维持基因组异染色质状态起一定作用。</li>
+</ul>
+<p><u><em>3、结构域重排甲基转移酶(domains rearranged methyltransferase, DRM)家族</em></u></p>
+<ul>
+<li>从头甲基化，DRM2和CMT3以及一些siRNA共同作用与非对称位点CHH处的甲基。</li>
+</ul>
+<p><u><em>4、其他保守甲基转移酶</em></u></p>
+<ul>
+<li><p>如玉米(Zea mays) 中的DMT104、拟南芥中的DMT11, 它们可能是DNMT2 (DNA meth-yltransferase 2) 家族的同系物, 虽然它们在不少植物中是保守的, 但其功能目前还不清楚(Goodrich和Tweedie 2002)。</p>
+</li>
+<li><p><strong>三、植物DNA甲基化发生机制</strong></p>
+</li>
+</ul>
+<p><u><em>由RNA介导的DNA甲基化(RNA-dependent DNA methylation, RdDM )</em></u></p>
+<p> RdDM 现象首次在受到类病毒感染的植物中发现，被认为是植物基因转录沉默的主要机制，参与多种表观遗传现象，如基因沉默、转座子抑制、基因组印记和副突变。</p>
+<p>RdDM过程中，所产生的 dsRNA (double-standed RNA) 和 siRNA (small inter-fering RNA) 给DNA甲基转移酶提供一种甲基化的信号， DNA甲基转移酶在接收到信号后作用于DNA靶位点上，建立起一种甲基化印记，然后通过DNA复制过程将这种甲基化状态传递下去。</p>
+<p>在RdDM中，除了典型的 RNAi 元件（即 Dicer 和 Argonaute 家族的成员）和 DRM2 之外，还需要两种植物特异 RNA 聚合酶，Pol IV 和 Pol V，两种酶被推断为染色质重塑因子。</p>
+<p>RdDM的发生机制主要包括两个步骤：24-nt siRNAs的生物合成及siRNAs信号定位到靶DNA区域, 启动从头甲基化的发生。</p>
+<p>Pol IV 被 SHH1(Sawadee homeodomain homolog 1)招募在目标转录区编码单链 RNA (single-stranded RNA)，RDR2(RNA-DEPENDENT RNA POLUMERASE )与 Pol IV 结合在一起，将单链 RNA 转化为双链RNA (double-stranded RNA)，然后DCL3 (DICER-LIKE 3)进行剪切双链RNA，初步形成 24nt 的 siRNA，HEN1 (HUA-ENHANCER 1)将 siRNA 的 3′末端甲基化，然后与 AGO4 (ARGONAUTE 4)结合形成小 RNA 介导的沉默复合体(RNA-induced silencing complex, RISC)。后由SUVH2/9招募DRM2，对靶位点进行从头甲基化。</p>
+<ul>
+<li><strong>四、植物DNA甲基化的生物学功能</strong></li>
+</ul>
+<p><u><em>1、维持基因组稳定性</em></u></p>
+<p>植物通过DNA甲基化方式阻止转座子在基因组内或基因组间跳跃，减少转座子移动可能带来的危害。</p>
+<p>如：邓兴旺研究组以玉米为研究对象，系统分析了DNA甲基化对转座子的影响，发现转座元件区域被高度甲基化，缺少转录活性；烟草花叶病毒侵染烟草后, 导致烟草及其后代基因组DNA甲基化水平整体升高, 但编码抗病基因LRR (leucine rich repeats)结构域的区段甲基化水平降低, 同时抗病基因的重组率升高。</p>
+<p>   植物DNA甲基化可以抑制转座子和外源DNA的转录, 降低因非等位基因间的转座和重组导致的基因座破坏, 抵御外来基因的干扰, 从而维持基因组稳定性。</p>
+<p><u><em>2、调节基因表达</em></u></p>
+<p>​    当基因处于表达状态时甲基化水平往往很低，随着生长发育的进行需要将该基因关闭，就会在该基因的启动子或编码区发生甲基化，使基因转录受到抑制，基因失活，终止其表达；而一些处于关闭状态的基因应生长发育的需求要进行活化，开启表达，这时该基因的启动子区或编码区发生去甲基化，转录表达。</p>
+<p>如：北大-耶鲁联合研究中心利用高覆盖率的tiling-path芯片技术深入分析了水稻第IV、X号染色体的DNA甲基化，发现DNA甲基化通过引起染色质结构、DNA构象、DNA稳定性及DNA与蛋白质相互作用方式的改变, 从而抑制转录, 进而调控基因表达。</p>
+<p><u><em>3、植物基因组印迹</em></u></p>
+<p>物基因组印迹是某些开花植物在子代中部分基因单亲表达的一种表观遗传修饰现象, 具有组织和发育时间特异性。</p>
+<p>​    印迹基因的表达是通过DNA甲基化和组蛋白甲基化修饰、ncRNA (noncoding RNA)及 RNAi 的调控来实现的, 其中DNA甲基化是印迹过程的基础, 许多印迹调控区域(imprinting control regions, ICRs)都包含差异甲基化区域。</p>
+<p><u><em>4、生物和非生物胁迫</em></u></p>
+<p><u><em>5、杂种优势</em></u></p>
+<ul>
+<li><strong>五、DNA甲基化的检测</strong></li>
+</ul>
+<blockquote>
+<p>1、待检测样品的前期处理</p>
+<blockquote>
+<p>1.1 限制性内切酶消化法  </p>
+<ul>
+<li>甲基化敏感的内切酶HpaII/MspI能够切断非甲基化的识别为点。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.2 亲和层析和免疫沉淀法  </p>
+<ul>
+<li>利用甲基结合域蛋白结合甲基化的CpG位点, 或者通过单克隆抗体特异性识别m5C来分离、 富集得到甲基化DNA。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>1.3 亚硫酸氢盐转化法</p>
+<ul>
+<li>用亚硫酸氢盐处理DNA样品, 未甲基化的胞嘧啶(C)处理后转化为尿嘧啶(U), 而甲基化的胞嘧啶保持不变，PCR扩增使尿嘧啶(U)转化为胸腺嘧啶(T)，测序。</li>
+</ul>
+</blockquote>
+<p>2、目标序列的定位、甲基化状态的检测</p>
+<blockquote>
+<p>2.1 凝胶分析</p>
+<ul>
+<li>二维凝胶电泳技术或聚丙烯酰胺凝胶电泳技术</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.2 基因芯片技术分析</p>
+<ul>
+<li>DNA样品预处理，与芯片杂交，分析杂交结果</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>2.3 高通量测序技术</p>
+<ul>
+<li>测序的序列信息对比</li>
+</ul>
+</blockquote>
+</blockquote>
+<p>参考文献：</p>
+<p>Bouyer D, Kramdi A, Kassam M, et al. DNA methylation dynamics during early plant life. Genome Biol. 2017;18(1):179. </p>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>epigenetic</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2. 原核蛋白纯化</title>
+    <url>/2022/01/14/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
+    <content><![CDATA[<blockquote>
+<p>原核蛋白提取纯化</p>
+</blockquote>
+<h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
+<li><p>细菌裂解：1x PBS；1mM PMSF</p>
+</li>
+<li><p>Beads Washing Buffer：1x PBS<span id="more"></span></p>
+</li>
+<li><p>GST wash Binding Buffer：1x PBS</p>
+</li>
+<li><p>His wash Binding Buffer (pH 7.4 )</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>200 mL</th>
+<th>500 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td>1.56 g</td>
+<td>3.1 g</td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td>3.5 g</td>
+<td>8.76 g</td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>5 mM</td>
+<td>0.068 g</td>
+<td>0.17 g</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<ul>
+<li><p>His Elution Buffer</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Final</th>
+<th>10 mL</th>
+<th>20 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>NaH<sub>2</sub>PO<sub>4</sub></td>
+<td>50 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NaCl</td>
+<td>300 mM</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>咪唑 Imidazole</td>
+<td>250 mM</td>
+<td>0.17 g</td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p>GST Elution Buffer：</p>
+<p>500μL 1M Tris(8.0)；0.03g GSH；H2O up to 10mL</p>
+<p><strong>Tips:</strong></p>
+<ul>
+<li><p>Ni<sup>2+</sup> 亲和柱 在pH7-8（中/弱碱性）条件下结合较好，但pH在蛋白等电点附近会不溶。</p>
+</li>
+<li><p>NaCl 用于保持蛋白可溶性/模拟生理条件，常用 150mM; 高盐可降低非特异结合。</p>
+</li>
+<li><p>惰性蛋白BSA等可增加蛋白稳定性，甘油/PEG可增加缓冲液粘度防止蛋白聚集，少量表面活性剂和离子化合物（硫酸盐/氨基酸/柠檬酸等）可屏蔽蛋白离子相互作用助溶。</p>
+</li>
+<li><p>蛋白质含有半胱氨酸可能会聚集，5-10mM还原剂（DTT/TCEP/β-ME）可防止。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h4><ol>
+<li>200mL LB培养目的蛋白菌株（BL21等）至OD<sub>600</sub>=0.6；</li>
+<li>加入5-300 μM IPTG，16℃诱导蛋白 &gt;12h；</li>
+<li>离心收集菌体，重悬于 20mL 细菌裂解液，超声破碎至澄清，4℃离心</li>
+<li>平衡蛋白柱后（1mL Beads），将上清加入柱中4℃孵育 2h；</li>
+<li>滤下裂解液后，用对应 Wash Binding Buffer 洗涤 3-5 次，5min each；</li>
+<li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>实验操作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>7. 泛素化修饰在调节植物 PSR 中的作用</title>
+    <url>/2022/06/28/7.Regulation%20of%20Ubiquitination%20Is%20Central%20to%20the%20Phosphate%20Starvation%20Response/</url>
+    <content><![CDATA[<h1 id="Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review"><a href="#Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review" class="headerlink" title="Regulation of Ubiquitination Is Central to the Phosphate Starvation Response Review"></a>Regulation of Ubiquitination Is Central to the Phosphate Starvation Response <sup><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub"><strong>Review</strong></a></sup></h1><blockquote>
+<p>泛素化在植物 PSR，Pi acquisition, and utilization efficiency 中具有重要的调节作用。<br>ER 相关的自噬受到磷酸盐饥饿刺激，从而调节根尖的局部磷感知。<br>不同磷酸盐供给条件下，磷酸盐转运体的内部分选和降解取决于泛素化。<br>泛素化和 SUMO化反应能够调节 PSR 途径中的转录因子和其他功能元件。</p>
+</blockquote>
+<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><ul>
+<li>PSR<ul>
+<li>Plants modulate their root system architecture by developing shorter primary roots and increasing <a href="%E4%BE%A7%E6%A0%B9">lateral root</a> length and <a href="%E5%AF%86%E5%BA%A6">density</a> to increase the root surface area.</li>
+<li>Plants improve Pi uptake and translocation by regulating the expression and activity of Pi transporters, such as PHOSPHATE TRANSPORTER 1s (<strong>PHT1s</strong>) and PHOSPHATE 1 (<strong>PHO1</strong>).</li>
+<li>Plants secrete organic acids and enzymes, such as phosphatases, to activate Pi in the soil and increase their association with <a href="%E8%8F%8C%E6%A0%B9">mycorrhiza</a> to enhance Pi uptake.</li>
+<li>PSR <a href="%E8%B0%83%E8%8A%82">modulates</a> plant metabolism pathways, such as <a href="%E8%8A%B1%E9%9D%92%E7%B4%A0">anthocyanin</a> accumulation and Pi remobilization from <a href="%E8%A1%B0%E8%80%81">senescing</a> organs, via enzymes such as phosphatases.</li>
+</ul>
+</li>
+<li>PTMs, including <strong>ubiquitination</strong> and <strong>SUMOylation</strong>, show a different and more precise mechanism.<ul>
+<li>Attachment of the small molecule ubiquitin (Ub) could regulate the activity, <a href="%E5%AF%BF%E5%91%BD">longevity</a>, and/or localization of intracellular molecules.</li>
+<li>Ub is often <a href="%E5%85%B1%E8%BD%AD%EF%BC%8C%E7%BB%93%E5%90%88">conjugated</a> to the <code>lysine residue</code> of target <a href="%E5%BA%95%E7%89%A9">substrates</a> or <code>another Ub</code> to form polyubiquitin chains via the <strong>E1-E2-E3</strong> <a href="%E7%BA%A7%E8%81%94">cascade</a>.</li>
+<li>Ubiquitin Code: different Ub linkage sites and types determine the distinct fates of target proteins.</li>
+<li>Ub can be reversibly erased by deubiquitinating enzymes (<strong>DUBs</strong>), which specifically function in different processes.<span id="more"></span></li>
+</ul>
+</li>
+</ul>
+<h2 id="Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation"><a href="#Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation" class="headerlink" title="Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation."></a>Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation.</h2><blockquote>
+<p>根系统调节植物从土壤中的 Pi 吸收，该过程决定了植物整体的 Pi 水平。<br>根系统通过[构象重塑](architecture remodeling)来响应缺磷，通过此途径获得土壤表层中更多的磷，并且增加根表面积来提高磷酸盐获取效率。</p>
+</blockquote>
+<h3 id="The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways"><a href="#The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways" class="headerlink" title="The Crosstalk between Ubiquitination and Plant Hormone Signal Pathways."></a>The Crosstalk between Ubiquitination and <strong>Plant Hormone Signal Pathways</strong>.</h3><ul>
+<li>AUXIN signaling<ul>
+<li>Expression of the auxin receptor <em>TRANSPPORT INHIBITOR RESPONSE 1</em> (<em><strong>TIR1</strong></em>) is specifically induced under Pi starvation, and encodes an F-box protein that forms part of the <strong>SCF complex-type E3 ligase</strong>, to increase auxin sensitivity and <u>accelerate the degradation of AUX/IAA repressors</u>, such as AUXIN RESISTANT 3 (<strong>AXR3</strong>), thus <a href="%E8%A7%A3%E6%94%BE">liberating</a> auxin response factor (<strong>ARF</strong>) transcription factors (e.g., <strong>ARF19</strong>) to activate downstream components and regulate lateral root growth.</li>
+<li>Pi starvation leads to the redistribution of local auxin concentration mediated by the auxin transporter PIN-FORMED 2 (<strong>PIN2</strong>) in the PM, which is regulated by <strong><u>Lys63-linked</u></strong> ubiquitination-mediated <a href="%E5%86%85%E4%BD%93%EF%BC%8C%E8%83%9E%E5%90%9E%E4%BD%9C%E7%94%A8%E5%BD%A2%E6%88%90%E7%9A%84%E8%86%9C%E5%8C%85%E8%A2%AB%E5%9B%8A%E6%B3%A1%E7%BB%93%E6%9E%84">endosome</a> trafficking.</li>
+<li>Mutants of <em>pin2</em> and [*tir3*](a PIN-trafficking-associated protein) are less sensitive to Pi starvation, indicating that the Lys63-linked ubiquitination of PIN2 is specific and <a href="important">vital</a> in root system architecture remodeling under Pi starvation.</li>
+</ul>
+</li>
+<li><a href="%E7%8B%AC%E8%A7%92%E9%87%91%E5%86%85%E9%85%AF">Strigolactone</a> (SL) and <a href="%E6%B2%B9%E8%8F%9C%E7%B4%A0%E5%86%85%E9%85%AF">Brassinosteroid</a> (BR)<ul>
+<li>TIR1 和一些 PSIs 基因的诱导，以及在缺磷下 PIN2 运输和<a href="polarization">极化</a>的减少，依赖于 SL 信号通路。</li>
+<li>一个 F-box 蛋白 MORE AXILLARY BRANCHES 2 (<strong>MAX2</strong>) 能够泛素化 SL 通路的抑制蛋白 D53，在缺磷下 MAX2 的缺失会导致主根长度变短、侧根数目减少。</li>
+<li>MAX2 也能够泛素化 BR 信号通路中的一个转录因子 BRI1-EMS-SUPPRESSOR 1 (<strong>BES1</strong>)。<u>The dominant muntant <em>bes1-D</em> is to XXX resistant to low Pi availibility and maintains nomral root morphology under Pi starvation.</u></li>
+<li>缺磷条件下，会诱导细胞质中 BES1 的积累和 BR 介导的根生长抑制，暗示在缺磷下 BES1 的降解和可能的泛素化受到<a href="hindered">抑制</a>，但是其中是否有 MAX2 的参与仍需要证据。</li>
+<li>BES1 的积累可能由于 BES1 的 <a href="autophagy">自噬</a>减少。泛素化的 BES1 会结合泛素受体 DOMINANT SUPPRESSOR OF KAR 2 (<strong>DSK2</strong>) ，DSK2-BES1 complex 通过募集 <strong>ATG8</strong> （which is a ubiquitin-like protein required for the formation of autophagosomal membranes）定位与自噬体降解。</li>
+<li>番茄中的研究发现，BR处理能够通过 BES1 诱导的 ATGs 基因表达激活自噬，能够提高番茄的缺氮耐受。这种 BES1 和 自噬之间的反馈调节揭示了一种植物激素相关的机制，可在缺氮条件下增加营养的循环利用以及减少泛素化的错误折叠蛋白或不可溶蛋白的积累。</li>
+<li>许多研究中报道了<u>缺氮和缺磷响应之间的 crosstalk</u>，并且许多形态学和对这些环境的分子适应性是相似的。这些结果表明，缺磷条件下BES1 的自噬降解在平衡植物生长生存上发挥作用。</li>
+<li>或许，植物缺磷时的根尖部位的自噬激活，可能是 <strong>ER stress</strong> 应答，而非为了 Pi 循环。缺磷刺激的自噬体组建需要 <strong>LPR1</strong> 和 <strong>PDR2</strong>，其可激活 ER stress 和 ATGs 基因的表达，进而造成缺磷条件下[根尖分生组织](root apical meristem)的早期分化和主根生长的抑制。PDR2 的缺失增加了主根对缺磷的敏感性，依赖于 LPR1/2。已知 SCARECROW (<strong>SCR</strong>, 在 Pi-deprived roots 中对[根模式形成](root patterning)和[干细胞维持](stem cell maintenance)是必须的)的表达量在 <em>pdr2</em> 突变体中显著下降，<u>PDR2, LPR1, LPR2被认为在 PSR 下调节 local Pi sensing</u>。</li>
+<li>The unfolded protien response (<strong>UPR</strong>) 在 PSR 中被激活（given that the expression of several UPR genes is induced under Pi starvation, and is highter in <em>pdr2</em> mutant than in wild-type plants）。Pi starvation-stimulated 自噬体组装在 pdr2 突变体中增加，but decreased by disruption of INCREASED ORGAN REGENERATION 1a and b (<strong>IRE1a/b</strong>, two sensors of ER stress)。ER stress <a href="triggers">触发</a>了自噬体组装，且在ER stress过程中，部分 ER 通过自噬移动到了液泡中，被称之为 “<strong>ER-phagy</strong>”。</li>
+<li>其他泛素系统的成员（如 DUBs），也参与了 Pi诱导的[根形态建成](root architecture remodeling)。UBIQUITIN-SPECIFIC PROTEASE 14 (<strong>UBP14</strong>) 弱等位基因突变体 <em>per1</em> 在 Pi 缺乏时表现出营养特异性抑制根毛伸长的表型。OTU5 也被发现调节 PSR 诱导的根重建， otu5 表现出组成型 Pi 缺陷表型，由于染色质重塑和 ROS 状态的变化。</li>
+</ul>
+</li>
+</ul>
+<h3 id="Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake"><a href="#Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake" class="headerlink" title="Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake"></a>Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake</h3><ul>
+<li>The PHT1 family of high-affinity Pi transporters, which are resopnsible for Pi uptake in the root system, are regulated by several PTMs to <a href="%E7%B2%BE%E7%A1%AE%E7%9A%84">precisely</a> modulate protein levels. There are 9 members in Arabidopsis (PHT1;1-PHT1;9), all of which are expressed in roots. Under Pi-limiting conditions, plants relocate more active PHT1s in the PM to increase Pi uptake. While, in Pi-sufficient conditions, the levels of PHT1s in the PM are reduced through degradation.</li>
+<li>PHF1 影响PHT1s的质膜定位。The plant-specific SEC12-like protein PHOSPHATE TRANSPORTER TRAFFIC FACILATOR 1 (<strong>PHF1</strong>), which is required for the formation or budding of transport vesicles from the ER, specifically regulates the subcellular localization of PHT1;1. <u>Mutation of PHF1 resulted in ER retention and reduced the PM accumulation of PHT1;1</u>. </li>
+<li>PHT1 的磷酸水平会影响其质膜定位和降解。The posphorylation status of PHT1s is closed related to its subcelluar localization and protein level. In rice, the protein kinase CASEIN KINASE II (<strong>OsCK2</strong>) mediates the phosphorylation of OsPT8, and inhibits the interaction between OsPHF1 and OsPT8 to retain OsPT8 in ER under normal conditions. Although OsCK2β3 functions by forming holoenzymes OsCK2 with OsCK2α3, <u>only the degradation of OsCK2β3 by the 26S proteasome is promoted under Pi starvation</u>, which leads to reduced OsPT8 phosphorylation status and eventually ER export to the PM.</li>
+<li>内吞作用调节PM PHT1s 进而调节植物磷吸收。Plants use another trafficking-associated degradation mechanism to reduce the function of PHT1s under normal growth conditions. PHT1s are located in the endosomes for <a href="%E5%86%85%E5%90%9E%E4%BD%9C%E7%94%A8">endocytosis</a>, as demonstrated by the colocalization of PHT1 with several endosome markers. <u>The <strong>endosomal sorting complexes required for transport (ESCRTs)</strong> are responsible for recognizing ubiquitinated PM cargo proteins for endocytosis and mediating their sorting into <a href="%E8%85%94%E5%86%85%E5%9B%8A%E6%B3%A1">intraluminal vesicles</a>.</u> The localization and degradation rate of PHT1s are changed by disrupting the Bro1/ALIX-related protein <strong>ALIX</strong> (ALG2-interacting protein X), which is part of the arabidopsis ESCRT-III complex, demonstrating that <u>the ESCRT mechinery is required for PHT1s endosome trafficking</u>. The <em>alix-1</em> mutant has a high Pi content, further conforming the importance of ESCRT in Pi uptake.</li>
+<li>不同条件下，PHT1 的内体运输表现出两种不同的功能。The endosome localization of PHT1s is independent of Pi supplementation, while Pi starvation stablizes PHT1s at the PM. 在缺磷条件下，**<a href="internalized">内化</a>的 PHT1s 通过[网格蛋白包被的囊泡](clathrin-coated vesicles)复合体进行[后续的回收](subsequent recycling)** [which probably requires the clathrin adaptor, adaptor protein 2 (AP2)]。在磷充足的时候，PHT1s 则通过 ESCRT 机制靶向[溶解液泡](lytic vacuoles)进行降解。The ESCRT machinery selectively binds to monoubiquitinated or <strong>Lys63-linked ubiquitinated proteins</strong>. 并根据此利用蛋白质组发现了 PHT1;1 Lys63链接多泛素链。<em>这种依赖 ESCRT 的调节机制也在一些其他营养转运体途径发现，可能是一种保守的调节机制。</em><br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr1.jpg" alt="img"><br>【Figure】Under inorganic phosphate-sufficient conditions, plants need to reduce the protein levels of the Pi transporter PHT1 on the PM to <a href="%E9%98%BB%E7%A2%8D">hinder</a> Pi uptake. <strong>The protein kinase CK2 phosphorylates PHT1 and inhibits the ER export of PHT1.</strong> The ER and endosome-localized E2 ubiquitin-conjugating enzyme PHOSPHATE 2 (<strong>PHO2</strong>) interacts with several PHT1s. 泛素化的 PHT1 的内吞作用和内体分选成多泡体/晚期内体（MVBs/LEs）最后在溶解液泡中降解，需要 the endosome sorting complexes (required for ESCRT complexes)。<strong>质膜上的 PHT1;4 的泛素化需要 PHO2 和 质膜定位的 E3 ligase NITROGEN LIMITATION ADAPTATION (NLA) 的参与，最终通过 26S 蛋白酶体途径降解。在缺磷条件下，CK2 泛素化降解，导致 PHT1 的磷酸化水平降低，最终在 PHF1 的协助下从 ER 输出，并最终增加质膜上的 PHT1 蛋白水平</strong>。</li>
+</ul>
+<h3 id="NLA-regulates-the-ubiquitination-of-PHT1s"><a href="#NLA-regulates-the-ubiquitination-of-PHT1s" class="headerlink" title="NLA regulates the ubiquitination of PHT1s"></a>NLA regulates the ubiquitination of PHT1s</h3><ul>
+<li>NLA 最早发现可以调节低氮适应性，<em>nla</em> 突变表型可以被 <em>PHF1</em> 和 <em>PHT1;1</em> 突变抑制。高磷条件下，NLA 的转录水平上调（其也是 低磷诱导的miR827 的靶基因）。在低氮和高磷条件下，<em>nla</em> 突变体 shoots 的磷含量要高于野生型，表明其也参与磷吸收。之后的研究发现 NLA 能够结合并泛素化一些 PHT1s，包括 PHT1;1和PHT1;4，NLA 在质膜上与 PHT1s 相互作用，并且促进其内体定位。泛素化的 PHT1s 通过内吞作用从质膜经[多泡体途径](the multivesicular body sorting pathway)运输至液泡降解。</li>
+<li>NLA 主要定位于 PM，PHO2 主要定位于内膜系统，但是 PHT1;4 会在 <em>nla</em> 中积累，而不会再 <em>pho2</em> 中积累，且在双突中磷含量以及 PHT1;1/2/3 的蛋白水平均高于单突。作者认为 PHO2 和 NLA <a href="independently">独立</a>但<a href="cooperatively">协同</a>调控 PHT1。但是之后的研究发现 NLA 能够和 PHO2 特异泛素化 PHT1;4，但是不能泛素化 PHT1;1，最终导致 PHT1;4 通过26S 蛋白酶体降解。体内和体外实验证明 NLA 能够和 UBC8 相互作用，但是 PHO2 而不是 UBC8 参与 NLA自泛素化和 PHT1;4 的泛素化。pho2 突变体或者 MG132 能够抑制 PHT1;4 的降解，但是 E64d 不行，表明 PHO2 能够通过 26S 蛋白酶体途径控制 PHT1;4 的降解，而非是 NLA 的溶解液泡途径。</li>
+<li>PHT1;1 和 PHT1;4 的溶解液泡降解途径能够被 PHO2 和 NLA 以独立于 26S 蛋白酶体的途径促进，但是 26S 蛋白酶体途径降解 PHT1;4 却必须要 NLA 和 PHO2 存在。<u>PHT1;4 能够和 NLA 相互作用而其他 PHT 不能，暗示这些 PHT1s 降解可能依赖于不同的 E2 和 E3</u>。PHO2 和 NLA 的不同[时空表达模式](temporal and spatial expression patterns)也暗示 PHT1s 调节机制的复杂性。<strong>在发育早期（6-day-old seedings），<em>pho2</em> 突变体中 PHT1s 的泛素化水平显著降低。</strong>然而，<u>在之后的时期（12-day-old seedings）发现，只有在 EM 处的 PHT1s 能够受到 PHO2 的影响</u>，PM 定位的 PHT1s 并没有受到影响。并且在 <em>pho2</em> 突变体中 PHT1s 的总泛素化水平与在野生型中相似。<strong>在 <em>nla</em> 突变体中，过度的 Pi 只在 14d 以后的苗中积累，暗示 PHO2 和 NLA 的功能会随时间变化。</strong><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bbb0335">Park</a> 等对于 10d 苗的研究发现， PHT1;4 通过 26S 蛋白酶体途径降解（在该时间段 NLA 不影响 Pi 吸收）。Lin 等人对 19d 的幼苗研究发现（该生长阶段 PHO2 和 NLA 同时参与磷吸收）， PHO2 和 NLA 在 PHT1s 的内吞作用和内体分选上起到[协同作用](synergistic relationship)，因为 PM 定位的 PHT1s 受 NLA 调节，而 EM 定位的 PHT1s 受到 PHO2 调节。</li>
+<li>在水稻 nla 突变体中会出现 Pi 积累。OsNLA1 能和 OsPT2/8 相互作用，泛素化并使其降解。而 NLA 和 PHO2 的相互作用尚未阐明（二者的点突变蛋白不会互作）。<strong>在缺磷条件下， OsPHO2 能够和 OsGI (GIGANTEA) 相互作用</strong>，且这两个基因表现出类似的抑制生长、延迟花期和 Pi 积累的表型。有研究表明 NLA 能够和 PHO2 共同发挥功能泛素化 ORE1 (ORESARA 1) 使其通过 26s 蛋白酶体途径降解，进而调节缺氮条件下的叶片衰老。只是文章未能解释 EM 定位的 PHO2 如何能够调节核定位的转录因子 ORE1 (其和 NLA 在核中互作)。</li>
+</ul>
+<h3 id="Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation"><a href="#Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation" class="headerlink" title="Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation."></a>Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation.</h3><ul>
+<li>先前的数据已经展示了泛素化调节 PHTs 的稳定性和亚细胞定位进而影响磷吸收，同样，<strong>PHO1</strong> 转运体也受到泛素调节，从而影响 Pi 从根部到地上部的转运，以及再磷饥饿环境下 Pi 从老叶向新叶的转运。</li>
+<li>The PHO1 fanmily has 11 members in arabidopsis, of which PHO1 is the dominant component; PHO1 is  localized in the vascular system, with a critical role in loading Pi into the xylem of roots. <u><em>pho1</em> 突变体表现出强烈的地上部缺磷。</u>拟南芥的泛素蛋白亲和纯化富集了泛素化的 PHO1 蛋白，之后的研究发现其受到 PHO2 泛素化。PHO1 作为一个跨膜磷转运体蛋白，其定位在 ER, Golgi，也被发现和内体 marker 共定位，且 <strong>PHO1 和 PHO2 在细胞中点状区室相互作用，暗示 PHO1 通过内体运输通路被液泡降解，并且可能需要 ESCRT 复合体</strong>。不过至今 PHO1 的 E3 尚未可知。<strong>一些研究者认为 PHO2 是一个 E2-E3 双功能酶</strong>。 人体中的 PHO2 同源蛋白 Apollon/BIRC6 可以在不存在其他 E2 或 E3 的时候泛素化 SMAC 蛋白，而其他 E2/E3 存在的时候能够强化其泛素活性。</li>
+<li>Tight control of PHO1 transporters by transcription factors is regulated by ubiquitination. 在正常生长条件下，<strong>WRKY 家族转录因子 WRKY6/42 结合在 PHO1 启动子上的 W-box 阻止其表达</strong>；当低磷的时候，WRKY6/42 通过 26S 蛋白酶体途径降解以确保 PHO1 的表达。最近的研究发现一个 F-box 蛋白 PRU1 能够结合并泛素化 WRKY6，PRU1 受到缺磷诱导，且其特异地结合 WRKY6 的 C 末端促进其降解。尽管 WRKY6 和 WRKY42 表现出功能冗余，但是 PRU1 与 WRKY42 并不相互作用。WRKY42 与 6 不同的是，其能够促进 PHT1;1 的表达，在磷吸收平衡和转运中存在一些相反的功能。</li>
+<li>Regulation of transcription factors are also related to ubiquitionation. AtPHR1 和 OsPHR2 是磷稳态的核心转录因子，其可以结合 PSI 基因（如 PHO1;H1）的 P1BS motif。PHRs 的转录活性受到 SPXs 蛋白的负调控：<u><strong>在磷充足条件下，SPXs 蛋白通过其 SPX domain 与 OsPHR2 结合从而阻止其结合 P1BS</strong></u>。在缺磷条件下，RING-type E3 连接酶 OsSDEL1/2 能够和 OsPHR2 竞争结合 SPX4 并使其降解以释放 OsPHR2。<strong>尽管 OsSDEL1/2 的转录水平不受磷浓度影响，但是其蛋白水平在缺磷下显著诱导</strong>。此外，硝酸盐感知能够加强 OsNRT1.1B（Nitrate transporter 1.1B）和 OsSPX4 的相互作用，并且征召 NRT1.1B 互作蛋白 NBIP1（一个 RING-type E3）来加速 OsSPX4 的降解以释放 PHR2。核定位的 OsSPX2 也能够被缺磷诱导的 RING-type E3 蛋白 <strong>OsPIE1</strong> 降解。PM 定位的 RING-type E3 AtATL80，受到缺磷诱导并参与磷<a href="translocation">转位</a>。在高磷情况下， atatl80 突变体地上部的 Pi 要低于野生型，PUE 会更高。这些结果暗示 <strong>AtATL80</strong> 在正常生理条件下调节 Pi 的转位。<br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr2.jpg" alt="Figure 2"><br>[Figure]</li>
+</ul>
+<h3 id="Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response"><a href="#Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response" class="headerlink" title="Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response."></a>Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response.</h3><ul>
+<li>泛素化蛋白质谱结果表明，许多 PSR 相关蛋白都存在泛素化修饰，如<u>线粒体内膜定位的 <strong>PHT3;1</strong></u>。<strong>PHT1;5</strong>（参与将老叶中贮存的 Pi 转运到其他组织的过程），在其 <strong>Lys634</strong> 位置发生泛素化。<strong>WRKY45</strong> （结合 PHT1;1启动子并在缺磷下促进其表达）在 <strong>Lys39</strong> 位发生泛素化修饰。然而这些蛋白在缺磷下发生泛素化的功能尚待解释。</li>
+<li>SUMO conjugation in plants controls several important biological progress. SUMO E3 连接酶 <strong>SIZ1</strong> 参与根构型重建以及缺磷下的花青素积累。<strong>研究表明 PHR1 是 SIZ1 的底物</strong>。<u>The SUMOylation of TFs often represses their transcription activity.</u> 许多 PHR1 的靶基因在 <em>siz1</em> 中的表达量都有所提高。但是 phr1 中并没有根构型的改变，所以在此过程可能有其它蛋白被 SIZ1  SUMO 化修饰。LPR2 也能够发生 SUMO 化修饰，其在根尖部位调节缺磷响应。拟南芥中两个碱性磷酸酶 PAP10/26 也能够被 SUMO 化修饰，其可以调节内部 Pi 循环以及从外部有机磷酸盐中释放 Pi 以供植物吸收。但是 SUMO 化是否受到磷饥饿调节或能够调节植物磷响应仍需要研究。</li>
+</ul>
+<p>附表：已报导的参与PSR基因的泛素化成员</p>
+<table>
+<thead>
+<tr>
+<th>Gene</th>
+<th>Locus</th>
+<th>Description</th>
+<th>Refs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>E2</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>PHO2</em></td>
+<td>AT2G33770</td>
+<td>Ubiquitinates PHO1 and PHT1s to reduce uptake and root-to-shoot translocation of Pi</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0320">64.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a></td>
+</tr>
+<tr>
+<td><strong>E3</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>AtATL80</em></td>
+<td>AT1G20823</td>
+<td>Regulates Pi translocation in Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0440">88]</a></td>
+</tr>
+<tr>
+<td><em>MAX2</em></td>
+<td>AT2G42620</td>
+<td>Positively regulates lateral root growth, phosphate starvation-induced genes and TIR1 expression; regulates D53 degradation and PIN2 localization</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27]</a></td>
+</tr>
+<tr>
+<td><em>MdSIZ1</em></td>
+<td>MD03G008530</td>
+<td>Regulates MdPHR1 in response to Pi deficiency; promotes anthocyanin accumulation by SUMOylating MdMYB1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0525">105.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0530">106.</a></td>
+</tr>
+<tr>
+<td><em>NLA</em></td>
+<td>AT1G02860</td>
+<td>Mutant accumulates higher Pi content; ubiquitinates PHT1;4 and PHT1;1</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0200">40]</a></td>
+</tr>
+<tr>
+<td><em>OsNBIP1</em></td>
+<td>LOC_Os01g55110</td>
+<td>Mediates ubiquitination and degradation of OsSPX4 at high levels of nitrate to activate downstream phosphate signaling</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0430">86]</a></td>
+</tr>
+<tr>
+<td><em>OsNLA</em></td>
+<td>LOC_Os03g44810</td>
+<td>Interacts with and ubiquitinates rice Pi transporters OsPT2 and OsPT8 to regulate phosphate homeostasis</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0345">69]</a></td>
+</tr>
+<tr>
+<td><em>OsPIE1</em></td>
+<td>LOC_Os01g72480</td>
+<td>Positively regulates expression of OsPT2, OsPT3, and OsPT10 by affecting protein level of OsSPX2 to increase Pi accumulation under Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0435">87]</a></td>
+</tr>
+<tr>
+<td><em>OsSDEL1</em>, <em>OsSDEL2</em></td>
+<td>LOC_Os12g35320, LOC_Os03g22680</td>
+<td>OsSDEL1/2 directly interact with and ubiquitinate SPX4, resulting in release of OsPHR2, thus positively regulating PSR</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
+</tr>
+<tr>
+<td><em>SIZ1</em></td>
+<td>AT5G60410</td>
+<td>SUMO E3 ligase; regulates root architecture remodeling and anthocyanin accumulation without Pi content change under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11]</a></td>
+</tr>
+<tr>
+<td><em>PRU1</em></td>
+<td>AT3G42770</td>
+<td>Positively regulates Pi translocation; specifically targets WRKY6 but not WRKY42 for degradation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80]</a></td>
+</tr>
+<tr>
+<td><em>TIR1</em></td>
+<td>AT3G62980</td>
+<td>Positively regulates lateral root growth and promotes AUX/IAA repressors degradation under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0125">25]</a></td>
+</tr>
+<tr>
+<td><strong>Substrate</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>BES1</em></td>
+<td>AT1G19350</td>
+<td>Negatively regulates Pi starvation-induced root inhibition; ubiquitinated by MAX2 and SINATs</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0165">33]</a></td>
+</tr>
+<tr>
+<td><em>LPR2</em></td>
+<td>AT1G71040</td>
+<td>Regulates autophagy-related local Pi sensing; necessary for main root growth inhibition under Pi starvation; identified as a SUMOylated protein</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0225">45.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0500">100.</a></td>
+</tr>
+<tr>
+<td><em>OsCK2b3</em></td>
+<td>LOC_Os07g31280</td>
+<td>Phosphorylates PHT1, promoted to degradation under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0290">58]</a></td>
+</tr>
+<tr>
+<td><em>OsSPX4</em></td>
+<td>LOC_Os03g61200</td>
+<td>Inhibits activity of OsPHR2; ubiquitinated by OsSDEL1/2; degradation is accelerated under Pi deficiency</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
+</tr>
+<tr>
+<td><em>OsGI</em></td>
+<td>LOC_Os01g08700</td>
+<td>Ubiquitinated by OsPHO2 and regulates Pi remobilization in leaves under Pi-sufficient conditions</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0350">70]</a></td>
+</tr>
+<tr>
+<td><em>PAP10, PAP26</em></td>
+<td>AT2G16430, AT5G34850</td>
+<td>Purple acid phosphatases; secreted in Pi starvation to release Pi from soil; identified as SUMOylated proteins</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0505">101.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0535">107.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0540">108.</a></td>
+</tr>
+<tr>
+<td><em>PHO1</em></td>
+<td>AT3G23430</td>
+<td>Pi transporter for Pi relocation; mutants accumulate high Pi content in all aboveground tissues; substrate of PHO2</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0365">73.</a></td>
+</tr>
+<tr>
+<td><em>PHR1</em></td>
+<td>AT4G28610</td>
+<td>Binds P1BS site in Pi starvation-induced gene promoters; regulates anthocyanin accumulation; substrate of SIZ1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0405">81.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;1</em></td>
+<td>AT1G20860</td>
+<td>Responsible for Pi uptake from soil; target of PHO2; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;4</em></td>
+<td>AT2G38940</td>
+<td>Responsible for Pi uptake from soil; target of PHO2 and NLA; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0285">57.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
+</tr>
+<tr>
+<td><em>PHT1;5</em></td>
+<td>AT2G32830</td>
+<td>Pi transporter for Pi uptake from soil; ubiquitinated at Lys634</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0475">95]</a></td>
+</tr>
+<tr>
+<td><em>PIN2</em></td>
+<td>AT5G57090</td>
+<td>Auxin transporter for auxin efflux; Lys63-linked ubiquitination-mediated PIN2 trafficking reduced under Pi starvation</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0150">30.</a></td>
+</tr>
+<tr>
+<td><em>WRKY6</em></td>
+<td>AT1G62300</td>
+<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation; substrate of PRU1</td>
+<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80.</a></td>
+</tr>
+<tr>
+<td><em>WRKY42</em></td>
+<td>AT4G04450</td>
+<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79]</a></td>
+</tr>
+<tr>
+<td><em>WRKY45</em></td>
+<td>AT3G01970</td>
+<td>Activates <em>PHT1</em> expression; identified as a ubiquitinated protein</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0485">97]</a></td>
+</tr>
+<tr>
+<td><strong>DUB</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><em>UBP14</em></td>
+<td>AT3G20630</td>
+<td>Required for root hair elongation</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0260">52]</a></td>
+</tr>
+<tr>
+<td><em>OTU5</em></td>
+<td>AT3G62940</td>
+<td>Regulates root hairs and primary root growth</td>
+<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0265">53]</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>磷信号</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>5. 组蛋白 H3 上主要的四种甲基化修饰</title>
     <url>/2022/04/29/H3%20histone%20methylation/</url>
     <content><![CDATA[<h1 id="组蛋白-H3-上主要的四种甲基化修饰"><a href="#组蛋白-H3-上主要的四种甲基化修饰" class="headerlink" title="组蛋白 H3 上主要的四种甲基化修饰"></a>组蛋白 H3 上主要的四种甲基化修饰</h1><h2 id="H3K4-Methylation"><a href="#H3K4-Methylation" class="headerlink" title="H3K4 Methylation"></a>H3K4 Methylation</h2><h4 id="Plant-H3K4-methylation-occurs-almost-exclusively-in-gene-coding-regions"><a href="#Plant-H3K4-methylation-occurs-almost-exclusively-in-gene-coding-regions" class="headerlink" title="Plant H3K4 methylation occurs almost exclusively in gene-coding regions."></a>Plant H3K4 methylation occurs almost exclusively in gene-coding regions.</h4><table>
@@ -305,531 +830,6 @@
       </tags>
   </entry>
   <entry>
-    <title>1. 植物DNA甲基化</title>
-    <url>/2022/01/14/DNA%E7%94%B2%E5%9F%BA%E5%8C%96%E4%BF%AE%E9%A5%B0/</url>
-    <content><![CDATA[<blockquote>
-<p>背景：</p>
-</blockquote>
-<ul>
-<li><p>一、表观遗传学</p>
-<p>主要涉及 DNA 甲基化对基因表达的抑制、组蛋白修饰对基因表达的调控、small RNA 对靶基因的干扰以及 ATP 依赖的染色质重塑等表观遗传调控过程。<span id="more"></span></p>
-</li>
-<li><p>二、DNA甲基化</p>
-<p>甲基化酶介导的将一个或多个甲基基团从 S-腺苷甲硫氨酸选择性地转移到DNA上的一种化学修饰。DNA 甲基化主要形成 5-甲基胞嘧啶和少量的N6-甲基嘌呤及 7-甲基鸟嘌呤。</p>
-</li>
-</ul>
-<p>在哺乳动物中，胞嘧啶甲基化大多存在于CG 序列上；而植物中除了CG 甲基化外, 还有CHG 和CHH 的甲基化(H = A, C 或T)。拟南芥(Arabidopsis thaliana)中CG、CHG 和CHH 的甲基化程度分别为24%、6.7%和1.7% （Cokus SJ等2008）。</p>
-<p><span style='color:red'>植物DNA甲基化</span></p>
-<ul>
-<li><strong>一、植物DNA甲基化的方式</strong></li>
-</ul>
-<p><u><em>从头甲基化 de novo methylation</em></u></p>
-<blockquote>
-<ul>
-<li>两条链均未甲基化，由不同的DNA甲基转移酶催化完成，不依赖复制。</li>
-</ul>
-</blockquote>
-<p><em><u>维持甲基化 maintenance methylation</u></em></p>
-<blockquote>
-<ul>
-<li>双链DNA中一条链已存在甲基化，另一条未甲基化链被甲基化，以半保留复制方式传递给子代。</li>
-</ul>
-</blockquote>
-<p>在对拟南芥有性生殖过程中的DNA甲基化动态变化进行研究时发现，在雌配子发生过程中，维持甲基化方式几乎不发生，而受精后在胚胎中从头甲基化与维持甲基化明显发生，并且维持一定甲基化水平直到成株（ Jullien 等2012）。</p>
-<ul>
-<li><strong>二、植物DNA甲基化过程中的几类关键酶</strong></li>
-</ul>
-<blockquote>
-<ul>
-<li>植物DNA甲基化的发生和维持主要依赖于4种在结构和功能上不同的胞嘧啶甲基转移酶。</li>
-</ul>
-</blockquote>
-<p><em><u>1、维持DNA甲基转移酶(methyltransferase 1, MET1)家族</u></em></p>
-<ul>
-<li>是DNMT1甲基化酶的同系物，维持对称序列CG位点的甲基化的主要酶。某些位点的MET1也具有从头甲基化活性，可以使得丢失甲基化位点被重新甲基化，且发生重新甲基化的CG位点是随机的，这可能有助于稳定植物体内甲基化水平，并且提高甲基化模式的多样性。</li>
-</ul>
-<p><u><em>2、染色质甲基化酶(chromo-methylase, CMT)家族</em></u></p>
-<ul>
-<li>植物所特有，负责维持CHG位点的甲基化，对维持基因组异染色质状态起一定作用。</li>
-</ul>
-<p><u><em>3、结构域重排甲基转移酶(domains rearranged methyltransferase, DRM)家族</em></u></p>
-<ul>
-<li>从头甲基化，DRM2和CMT3以及一些siRNA共同作用与非对称位点CHH处的甲基。</li>
-</ul>
-<p><u><em>4、其他保守甲基转移酶</em></u></p>
-<ul>
-<li><p>如玉米(Zea mays) 中的DMT104、拟南芥中的DMT11, 它们可能是DNMT2 (DNA meth-yltransferase 2) 家族的同系物, 虽然它们在不少植物中是保守的, 但其功能目前还不清楚(Goodrich和Tweedie 2002)。</p>
-</li>
-<li><p><strong>三、植物DNA甲基化发生机制</strong></p>
-</li>
-</ul>
-<p><u><em>由RNA介导的DNA甲基化(RNA-dependent DNA methylation, RdDM )</em></u></p>
-<p> RdDM 现象首次在受到类病毒感染的植物中发现，被认为是植物基因转录沉默的主要机制，参与多种表观遗传现象，如基因沉默、转座子抑制、基因组印记和副突变。</p>
-<p>RdDM过程中，所产生的 dsRNA (double-standed RNA) 和 siRNA (small inter-fering RNA) 给DNA甲基转移酶提供一种甲基化的信号， DNA甲基转移酶在接收到信号后作用于DNA靶位点上，建立起一种甲基化印记，然后通过DNA复制过程将这种甲基化状态传递下去。</p>
-<p>在RdDM中，除了典型的 RNAi 元件（即 Dicer 和 Argonaute 家族的成员）和 DRM2 之外，还需要两种植物特异 RNA 聚合酶，Pol IV 和 Pol V，两种酶被推断为染色质重塑因子。</p>
-<p>RdDM的发生机制主要包括两个步骤：24-nt siRNAs的生物合成及siRNAs信号定位到靶DNA区域, 启动从头甲基化的发生。</p>
-<p>Pol IV 被 SHH1(Sawadee homeodomain homolog 1)招募在目标转录区编码单链 RNA (single-stranded RNA)，RDR2(RNA-DEPENDENT RNA POLUMERASE )与 Pol IV 结合在一起，将单链 RNA 转化为双链RNA (double-stranded RNA)，然后DCL3 (DICER-LIKE 3)进行剪切双链RNA，初步形成 24nt 的 siRNA，HEN1 (HUA-ENHANCER 1)将 siRNA 的 3′末端甲基化，然后与 AGO4 (ARGONAUTE 4)结合形成小 RNA 介导的沉默复合体(RNA-induced silencing complex, RISC)。后由SUVH2/9招募DRM2，对靶位点进行从头甲基化。</p>
-<ul>
-<li><strong>四、植物DNA甲基化的生物学功能</strong></li>
-</ul>
-<p><u><em>1、维持基因组稳定性</em></u></p>
-<p>植物通过DNA甲基化方式阻止转座子在基因组内或基因组间跳跃，减少转座子移动可能带来的危害。</p>
-<p>如：邓兴旺研究组以玉米为研究对象，系统分析了DNA甲基化对转座子的影响，发现转座元件区域被高度甲基化，缺少转录活性；烟草花叶病毒侵染烟草后, 导致烟草及其后代基因组DNA甲基化水平整体升高, 但编码抗病基因LRR (leucine rich repeats)结构域的区段甲基化水平降低, 同时抗病基因的重组率升高。</p>
-<p>   植物DNA甲基化可以抑制转座子和外源DNA的转录, 降低因非等位基因间的转座和重组导致的基因座破坏, 抵御外来基因的干扰, 从而维持基因组稳定性。</p>
-<p><u><em>2、调节基因表达</em></u></p>
-<p>​    当基因处于表达状态时甲基化水平往往很低，随着生长发育的进行需要将该基因关闭，就会在该基因的启动子或编码区发生甲基化，使基因转录受到抑制，基因失活，终止其表达；而一些处于关闭状态的基因应生长发育的需求要进行活化，开启表达，这时该基因的启动子区或编码区发生去甲基化，转录表达。</p>
-<p>如：北大-耶鲁联合研究中心利用高覆盖率的tiling-path芯片技术深入分析了水稻第IV、X号染色体的DNA甲基化，发现DNA甲基化通过引起染色质结构、DNA构象、DNA稳定性及DNA与蛋白质相互作用方式的改变, 从而抑制转录, 进而调控基因表达。</p>
-<p><u><em>3、植物基因组印迹</em></u></p>
-<p>物基因组印迹是某些开花植物在子代中部分基因单亲表达的一种表观遗传修饰现象, 具有组织和发育时间特异性。</p>
-<p>​    印迹基因的表达是通过DNA甲基化和组蛋白甲基化修饰、ncRNA (noncoding RNA)及 RNAi 的调控来实现的, 其中DNA甲基化是印迹过程的基础, 许多印迹调控区域(imprinting control regions, ICRs)都包含差异甲基化区域。</p>
-<p><u><em>4、生物和非生物胁迫</em></u></p>
-<p><u><em>5、杂种优势</em></u></p>
-<ul>
-<li><strong>五、DNA甲基化的检测</strong></li>
-</ul>
-<blockquote>
-<p>1、待检测样品的前期处理</p>
-<blockquote>
-<p>1.1 限制性内切酶消化法  </p>
-<ul>
-<li>甲基化敏感的内切酶HpaII/MspI能够切断非甲基化的识别为点。</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>1.2 亲和层析和免疫沉淀法  </p>
-<ul>
-<li>利用甲基结合域蛋白结合甲基化的CpG位点, 或者通过单克隆抗体特异性识别m5C来分离、 富集得到甲基化DNA。</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>1.3 亚硫酸氢盐转化法</p>
-<ul>
-<li>用亚硫酸氢盐处理DNA样品, 未甲基化的胞嘧啶(C)处理后转化为尿嘧啶(U), 而甲基化的胞嘧啶保持不变，PCR扩增使尿嘧啶(U)转化为胸腺嘧啶(T)，测序。</li>
-</ul>
-</blockquote>
-<p>2、目标序列的定位、甲基化状态的检测</p>
-<blockquote>
-<p>2.1 凝胶分析</p>
-<ul>
-<li>二维凝胶电泳技术或聚丙烯酰胺凝胶电泳技术</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>2.2 基因芯片技术分析</p>
-<ul>
-<li>DNA样品预处理，与芯片杂交，分析杂交结果</li>
-</ul>
-</blockquote>
-<blockquote>
-<p>2.3 高通量测序技术</p>
-<ul>
-<li>测序的序列信息对比</li>
-</ul>
-</blockquote>
-</blockquote>
-<p>参考文献：</p>
-<p>Bouyer D, Kramdi A, Kassam M, et al. DNA methylation dynamics during early plant life. Genome Biol. 2017;18(1):179. </p>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>epigenetic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>7. 泛素化修饰在调节植物 PSR 中的作用</title>
-    <url>/2022/06/28/7.Regulation%20of%20Ubiquitination%20Is%20Central%20to%20the%20Phosphate%20Starvation%20Response/</url>
-    <content><![CDATA[<h1 id="Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review"><a href="#Regulation-of-Ubiquitination-Is-Central-to-the-Phosphate-Starvation-Response-Review" class="headerlink" title="Regulation of Ubiquitination Is Central to the Phosphate Starvation Response Review"></a>Regulation of Ubiquitination Is Central to the Phosphate Starvation Response <sup><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub"><strong>Review</strong></a></sup></h1><blockquote>
-<p>泛素化在植物 PSR，Pi acquisition, and utilization efficiency 中具有重要的调节作用。<br>ER 相关的自噬受到磷酸盐饥饿刺激，从而调节根尖的局部磷感知。<br>不同磷酸盐供给条件下，磷酸盐转运体的内部分选和降解取决于泛素化。<br>泛素化和 SUMO化反应能够调节 PSR 途径中的转录因子和其他功能元件。</p>
-</blockquote>
-<h2 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h2><ul>
-<li>PSR<ul>
-<li>Plants modulate their root system architecture by developing shorter primary roots and increasing <a href="%E4%BE%A7%E6%A0%B9">lateral root</a> length and <a href="%E5%AF%86%E5%BA%A6">density</a> to increase the root surface area.</li>
-<li>Plants improve Pi uptake and translocation by regulating the expression and activity of Pi transporters, such as PHOSPHATE TRANSPORTER 1s (<strong>PHT1s</strong>) and PHOSPHATE 1 (<strong>PHO1</strong>).</li>
-<li>Plants secrete organic acids and enzymes, such as phosphatases, to activate Pi in the soil and increase their association with <a href="%E8%8F%8C%E6%A0%B9">mycorrhiza</a> to enhance Pi uptake.</li>
-<li>PSR <a href="%E8%B0%83%E8%8A%82">modulates</a> plant metabolism pathways, such as <a href="%E8%8A%B1%E9%9D%92%E7%B4%A0">anthocyanin</a> accumulation and Pi remobilization from <a href="%E8%A1%B0%E8%80%81">senescing</a> organs, via enzymes such as phosphatases.</li>
-</ul>
-</li>
-<li>PTMs, including <strong>ubiquitination</strong> and <strong>SUMOylation</strong>, show a different and more precise mechanism.<ul>
-<li>Attachment of the small molecule ubiquitin (Ub) could regulate the activity, <a href="%E5%AF%BF%E5%91%BD">longevity</a>, and/or localization of intracellular molecules.</li>
-<li>Ub is often <a href="%E5%85%B1%E8%BD%AD%EF%BC%8C%E7%BB%93%E5%90%88">conjugated</a> to the <code>lysine residue</code> of target <a href="%E5%BA%95%E7%89%A9">substrates</a> or <code>another Ub</code> to form polyubiquitin chains via the <strong>E1-E2-E3</strong> <a href="%E7%BA%A7%E8%81%94">cascade</a>.</li>
-<li>Ubiquitin Code: different Ub linkage sites and types determine the distinct fates of target proteins.</li>
-<li>Ub can be reversibly erased by deubiquitinating enzymes (<strong>DUBs</strong>), which specifically function in different processes.<span id="more"></span></li>
-</ul>
-</li>
-</ul>
-<h2 id="Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation"><a href="#Multilayers-of-Regulation-by-Ubiquitination-in-Root-System-Architecture-Remodeling-under-Pi-Starvation" class="headerlink" title="Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation."></a>Multilayers of Regulation by Ubiquitination in Root System Architecture Remodeling under Pi Starvation.</h2><blockquote>
-<p>根系统调节植物从土壤中的 Pi 吸收，该过程决定了植物整体的 Pi 水平。<br>根系统通过[构象重塑](architecture remodeling)来响应缺磷，通过此途径获得土壤表层中更多的磷，并且增加根表面积来提高磷酸盐获取效率。</p>
-</blockquote>
-<h3 id="The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways"><a href="#The-Crosstalk-between-Ubiquitination-and-Plant-Hormone-Signal-Pathways" class="headerlink" title="The Crosstalk between Ubiquitination and Plant Hormone Signal Pathways."></a>The Crosstalk between Ubiquitination and <strong>Plant Hormone Signal Pathways</strong>.</h3><ul>
-<li>AUXIN signaling<ul>
-<li>Expression of the auxin receptor <em>TRANSPPORT INHIBITOR RESPONSE 1</em> (<em><strong>TIR1</strong></em>) is specifically induced under Pi starvation, and encodes an F-box protein that forms part of the <strong>SCF complex-type E3 ligase</strong>, to increase auxin sensitivity and <u>accelerate the degradation of AUX/IAA repressors</u>, such as AUXIN RESISTANT 3 (<strong>AXR3</strong>), thus <a href="%E8%A7%A3%E6%94%BE">liberating</a> auxin response factor (<strong>ARF</strong>) transcription factors (e.g., <strong>ARF19</strong>) to activate downstream components and regulate lateral root growth.</li>
-<li>Pi starvation leads to the redistribution of local auxin concentration mediated by the auxin transporter PIN-FORMED 2 (<strong>PIN2</strong>) in the PM, which is regulated by <strong><u>Lys63-linked</u></strong> ubiquitination-mediated <a href="%E5%86%85%E4%BD%93%EF%BC%8C%E8%83%9E%E5%90%9E%E4%BD%9C%E7%94%A8%E5%BD%A2%E6%88%90%E7%9A%84%E8%86%9C%E5%8C%85%E8%A2%AB%E5%9B%8A%E6%B3%A1%E7%BB%93%E6%9E%84">endosome</a> trafficking.</li>
-<li>Mutants of <em>pin2</em> and [*tir3*](a PIN-trafficking-associated protein) are less sensitive to Pi starvation, indicating that the Lys63-linked ubiquitination of PIN2 is specific and <a href="important">vital</a> in root system architecture remodeling under Pi starvation.</li>
-</ul>
-</li>
-<li><a href="%E7%8B%AC%E8%A7%92%E9%87%91%E5%86%85%E9%85%AF">Strigolactone</a> (SL) and <a href="%E6%B2%B9%E8%8F%9C%E7%B4%A0%E5%86%85%E9%85%AF">Brassinosteroid</a> (BR)<ul>
-<li>TIR1 和一些 PSIs 基因的诱导，以及在缺磷下 PIN2 运输和<a href="polarization">极化</a>的减少，依赖于 SL 信号通路。</li>
-<li>一个 F-box 蛋白 MORE AXILLARY BRANCHES 2 (<strong>MAX2</strong>) 能够泛素化 SL 通路的抑制蛋白 D53，在缺磷下 MAX2 的缺失会导致主根长度变短、侧根数目减少。</li>
-<li>MAX2 也能够泛素化 BR 信号通路中的一个转录因子 BRI1-EMS-SUPPRESSOR 1 (<strong>BES1</strong>)。<u>The dominant muntant <em>bes1-D</em> is to XXX resistant to low Pi availibility and maintains nomral root morphology under Pi starvation.</u></li>
-<li>缺磷条件下，会诱导细胞质中 BES1 的积累和 BR 介导的根生长抑制，暗示在缺磷下 BES1 的降解和可能的泛素化受到<a href="hindered">抑制</a>，但是其中是否有 MAX2 的参与仍需要证据。</li>
-<li>BES1 的积累可能由于 BES1 的 <a href="autophagy">自噬</a>减少。泛素化的 BES1 会结合泛素受体 DOMINANT SUPPRESSOR OF KAR 2 (<strong>DSK2</strong>) ，DSK2-BES1 complex 通过募集 <strong>ATG8</strong> （which is a ubiquitin-like protein required for the formation of autophagosomal membranes）定位与自噬体降解。</li>
-<li>番茄中的研究发现，BR处理能够通过 BES1 诱导的 ATGs 基因表达激活自噬，能够提高番茄的缺氮耐受。这种 BES1 和 自噬之间的反馈调节揭示了一种植物激素相关的机制，可在缺氮条件下增加营养的循环利用以及减少泛素化的错误折叠蛋白或不可溶蛋白的积累。</li>
-<li>许多研究中报道了<u>缺氮和缺磷响应之间的 crosstalk</u>，并且许多形态学和对这些环境的分子适应性是相似的。这些结果表明，缺磷条件下BES1 的自噬降解在平衡植物生长生存上发挥作用。</li>
-<li>或许，植物缺磷时的根尖部位的自噬激活，可能是 <strong>ER stress</strong> 应答，而非为了 Pi 循环。缺磷刺激的自噬体组建需要 <strong>LPR1</strong> 和 <strong>PDR2</strong>，其可激活 ER stress 和 ATGs 基因的表达，进而造成缺磷条件下[根尖分生组织](root apical meristem)的早期分化和主根生长的抑制。PDR2 的缺失增加了主根对缺磷的敏感性，依赖于 LPR1/2。已知 SCARECROW (<strong>SCR</strong>, 在 Pi-deprived roots 中对[根模式形成](root patterning)和[干细胞维持](stem cell maintenance)是必须的)的表达量在 <em>pdr2</em> 突变体中显著下降，<u>PDR2, LPR1, LPR2被认为在 PSR 下调节 local Pi sensing</u>。</li>
-<li>The unfolded protien response (<strong>UPR</strong>) 在 PSR 中被激活（given that the expression of several UPR genes is induced under Pi starvation, and is highter in <em>pdr2</em> mutant than in wild-type plants）。Pi starvation-stimulated 自噬体组装在 pdr2 突变体中增加，but decreased by disruption of INCREASED ORGAN REGENERATION 1a and b (<strong>IRE1a/b</strong>, two sensors of ER stress)。ER stress <a href="triggers">触发</a>了自噬体组装，且在ER stress过程中，部分 ER 通过自噬移动到了液泡中，被称之为 “<strong>ER-phagy</strong>”。</li>
-<li>其他泛素系统的成员（如 DUBs），也参与了 Pi诱导的[根形态建成](root architecture remodeling)。UBIQUITIN-SPECIFIC PROTEASE 14 (<strong>UBP14</strong>) 弱等位基因突变体 <em>per1</em> 在 Pi 缺乏时表现出营养特异性抑制根毛伸长的表型。OTU5 也被发现调节 PSR 诱导的根重建， otu5 表现出组成型 Pi 缺陷表型，由于染色质重塑和 ROS 状态的变化。</li>
-</ul>
-</li>
-</ul>
-<h3 id="Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake"><a href="#Ubiquitination-Related-Endosomal-Sorting-and-Degradation-of-PHT1-in-Pi-Uptake" class="headerlink" title="Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake"></a>Ubiquitination-Related Endosomal Sorting and Degradation of PHT1 in Pi Uptake</h3><ul>
-<li>The PHT1 family of high-affinity Pi transporters, which are resopnsible for Pi uptake in the root system, are regulated by several PTMs to <a href="%E7%B2%BE%E7%A1%AE%E7%9A%84">precisely</a> modulate protein levels. There are 9 members in Arabidopsis (PHT1;1-PHT1;9), all of which are expressed in roots. Under Pi-limiting conditions, plants relocate more active PHT1s in the PM to increase Pi uptake. While, in Pi-sufficient conditions, the levels of PHT1s in the PM are reduced through degradation.</li>
-<li>PHF1 影响PHT1s的质膜定位。The plant-specific SEC12-like protein PHOSPHATE TRANSPORTER TRAFFIC FACILATOR 1 (<strong>PHF1</strong>), which is required for the formation or budding of transport vesicles from the ER, specifically regulates the subcellular localization of PHT1;1. <u>Mutation of PHF1 resulted in ER retention and reduced the PM accumulation of PHT1;1</u>. </li>
-<li>PHT1 的磷酸水平会影响其质膜定位和降解。The posphorylation status of PHT1s is closed related to its subcelluar localization and protein level. In rice, the protein kinase CASEIN KINASE II (<strong>OsCK2</strong>) mediates the phosphorylation of OsPT8, and inhibits the interaction between OsPHF1 and OsPT8 to retain OsPT8 in ER under normal conditions. Although OsCK2β3 functions by forming holoenzymes OsCK2 with OsCK2α3, <u>only the degradation of OsCK2β3 by the 26S proteasome is promoted under Pi starvation</u>, which leads to reduced OsPT8 phosphorylation status and eventually ER export to the PM.</li>
-<li>内吞作用调节PM PHT1s 进而调节植物磷吸收。Plants use another trafficking-associated degradation mechanism to reduce the function of PHT1s under normal growth conditions. PHT1s are located in the endosomes for <a href="%E5%86%85%E5%90%9E%E4%BD%9C%E7%94%A8">endocytosis</a>, as demonstrated by the colocalization of PHT1 with several endosome markers. <u>The <strong>endosomal sorting complexes required for transport (ESCRTs)</strong> are responsible for recognizing ubiquitinated PM cargo proteins for endocytosis and mediating their sorting into <a href="%E8%85%94%E5%86%85%E5%9B%8A%E6%B3%A1">intraluminal vesicles</a>.</u> The localization and degradation rate of PHT1s are changed by disrupting the Bro1/ALIX-related protein <strong>ALIX</strong> (ALG2-interacting protein X), which is part of the arabidopsis ESCRT-III complex, demonstrating that <u>the ESCRT mechinery is required for PHT1s endosome trafficking</u>. The <em>alix-1</em> mutant has a high Pi content, further conforming the importance of ESCRT in Pi uptake.</li>
-<li>不同条件下，PHT1 的内体运输表现出两种不同的功能。The endosome localization of PHT1s is independent of Pi supplementation, while Pi starvation stablizes PHT1s at the PM. 在缺磷条件下，**<a href="internalized">内化</a>的 PHT1s 通过[网格蛋白包被的囊泡](clathrin-coated vesicles)复合体进行[后续的回收](subsequent recycling)** [which probably requires the clathrin adaptor, adaptor protein 2 (AP2)]。在磷充足的时候，PHT1s 则通过 ESCRT 机制靶向[溶解液泡](lytic vacuoles)进行降解。The ESCRT machinery selectively binds to monoubiquitinated or <strong>Lys63-linked ubiquitinated proteins</strong>. 并根据此利用蛋白质组发现了 PHT1;1 Lys63链接多泛素链。<em>这种依赖 ESCRT 的调节机制也在一些其他营养转运体途径发现，可能是一种保守的调节机制。</em><br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr1.jpg" alt="img"><br>【Figure】Under inorganic phosphate-sufficient conditions, plants need to reduce the protein levels of the Pi transporter PHT1 on the PM to <a href="%E9%98%BB%E7%A2%8D">hinder</a> Pi uptake. <strong>The protein kinase CK2 phosphorylates PHT1 and inhibits the ER export of PHT1.</strong> The ER and endosome-localized E2 ubiquitin-conjugating enzyme PHOSPHATE 2 (<strong>PHO2</strong>) interacts with several PHT1s. 泛素化的 PHT1 的内吞作用和内体分选成多泡体/晚期内体（MVBs/LEs）最后在溶解液泡中降解，需要 the endosome sorting complexes (required for ESCRT complexes)。<strong>质膜上的 PHT1;4 的泛素化需要 PHO2 和 质膜定位的 E3 ligase NITROGEN LIMITATION ADAPTATION (NLA) 的参与，最终通过 26S 蛋白酶体途径降解。在缺磷条件下，CK2 泛素化降解，导致 PHT1 的磷酸化水平降低，最终在 PHF1 的协助下从 ER 输出，并最终增加质膜上的 PHT1 蛋白水平</strong>。</li>
-</ul>
-<h3 id="NLA-regulates-the-ubiquitination-of-PHT1s"><a href="#NLA-regulates-the-ubiquitination-of-PHT1s" class="headerlink" title="NLA regulates the ubiquitination of PHT1s"></a>NLA regulates the ubiquitination of PHT1s</h3><ul>
-<li>NLA 最早发现可以调节低氮适应性，<em>nla</em> 突变表型可以被 <em>PHF1</em> 和 <em>PHT1;1</em> 突变抑制。高磷条件下，NLA 的转录水平上调（其也是 低磷诱导的miR827 的靶基因）。在低氮和高磷条件下，<em>nla</em> 突变体 shoots 的磷含量要高于野生型，表明其也参与磷吸收。之后的研究发现 NLA 能够结合并泛素化一些 PHT1s，包括 PHT1;1和PHT1;4，NLA 在质膜上与 PHT1s 相互作用，并且促进其内体定位。泛素化的 PHT1s 通过内吞作用从质膜经[多泡体途径](the multivesicular body sorting pathway)运输至液泡降解。</li>
-<li>NLA 主要定位于 PM，PHO2 主要定位于内膜系统，但是 PHT1;4 会在 <em>nla</em> 中积累，而不会再 <em>pho2</em> 中积累，且在双突中磷含量以及 PHT1;1/2/3 的蛋白水平均高于单突。作者认为 PHO2 和 NLA <a href="independently">独立</a>但<a href="cooperatively">协同</a>调控 PHT1。但是之后的研究发现 NLA 能够和 PHO2 特异泛素化 PHT1;4，但是不能泛素化 PHT1;1，最终导致 PHT1;4 通过26S 蛋白酶体降解。体内和体外实验证明 NLA 能够和 UBC8 相互作用，但是 PHO2 而不是 UBC8 参与 NLA自泛素化和 PHT1;4 的泛素化。pho2 突变体或者 MG132 能够抑制 PHT1;4 的降解，但是 E64d 不行，表明 PHO2 能够通过 26S 蛋白酶体途径控制 PHT1;4 的降解，而非是 NLA 的溶解液泡途径。</li>
-<li>PHT1;1 和 PHT1;4 的溶解液泡降解途径能够被 PHO2 和 NLA 以独立于 26S 蛋白酶体的途径促进，但是 26S 蛋白酶体途径降解 PHT1;4 却必须要 NLA 和 PHO2 存在。<u>PHT1;4 能够和 NLA 相互作用而其他 PHT 不能，暗示这些 PHT1s 降解可能依赖于不同的 E2 和 E3</u>。PHO2 和 NLA 的不同[时空表达模式](temporal and spatial expression patterns)也暗示 PHT1s 调节机制的复杂性。<strong>在发育早期（6-day-old seedings），<em>pho2</em> 突变体中 PHT1s 的泛素化水平显著降低。</strong>然而，<u>在之后的时期（12-day-old seedings）发现，只有在 EM 处的 PHT1s 能够受到 PHO2 的影响</u>，PM 定位的 PHT1s 并没有受到影响。并且在 <em>pho2</em> 突变体中 PHT1s 的总泛素化水平与在野生型中相似。<strong>在 <em>nla</em> 突变体中，过度的 Pi 只在 14d 以后的苗中积累，暗示 PHO2 和 NLA 的功能会随时间变化。</strong><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bbb0335">Park</a> 等对于 10d 苗的研究发现， PHT1;4 通过 26S 蛋白酶体途径降解（在该时间段 NLA 不影响 Pi 吸收）。Lin 等人对 19d 的幼苗研究发现（该生长阶段 PHO2 和 NLA 同时参与磷吸收）， PHO2 和 NLA 在 PHT1s 的内吞作用和内体分选上起到[协同作用](synergistic relationship)，因为 PM 定位的 PHT1s 受 NLA 调节，而 EM 定位的 PHT1s 受到 PHO2 调节。</li>
-<li>在水稻 nla 突变体中会出现 Pi 积累。OsNLA1 能和 OsPT2/8 相互作用，泛素化并使其降解。而 NLA 和 PHO2 的相互作用尚未阐明（二者的点突变蛋白不会互作）。<strong>在缺磷条件下， OsPHO2 能够和 OsGI (GIGANTEA) 相互作用</strong>，且这两个基因表现出类似的抑制生长、延迟花期和 Pi 积累的表型。有研究表明 NLA 能够和 PHO2 共同发挥功能泛素化 ORE1 (ORESARA 1) 使其通过 26s 蛋白酶体途径降解，进而调节缺氮条件下的叶片衰老。只是文章未能解释 EM 定位的 PHO2 如何能够调节核定位的转录因子 ORE1 (其和 NLA 在核中互作)。</li>
-</ul>
-<h3 id="Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation"><a href="#Ubiquitination-Mediated-Regulation-of-PHO1-Transporters-and-Transcription-Factors-in-Pi-Translocation" class="headerlink" title="Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation."></a>Ubiquitination-Mediated Regulation of PHO1 Transporters and Transcription Factors in Pi Translocation.</h3><ul>
-<li>先前的数据已经展示了泛素化调节 PHTs 的稳定性和亚细胞定位进而影响磷吸收，同样，<strong>PHO1</strong> 转运体也受到泛素调节，从而影响 Pi 从根部到地上部的转运，以及再磷饥饿环境下 Pi 从老叶向新叶的转运。</li>
-<li>The PHO1 fanmily has 11 members in arabidopsis, of which PHO1 is the dominant component; PHO1 is  localized in the vascular system, with a critical role in loading Pi into the xylem of roots. <u><em>pho1</em> 突变体表现出强烈的地上部缺磷。</u>拟南芥的泛素蛋白亲和纯化富集了泛素化的 PHO1 蛋白，之后的研究发现其受到 PHO2 泛素化。PHO1 作为一个跨膜磷转运体蛋白，其定位在 ER, Golgi，也被发现和内体 marker 共定位，且 <strong>PHO1 和 PHO2 在细胞中点状区室相互作用，暗示 PHO1 通过内体运输通路被液泡降解，并且可能需要 ESCRT 复合体</strong>。不过至今 PHO1 的 E3 尚未可知。<strong>一些研究者认为 PHO2 是一个 E2-E3 双功能酶</strong>。 人体中的 PHO2 同源蛋白 Apollon/BIRC6 可以在不存在其他 E2 或 E3 的时候泛素化 SMAC 蛋白，而其他 E2/E3 存在的时候能够强化其泛素活性。</li>
-<li>Tight control of PHO1 transporters by transcription factors is regulated by ubiquitination. 在正常生长条件下，<strong>WRKY 家族转录因子 WRKY6/42 结合在 PHO1 启动子上的 W-box 阻止其表达</strong>；当低磷的时候，WRKY6/42 通过 26S 蛋白酶体途径降解以确保 PHO1 的表达。最近的研究发现一个 F-box 蛋白 PRU1 能够结合并泛素化 WRKY6，PRU1 受到缺磷诱导，且其特异地结合 WRKY6 的 C 末端促进其降解。尽管 WRKY6 和 WRKY42 表现出功能冗余，但是 PRU1 与 WRKY42 并不相互作用。WRKY42 与 6 不同的是，其能够促进 PHT1;1 的表达，在磷吸收平衡和转运中存在一些相反的功能。</li>
-<li>Regulation of transcription factors are also related to ubiquitionation. AtPHR1 和 OsPHR2 是磷稳态的核心转录因子，其可以结合 PSI 基因（如 PHO1;H1）的 P1BS motif。PHRs 的转录活性受到 SPXs 蛋白的负调控：<u><strong>在磷充足条件下，SPXs 蛋白通过其 SPX domain 与 OsPHR2 结合从而阻止其结合 P1BS</strong></u>。在缺磷条件下，RING-type E3 连接酶 OsSDEL1/2 能够和 OsPHR2 竞争结合 SPX4 并使其降解以释放 OsPHR2。<strong>尽管 OsSDEL1/2 的转录水平不受磷浓度影响，但是其蛋白水平在缺磷下显著诱导</strong>。此外，硝酸盐感知能够加强 OsNRT1.1B（Nitrate transporter 1.1B）和 OsSPX4 的相互作用，并且征召 NRT1.1B 互作蛋白 NBIP1（一个 RING-type E3）来加速 OsSPX4 的降解以释放 PHR2。核定位的 OsSPX2 也能够被缺磷诱导的 RING-type E3 蛋白 <strong>OsPIE1</strong> 降解。PM 定位的 RING-type E3 AtATL80，受到缺磷诱导并参与磷<a href="translocation">转位</a>。在高磷情况下， atatl80 突变体地上部的 Pi 要低于野生型，PUE 会更高。这些结果暗示 <strong>AtATL80</strong> 在正常生理条件下调节 Pi 的转位。<br><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1360138519301207-gr2.jpg" alt="Figure 2"><br>[Figure]</li>
-</ul>
-<h3 id="Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response"><a href="#Proteome-Profiling-of-Ubiquitinated-Proteins-Indicates-the-Potential-Roles-of-Ubiquitination-in-the-Plant-Pi-Starvation-Response" class="headerlink" title="Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response."></a>Proteome Profiling of Ubiquitinated Proteins Indicates the Potential Roles of Ubiquitination in the Plant Pi Starvation Response.</h3><ul>
-<li>泛素化蛋白质谱结果表明，许多 PSR 相关蛋白都存在泛素化修饰，如<u>线粒体内膜定位的 <strong>PHT3;1</strong></u>。<strong>PHT1;5</strong>（参与将老叶中贮存的 Pi 转运到其他组织的过程），在其 <strong>Lys634</strong> 位置发生泛素化。<strong>WRKY45</strong> （结合 PHT1;1启动子并在缺磷下促进其表达）在 <strong>Lys39</strong> 位发生泛素化修饰。然而这些蛋白在缺磷下发生泛素化的功能尚待解释。</li>
-<li>SUMO conjugation in plants controls several important biological progress. SUMO E3 连接酶 <strong>SIZ1</strong> 参与根构型重建以及缺磷下的花青素积累。<strong>研究表明 PHR1 是 SIZ1 的底物</strong>。<u>The SUMOylation of TFs often represses their transcription activity.</u> 许多 PHR1 的靶基因在 <em>siz1</em> 中的表达量都有所提高。但是 phr1 中并没有根构型的改变，所以在此过程可能有其它蛋白被 SIZ1  SUMO 化修饰。LPR2 也能够发生 SUMO 化修饰，其在根尖部位调节缺磷响应。拟南芥中两个碱性磷酸酶 PAP10/26 也能够被 SUMO 化修饰，其可以调节内部 Pi 循环以及从外部有机磷酸盐中释放 Pi 以供植物吸收。但是 SUMO 化是否受到磷饥饿调节或能够调节植物磷响应仍需要研究。</li>
-</ul>
-<p>附表：已报导的参与PSR基因的泛素化成员</p>
-<table>
-<thead>
-<tr>
-<th>Gene</th>
-<th>Locus</th>
-<th>Description</th>
-<th>Refs</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>E2</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><em>PHO2</em></td>
-<td>AT2G33770</td>
-<td>Ubiquitinates PHO1 and PHT1s to reduce uptake and root-to-shoot translocation of Pi</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0320">64.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a></td>
-</tr>
-<tr>
-<td><strong>E3</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><em>AtATL80</em></td>
-<td>AT1G20823</td>
-<td>Regulates Pi translocation in Pi-sufficient conditions</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0440">88]</a></td>
-</tr>
-<tr>
-<td><em>MAX2</em></td>
-<td>AT2G42620</td>
-<td>Positively regulates lateral root growth, phosphate starvation-induced genes and TIR1 expression; regulates D53 degradation and PIN2 localization</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27]</a></td>
-</tr>
-<tr>
-<td><em>MdSIZ1</em></td>
-<td>MD03G008530</td>
-<td>Regulates MdPHR1 in response to Pi deficiency; promotes anthocyanin accumulation by SUMOylating MdMYB1</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0525">105.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0530">106.</a></td>
-</tr>
-<tr>
-<td><em>NLA</em></td>
-<td>AT1G02860</td>
-<td>Mutant accumulates higher Pi content; ubiquitinates PHT1;4 and PHT1;1</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0200">40]</a></td>
-</tr>
-<tr>
-<td><em>OsNBIP1</em></td>
-<td>LOC_Os01g55110</td>
-<td>Mediates ubiquitination and degradation of OsSPX4 at high levels of nitrate to activate downstream phosphate signaling</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0430">86]</a></td>
-</tr>
-<tr>
-<td><em>OsNLA</em></td>
-<td>LOC_Os03g44810</td>
-<td>Interacts with and ubiquitinates rice Pi transporters OsPT2 and OsPT8 to regulate phosphate homeostasis</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0345">69]</a></td>
-</tr>
-<tr>
-<td><em>OsPIE1</em></td>
-<td>LOC_Os01g72480</td>
-<td>Positively regulates expression of OsPT2, OsPT3, and OsPT10 by affecting protein level of OsSPX2 to increase Pi accumulation under Pi-sufficient conditions</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0435">87]</a></td>
-</tr>
-<tr>
-<td><em>OsSDEL1</em>, <em>OsSDEL2</em></td>
-<td>LOC_Os12g35320, LOC_Os03g22680</td>
-<td>OsSDEL1/2 directly interact with and ubiquitinate SPX4, resulting in release of OsPHR2, thus positively regulating PSR</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
-</tr>
-<tr>
-<td><em>SIZ1</em></td>
-<td>AT5G60410</td>
-<td>SUMO E3 ligase; regulates root architecture remodeling and anthocyanin accumulation without Pi content change under Pi starvation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11]</a></td>
-</tr>
-<tr>
-<td><em>PRU1</em></td>
-<td>AT3G42770</td>
-<td>Positively regulates Pi translocation; specifically targets WRKY6 but not WRKY42 for degradation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80]</a></td>
-</tr>
-<tr>
-<td><em>TIR1</em></td>
-<td>AT3G62980</td>
-<td>Positively regulates lateral root growth and promotes AUX/IAA repressors degradation under Pi starvation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0125">25]</a></td>
-</tr>
-<tr>
-<td><strong>Substrate</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><em>BES1</em></td>
-<td>AT1G19350</td>
-<td>Negatively regulates Pi starvation-induced root inhibition; ubiquitinated by MAX2 and SINATs</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0165">33]</a></td>
-</tr>
-<tr>
-<td><em>LPR2</em></td>
-<td>AT1G71040</td>
-<td>Regulates autophagy-related local Pi sensing; necessary for main root growth inhibition under Pi starvation; identified as a SUMOylated protein</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0225">45.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0500">100.</a></td>
-</tr>
-<tr>
-<td><em>OsCK2b3</em></td>
-<td>LOC_Os07g31280</td>
-<td>Phosphorylates PHT1, promoted to degradation under Pi starvation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0290">58]</a></td>
-</tr>
-<tr>
-<td><em>OsSPX4</em></td>
-<td>LOC_Os03g61200</td>
-<td>Inhibits activity of OsPHR2; ubiquitinated by OsSDEL1/2; degradation is accelerated under Pi deficiency</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0415">83]</a></td>
-</tr>
-<tr>
-<td><em>OsGI</em></td>
-<td>LOC_Os01g08700</td>
-<td>Ubiquitinated by OsPHO2 and regulates Pi remobilization in leaves under Pi-sufficient conditions</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0350">70]</a></td>
-</tr>
-<tr>
-<td><em>PAP10, PAP26</em></td>
-<td>AT2G16430, AT5G34850</td>
-<td>Purple acid phosphatases; secreted in Pi starvation to release Pi from soil; identified as SUMOylated proteins</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0505">101.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0535">107.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0540">108.</a></td>
-</tr>
-<tr>
-<td><em>PHO1</em></td>
-<td>AT3G23430</td>
-<td>Pi transporter for Pi relocation; mutants accumulate high Pi content in all aboveground tissues; substrate of PHO2</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0330">66.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0365">73.</a></td>
-</tr>
-<tr>
-<td><em>PHR1</em></td>
-<td>AT4G28610</td>
-<td>Binds P1BS site in Pi starvation-induced gene promoters; regulates anthocyanin accumulation; substrate of SIZ1</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0055">11.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0405">81.</a></td>
-</tr>
-<tr>
-<td><em>PHT1;1</em></td>
-<td>AT1G20860</td>
-<td>Responsible for Pi uptake from soil; target of PHO2; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
-</tr>
-<tr>
-<td><em>PHT1;4</em></td>
-<td>AT2G38940</td>
-<td>Responsible for Pi uptake from soil; target of PHO2 and NLA; undergoes Lys63-linked ubiquitination-mediated endocytosis</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0285">57.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0325">65.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0335">67.</a></td>
-</tr>
-<tr>
-<td><em>PHT1;5</em></td>
-<td>AT2G32830</td>
-<td>Pi transporter for Pi uptake from soil; ubiquitinated at Lys634</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0475">95]</a></td>
-</tr>
-<tr>
-<td><em>PIN2</em></td>
-<td>AT5G57090</td>
-<td>Auxin transporter for auxin efflux; Lys63-linked ubiquitination-mediated PIN2 trafficking reduced under Pi starvation</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0135">27.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0150">30.</a></td>
-</tr>
-<tr>
-<td><em>WRKY6</em></td>
-<td>AT1G62300</td>
-<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation; substrate of PRU1</td>
-<td><a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79.</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0400">80.</a></td>
-</tr>
-<tr>
-<td><em>WRKY42</em></td>
-<td>AT4G04450</td>
-<td>Inhibits PHO1 expression under normal conditions; protein degraded under Pi starvation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0395">79]</a></td>
-</tr>
-<tr>
-<td><em>WRKY45</em></td>
-<td>AT3G01970</td>
-<td>Activates <em>PHT1</em> expression; identified as a ubiquitinated protein</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0485">97]</a></td>
-</tr>
-<tr>
-<td><strong>DUB</strong></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><em>UBP14</em></td>
-<td>AT3G20630</td>
-<td>Required for root hair elongation</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0260">52]</a></td>
-</tr>
-<tr>
-<td><em>OTU5</em></td>
-<td>AT3G62940</td>
-<td>Regulates root hairs and primary root growth</td>
-<td>[<a href="https://www.sciencedirect.com/science/article/pii/S1360138519301207?via=ihub#bb0265">53]</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>磷信号</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2. 原核蛋白纯化</title>
-    <url>/2022/01/14/%E5%8E%9F%E6%A0%B8%E8%9B%8B%E7%99%BD%E7%BA%AF%E5%8C%96/</url>
-    <content><![CDATA[<blockquote>
-<p>原核蛋白提取纯化</p>
-</blockquote>
-<h3 id="His-amp-GST-Tag"><a href="#His-amp-GST-Tag" class="headerlink" title="His &amp; GST Tag"></a>His &amp; GST Tag</h3><h4 id="Buffer-Preparation"><a href="#Buffer-Preparation" class="headerlink" title="Buffer Preparation"></a>Buffer Preparation</h4><ul>
-<li><p>细菌裂解：1x PBS；1mM PMSF</p>
-</li>
-<li><p>Beads Washing Buffer：1x PBS<span id="more"></span></p>
-</li>
-<li><p>GST wash Binding Buffer：1x PBS</p>
-</li>
-<li><p>His wash Binding Buffer (pH 7.4 )</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Final</th>
-<th>200 mL</th>
-<th>500 mL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>NaH<sub>2</sub>PO<sub>4</sub></td>
-<td>50 mM</td>
-<td>1.56 g</td>
-<td>3.1 g</td>
-</tr>
-<tr>
-<td>NaCl</td>
-<td>300 mM</td>
-<td>3.5 g</td>
-<td>8.76 g</td>
-</tr>
-<tr>
-<td>咪唑 Imidazole</td>
-<td>5 mM</td>
-<td>0.068 g</td>
-<td>0.17 g</td>
-</tr>
-</tbody></table>
-</li>
-</ul>
-<ul>
-<li><p>His Elution Buffer</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Final</th>
-<th>10 mL</th>
-<th>20 mL</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>NaH<sub>2</sub>PO<sub>4</sub></td>
-<td>50 mM</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>NaCl</td>
-<td>300 mM</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>咪唑 Imidazole</td>
-<td>250 mM</td>
-<td>0.17 g</td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
-<li><p>GST Elution Buffer：</p>
-<p>500μL 1M Tris(8.0)；0.03g GSH；H2O up to 10mL</p>
-<p><strong>Tips:</strong></p>
-<ul>
-<li><p>Ni<sup>2+</sup> 亲和柱 在pH7-8（中/弱碱性）条件下结合较好，但pH在蛋白等电点附近会不溶。</p>
-</li>
-<li><p>NaCl 用于保持蛋白可溶性/模拟生理条件，常用 150mM; 高盐可降低非特异结合。</p>
-</li>
-<li><p>惰性蛋白BSA等可增加蛋白稳定性，甘油/PEG可增加缓冲液粘度防止蛋白聚集，少量表面活性剂和离子化合物（硫酸盐/氨基酸/柠檬酸等）可屏蔽蛋白离子相互作用助溶。</p>
-</li>
-<li><p>蛋白质含有半胱氨酸可能会聚集，5-10mM还原剂（DTT/TCEP/β-ME）可防止。</p>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h4><ol>
-<li>200mL LB培养目的蛋白菌株（BL21等）至OD<sub>600</sub>=0.6；</li>
-<li>加入5-300 μM IPTG，16℃诱导蛋白 &gt;12h；</li>
-<li>离心收集菌体，重悬于 20mL 细菌裂解液，超声破碎至澄清，4℃离心</li>
-<li>平衡蛋白柱后（1mL Beads），将上清加入柱中4℃孵育 2h；</li>
-<li>滤下裂解液后，用对应 Wash Binding Buffer 洗涤 3-5 次，5min each；</li>
-<li>500 ul Elution Buffer 洗脱3次 5min each，测浓度，甘油保存。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>实验操作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3. 常见组蛋白修饰</title>
     <url>/2022/01/14/%E5%B8%B8%E8%A7%81%E7%BB%84%E8%9B%8B%E7%99%BD%E4%BF%AE%E9%A5%B0/</url>
     <content><![CDATA[<blockquote>
@@ -1116,11 +1116,114 @@
       </tags>
   </entry>
   <entry>
-    <title>8. 水稻原生质体制备和转化</title>
+    <title>4. 拟南芥和水稻中Pi吸收和分配</title>
+    <url>/2022/01/14/%E6%8B%9F%E5%8D%97%E8%8A%A5%E5%92%8C%E6%B0%B4%E7%A8%BB%E4%B8%ADPi%E5%90%B8%E6%94%B6%E5%92%8C%E5%88%86%E9%85%8D/</url>
+    <content><![CDATA[<h1 id="拟南芥和水稻中Pi吸收和分配"><a href="#拟南芥和水稻中Pi吸收和分配" class="headerlink" title="拟南芥和水稻中Pi吸收和分配"></a>拟南芥和水稻中Pi吸收和分配</h1><p>涉及蛋白：PHT1，PHT2，PHT3，PHT4，PHT5(VPT1)，SPX-MFS，PHO1，phosphate translocators</p>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>&emsp;&emsp;磷是植物生长发育所必需的大量营养元素之一，但由于其在土壤溶液中的溶解度和迁移性较差，以及磷与有机化合物的结合性，磷也是较难获取的元素之一。<span id="more"></span>据估计，土壤中约<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'> 20-80% </span>的磷主要以<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'>植酸</span>的形式存在于有机质中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B139">Richardson, 1994</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B141">Schachtman et al., 1998</a>)</sub>。此外，在<span style='font-size:1.3rem;font-family:楷体;color:red;background:lightblue'>酸性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;color:black;background:lightblue'>磷与铝（Al）和铁（Fe）形成不溶性沉淀</span>，而在<span style='font-size:1.3rem;font-family:楷体;color:red;background:#76EEC6'>碱性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;background:#76EEC6'>磷与钙（Ca）和镁（Mg）</span><sub>（ <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B50">Hirsch et al., 2006</a>）</sub>。<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'><strong>植物磷的主要来源是无机磷酸盐（Pi）</strong></span>，并且在中性pH下，主要形式 <strong>H<sub>2</sub>PO<sub>4</sub><sup>-</sup></strong> 被运输到植物细胞中。尽管其在土壤溶液中的浓度相当低<u><em>（从1到10μM）</em></u>，但在植物组织中的磷酸盐浓度相对较高，约为<u><em>5–20 mM</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B49">Hinsinger, 2001</a>)</sub>。这并不奇怪，因为磷是DNA、RNA、ATP、NADPH和膜磷脂等基本生物分子的基本元素。它还在植物的生命维持过程中起着至关重要的作用，包括<span style='font-size:1.3rem;font-family:times;color:black;background:lightgreen'>光合作用、呼吸作用和通过磷酸化激活蛋白质</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>)</sub>。然而，也有报道称，拟南芥细胞质中的PI浓度仅为<span style='font-size:1.3rem;font-family:;color:black;'>60–80μM</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B126">Pratt et al., 2009</a>)</sub>。<br>&emsp;&emsp;为了应对环境中的Pi限制，植物已经进化出一系列生理和形态反应，这可能会增强Pi的获得：通过共生策略、根结构变化、根排出有机酸和酸性磷酸酶 <sub>(reviewed by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B2">Amtmann et al., 2006</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B202">Zhang Z. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B142">Scheible and Rojas-Triana, 2015</a>)</sub> ，并优化内部PI利用率。<span style='font-size:1.0rem;font-family:楷体0;color:red;'>在磷限制期间，一些膜磷脂被半乳糖脂和硫脂部分取代</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B156">Siebers et al., 2015</a>)</sub>此外，<span style='font-size:1.0rem;font-family:楷;color:red;'>在 Pi 饥饿胁迫下，观察到磷从较老的叶片转移到较年轻的器官</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B160">Smith et al., 2003</a>)</sub>。<br>许多植物中 Pi 饥饿的一个明显可见的症状是花青素积累，导致叶、茎甚至根变成紫色。已知磷和氮缺乏以及其他环境胁迫（盐度、低温、高光强）都能诱导花青素的产生，但环境胁迫对花青素的调控尚不清楚。最近的一份报告表明，花青素在光系统中捕光蛋白的光保护中发挥着重要作用<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B48">Henry et al., 2012</a>)</sub>。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B55">Ito et al.<sub> (2015)</sub></a>将拟南芥的紫化归因于 <code>独脚金内酯</code> 信号通路，并提出独脚金内酯在低 Pi 条件下调节花青素积累。<br>&emsp;&emsp;二十年前，两个拟南芥 Pi 转运蛋白的发现是磷酸盐营养的植物分子生物学的里程碑<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B104">Muchhal et al., 1996</a>)</sub>，在破译特定组织、细胞和细胞器中的 Pi 转运蛋白网络响应磷缺乏的潜在作用机制方面已取得重大进展<sub>(described by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B120">2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B7">Baker et al., 2015</a>)</sub>。最近的文章对野生和栽培植物中（包括水稻和拟南芥）调节编码磷酸盐转运蛋白表达和信号途径的分子机制进行了全面的综述<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B17">Chiou and Lin, 2011</a>)</sub>。先前的研究已经确定了植物根部中高亲和力和低亲和力磷酸盐转运系统的共存<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>)</sub>。<span style='font-size:1.0rem;font-family:楷;color:red;background:yellow'>高亲和力转运蛋白是负责从土壤中摄取Pi的质膜蛋白，这些蛋白质由 PHT1（磷酸转运蛋白）家族基因编码，是质子偶联的 H<sub>2</sub>PO<sub>4</sub><sup>-</sup> 同向转运蛋白。</span><strong>无机磷酸盐通过 PHT1 的转运是由质膜 H<sup>+</sup>-ATP 酶驱动的</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B174">Ullrich-Eberius et al., 1981</a>)</sub>。<u><strong>Pi 从根部通过<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'> PHO1</span> 转运蛋白装载到木质部，其中Pi被分配到植物的地上部分</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B95">López-Arredondo et al., 2014</a>)</sub>。<u><strong>Pi 的有机形式如核苷酸（ATP）和磷酸己糖在韧皮部汁液中运输</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。为了在细胞水平上维持 Pi 的动态平衡，植物将 Pi <strong><u>储存在液泡</u><strong>中，最近VPT1（Vapolar Phosphate Transporter 1）已被鉴定为液泡膜内流转运蛋白<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B90">Liu et al., 2015</a>)</sub>。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>控制 Pi 水平的重要性还延伸到其他细胞器，包括质体、线粒体和高尔基体。通过</strong>质体</strong>、<strong>线粒体</strong>和<strong>高尔基体</strong>膜的磷酸盐转运分别由 <strong>PHT2/4</strong> 和<strong>PHT3</strong>和<strong>PHT4</strong>家族的蛋白质介导</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。下面将更详细地描述参与细胞区室之间 Pi 的获得和易位的所有蛋白质。</p>
+<h2 id="Part-1-质膜磷转运体（Phosphate-Transporters）"><a href="#Part-1-质膜磷转运体（Phosphate-Transporters）" class="headerlink" title="Part.1 质膜磷转运体（Phosphate Transporters）"></a>Part.1 质膜磷转运体（Phosphate Transporters）</h2><p>&emsp;&emsp;如上所述，两种类型的转运蛋白 :<strong>PHT1</strong> 和 <strong>PHO1</strong> 负责从土壤中吸收磷酸盐并将其进一步分配到地上植物器官和植物组织之间。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>PHT1蛋白是研究最多的植物磷酸盐转运蛋白。它们属于主要促进剂超家族（MFS）中的磷酸：H<sup>+</sup> 同向转运体（PHS）家族。对于每个Pi，磷酸盐和质子传输化学计量为2至4个 H<sup>+</sup> 离子。</span></p>
+<h4 id="1-1-PHT1"><a href="#1-1-PHT1" class="headerlink" title="1.1 PHT1"></a>1.1 PHT1</h4><p>&emsp;&emsp;PHT1转运蛋白仅在植物和真菌细胞中被鉴定，计算机分析已经确定它们的二级结构具有共同的结构模式，12个假定的跨膜结构域（TM）通过 TM6 和 TM7 之间的大亲水环分为两组。蛋白质的 N- 和 C- 末端朝向细胞质<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。印度梨形孢菌（<em>Piriformospora indica</em>）真菌高亲和力磷酸转运蛋白 PiPT 的晶体结构证实了预测的 PHT1 拓扑结构，并证明该结构<strong>在植物和真菌中是保守</strong>的<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B118">Pedersen et al., 2013</a>)</sub>。PHT1 转运蛋白在许多植物物种中都有描述。但它们在拟南芥（<em>A.thaliana</em>）和栽培稻（<em>O.sativa</em>）中得到了最好的表征，其基因组<span style='font-size:1.0rem;font-family:宋体;color:;background:lightgreen'>分别编码9个和13个PHT1</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。在磷剥夺期间，<em>PHT1</em> 的表达被诱导或强烈上调，但一些 <em>PHT1</em> 基因的表达与环境中的磷酸盐浓度无关<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>)</sub>。还报道了<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'> PHT1 蛋白可以转运其它溶质，例如亚磷酸盐、砷酸盐、亚硒酸盐、硝酸盐、硫酸盐或氯离子</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B38">Gu et al., 2016</a>)</sub>。但是在许多情况下，特定 PHT1 蛋白的功能分析是困难的，由于它们在大多数植物器官中广泛表达谱，以及从突变体分析结果的复杂解释。</p>
+<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g001.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g001.jpg"></p>
+<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B115">Omasits et al., 2014</a>）</p>
+<h4 id="1-2-PHO1"><a href="#1-2-PHO1" class="headerlink" title="1.2 PHO1"></a>1.2 PHO1</h4><p>&emsp;&emsp;参与植物体内磷酸盐分布的第二类转运蛋白是 PHO1 蛋白。与 PHT1 相反，<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'>PHO1 不属于 MFS 而是属于 SPX-EXS 蛋白家族</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>)</sub>。<strong>除了运输特性外，PHO1 蛋白还在信号传导中发挥作用，并参与 Pi 缺乏下的长距离（根到芽）信号转导级联反应</strong>。最近分析了来自拟南芥的PHO1的拓扑结构——它由 <span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'><code>1）含有三部分SPX结构域的长细胞质N末端、 2）含有EXS结构域的细胞质C末端、 3）六个跨膜螺旋组成。</code></span>最后两个跨膜螺旋通过位于细胞质中的环与其他四个分开，它们是EXS结构域的一部分。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>EXS</span>结构域在PHO1功能中起着至关重要的作用——它负责 PHO1 的信号传导能力和 Pi 转运活性（尽管它本身并不转运 Pi ）以及在高尔基体结构中的适当蛋白质定位<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。PHO1 同系物广泛分布于许多生物中，包括所有陆地植物（苔藓植物、石松植物、裸子植物和被子植物）、真菌和动物（例如在果蝇、秀丽隐杆线虫 <em>Caenorhabditis elegans</em> 和哺乳动物中），但在细菌或单细胞绿藻莱茵衣藻（<em>Chlamydomonas reinhardtii</em>）中尚未发现<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。生物信息学分析表明，拟南芥基因组中有10个 PHO1 同源物（PHO1;H1–PHO;H10），但到目前为止，仅对 PHO1 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B45">Hamburger et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B163">2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B3">Arpat et al., 2012</a>) </sub>和两个 PHO1 同系物，即 PHO1;H1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>) </sub>和 PHO1;H3 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。<strong>PHO1;H1 能够补偿 PHO1 功能的丧失，而PHO1；H3调节PHO1在锌缺乏下的功能</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。水稻 PHO1<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>家族由三个成员组成：OsPHO1;1，OsPHO1;2和 OsPHO1;3，但只有 OsPHO1;2似乎与拟南芥的PHO1具有类似的作用</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B146">Secco et al., 2010</a>)</sub>。</p>
+<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g002.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g002.jpg"></p>
+<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。)</p>
+<h2 id="Part-2-PHT1家族在土壤直接磷吸收中的作用"><a href="#Part-2-PHT1家族在土壤直接磷吸收中的作用" class="headerlink" title="Part.2 PHT1家族在土壤直接磷吸收中的作用"></a>Part.2 PHT1家族在土壤直接磷吸收中的作用</h2><p>&emsp;&emsp;植物可以<span style='color:red'> <strong>1# 直接从土壤中吸收磷素</strong></span>，也可以通过 <span style=color:red><strong>2# 光合作用产生的碳水化合物与真菌菌丝释放的磷素进行交换</strong></span>，形成菌根 mycorrhizal 联合体间接吸收磷素<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。磷酸盐吸收的直接策略涉及存在于根皮rhizodermis（特别是毛细胞trichoblast cells）中的 PHT1 转运蛋白，以及在较小程度上存在于皮层细胞 cortical cells 中的 PHT1 转运蛋白。<strong>在拟南芥中，9个 PHT1 中的8个在根组织中表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>)</sub>，而在<strong>稻根中检测到所有13个 OsPHT1 的转录本</strong>。尽管从不同的遗传实验中获得的结果有时是不一致的<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>，突变体分析证实，在拟南芥的磷酸盐吸收中主要有四种转运蛋白 <span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>AtPHT1;1–AtPHT1;4</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>和 O.sativa 中至少6个PHT1：<span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>OsPHT1;1/2/4/6/8/9/10</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。<br>&emsp;&emsp;综合分析 AtPHT1 基因在高磷胁迫下的拟南芥根中的表达，发现 AtPHT1;1 启动子的活性最高<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。ATPHT1;2–ATPHT1;4 的转录本在磷酸盐喂养的根中也可检测到。另一方面，在缺乏 Pi 的植物中，AtPHT1;1 的 mRNA 水平仅轻微增加：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>3至4倍</span>，而来自AtPHT1家族的其他基因的表达增加更为明显：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>25至70倍</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。<strong>由 AtPHT1;1 启动子驱动的报告基因（Gus或GFP）表达揭示了其在根皮 rhizodermis 中的定位，主要是在根毛root hairs中，但也在侧根冠 lateral root caps、小柱细胞 columella cells 中，并且在根毛区的皮层细胞 cortical cells 中在相对弱的水平上表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。类似地，AtPHT1;2 在成毛细胞和根较老部分的皮层中表达，AtPHT1;3 分别存在于侧根的生毛细胞和主根近根尖的表皮中，以及在主根的中柱鞘细胞中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，而 AtPHT1;4 在表皮、皮层、中柱和根尖中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>)</sub>。这些结果表明，<u><em>AtPHT1;1，AtPHT1;2，ATPHT1;3，和AtPht1;4可以具有类似的、部分重叠的功能</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，后来通过实验证实了这一点<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。即显示在高 Pi 下通过 <em>atpht1;1</em> 插入突变体的磷酸盐吸收<strong>减少到 60% 左右</strong>，而双突变体 <em>atpht1;1Δ4Δ</em> 至野生型比率的<strong>约 30%</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>)</sub>。**<span style='font-size:1.3rem;font-family:宋体;color:red;background:lightgreen'>这些数据表明 AtPHT1;1 的主要作用于高 Pi 条件下拟南芥根系磷吸收</span><strong>。相反，<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在</strong>缺磷<strong>植物中，在 Pi 获得中起主导作用的是 AtPHT1;4，其负责约 40-48% 的 Pi 的摄取，而 AtPHT1;1 仅占摄取的15-20%，和 AtPHT1;2 和 AtPHT1;3 共占 Pi 的30%左右</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。除了四种主要转运蛋白（AtPHT1;2–AtPHT1;4）不能排除其他 AtPHT1 成员在 Pi 获得中的作用。例如，<em>atpht1;5</em> 突变体表现出对砷酸盐（Pi 结构类似物，对植物有毒，通过PHT运输）的中等耐受性，提示 AtPht1;5 的可能作用在 Pi 摄取中<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B107">Nagarajan et al., 2011</a>)</sub>。<br>&emsp;&emsp;水稻 OsPHT1 转运蛋白在</strong>敲除或敲低（RNAi）品系中的 Pi 吸收减少和在过表达品系中的吸收增强**已得到证实（也称为OsPT），包括<span style='color:red'>OSPHT1;1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>)</sub>，OSPHT1;2<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B85">Liu et al., 2010</a>)</sub>，OsPHT1;4<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，OsPHT1;6<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>)</sub>，OsPHT1;8<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>)</sub>，OSPHT1;9，和OsPHT1;10<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub></span>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>其中只有 OsPHT1;1是组成性表达的，而其余的在 Pi 剥夺下显著上调</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>只有一个来自 OsPHT1 家族的蛋白，即 OsPHT1;2 ，是一种低亲和力转运蛋白</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>)</sub>。大多数 OsPHT1 不表现出组织特异性表达，但它们在各种根组织和其他一些植物器官中普遍表达。因此，可以合理地得出结论这些转运蛋白可能在磷酸盐的获取和转运中起着广泛的作用<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>。此外，一些 OsPHT1 的组织特异性表达依赖于植物的发育阶段。一个很好的例子是 OSPHT1;4 ，在胚根的所有组织中均检测到其启动子活性<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，而在正常 Pi 下生长的成熟植物中，仅在外皮层（皮层细胞的外层，参与调节根中水和离子的径向流动）中发现。在长时间的 Pi 饥饿期间，OsPHT1;4 开始在皮层细胞中表达，这表明其在这种应激条件下参与共质体 Pi 运输<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。考虑到所有这些数据以及 PHT1 之一的过表达或突变可能改变其他表达的事实<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>，很难确定这些转运蛋白中的哪一个对 Pi 的吸收和分布至关重要。</p>
+<h2 id="Part-3-PHT1家族蛋白在菌根磷吸收中的作用"><a href="#Part-3-PHT1家族蛋白在菌根磷吸收中的作用" class="headerlink" title="Part.3 PHT1家族蛋白在菌根磷吸收中的作用"></a>Part.3 PHT1家族蛋白在菌根磷吸收中的作用</h2><p>&emsp;&emsp;据估计，<strong>90%的陆生植物物种可以被菌根真菌定殖<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>) </sub>，超过80%的维管植物，包括主要作物，形成丛枝菌根</strong><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。而拟南芥属于少数不形成菌根群丛的植物物种<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B175">Vance, 2008</a>)</sub>，<em>O.Sativa</em> 是一种丛枝菌根（AM: arbuscular mycorrhizal）植物<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。<br>&emsp;<span style='font-size:1.3rem;font-family:宋体;color:blue;background:yellow'>&emsp;丛枝菌根</span>真菌属于球囊菌门（<em>Glomeromycota</em>）。它们的菌丝穿透植物根部，进入皮层细胞，在每个细胞内形成菌丝卷曲或称为丛枝（AM: arbuscular mycorrhizal）的高度分支结构。丛枝或菌丝卷曲不破坏植物质膜的完整性，但通过其内陷形成细胞内空间。真菌感染改变了细胞质膜的结构，允许丛枝/菌丝卷曲的生长，并产生丛枝周膜（在菌丝卷曲形成的情况下称为菌丝周膜）。.这种膜和菌丝质膜之间的界面是共生伙伴之间进行营养交换的地方<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B10">Bucher, 2007</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。<br>&emsp;&emsp;除了 AM 形成的其他积极方面，如保护免受非生物胁迫和病原体以及改善从土壤中获取水分，这类菌根最广为人知的功能是真菌对植物磷营养的贡献<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B58">Jeffries et al., 2003</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。另一方面，植物的 Pi 状态是调节定殖过程、向菌丝递送糖和共生结构形成的主要因素<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。在接种 AM 真菌的植物中，两种磷吸收途径共存。第一种是从土壤通过根表皮细胞膜的直接途径，涉及上述 PHT1 转运蛋白。第二种是通过真菌菌丝体的间接途径，与位于丛枝分支域的丛枝周围膜中的植物Pht1转运蛋白结合，其被 AM 形成特异性诱导或上调<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。这些 PHT1 转运蛋白的表达与根的定殖程度密切相关，与丛枝的形成和崩溃密切相关-在单细胞水平上<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>对几种植物（亚麻、番茄、水稻、蒺藜苜蓿）的生理学研究表明，在低磷浓度下，菌根途径占主导地位</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。这并不令人惊讶，因为菌根的形成通常伴随着参与直接 Pi 吸收途径的 PHT1 表达的减少<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在水稻 PHT1 基因中，OsPHT1;11<sub>（Paszkowski等人，2002年；Kobea和Hata，2010年；Yang等人，2012）</sub>和OsPHT1;13<sub>（Güimil等人，2005年；Yang et al.，2012）</sub>被认为参与了<strong>共生 Pi 吸收途径</strong>。</span><br>&emsp;&emsp;事实上，在大多数形成菌根共生体的植物物种中，已经发现了至少一种菌根特异性或上调的 PHT1 基因。此外，PHT1 蛋白序列的系统发育分析表明，与 AM 相关的 PHT1 形成了自己的谱系，与非 AM 相关的 PHT1 在进化上相距较远。在这个谱系中，可以区分出几个类群<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。例如，OsPHT1;11 同源物在单子叶植物和双子叶植物中是常见的，并且在进化上更古老，与来自古老植物小立碗藓的Pht1转运蛋白密切相关（苔藓植物）和江南卷柏（石松植物），而 OsPHT1;13 直向同源物在单子叶植物中是保守的，但在双子叶植物中不是 (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)。</p>
+<p>—-<weiwan>—-</p>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>磷信号</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>8. 植物非生物胁迫信号</title>
+    <url>/2022/11/14/%E6%A4%8D%E7%89%A9%E9%9D%9E%E7%94%9F%E7%89%A9%E8%83%81%E8%BF%AB%E4%BF%A1%E5%8F%B7%EF%BC%88Zhu.%202016%EF%BC%89/</url>
+    <content><![CDATA[<h4 id="植物非生物胁迫信号（Zhu-2016）"><a href="#植物非生物胁迫信号（Zhu-2016）" class="headerlink" title="植物非生物胁迫信号（Zhu. 2016）"></a>植物非生物胁迫信号（Zhu. 2016）</h4><p><strong>生物胁迫</strong>(如病原体感染和食草动物的啃食)<br><strong>非生物胁迫</strong>(例如干旱、高温、冷害、营养匮乏、盐害以及土壤中铝、砷、镉等有毒金属毒害)。<br>干旱、盐害以及温度胁迫是影响植物的地理分布、限制农作物产量,并威胁粮食安全的主要环境因子。<br>干旱造成的初级胁迫信号是高渗透压胁迫,通常被简称为<strong>渗透胁迫</strong>。这是由于典型的低渗透压条件对植物细胞来说并不是问题。盐胁迫同时对细胞造成<strong>渗透胁迫和离子毒害</strong>。干旱胁迫和盐胁迫有各自独立和一些共同的信号转导机制。干旱和盐胁迫的一个重要特征是<strong>渗透胁迫信号能够引起植物激素脱落酸(ABA)的累积</strong>，进而引起植物的适应性反应。</p>
+<p><strong>感知</strong>：感受蛋白的功能冗余,即一个<u>感受蛋白的缺失并不导致胁迫应答的显著变化</u>,可能是科学家面临的主要困难。另外一种情形是,某个感受器可能是植物生长必需的,而<u>功能缺失突变体将不会存活</u>,致使无法对其深入研究。此外,<u>很难从技术上证明一种蛋白质或其他大分子是物理信号(如渗透压的变化、离子浓度或温度)的感受器</u>。</p>
+  <span id="more"></span>
+
+<p><strong>OSCA1</strong>（reduced hyperosmolality-induced calcium increase 1），编码一种质膜定位的渗透压控制的钙离子通道。高盐、冷害、热害导致的渗透胁迫以及氧化胁迫、重金属和ABA处理会导致植物细胞质自由钙离子浓度增加。<em>osca1</em> 功能缺失突变体在山梨醇和甘露醇处理下钙离子释放减少。不清楚OSCA1如何感知渗透胁迫,推测<u>可能是通过减少细胞膨胀,影响膜牵张以及质膜和细胞壁的相互作用</u>。拟南芥Msc S-like蛋白<strong>MSL8</strong>,是花粉在缺水渗透胁迫下生存所必需的,研究表明,MSL8是低渗胁迫诱发的膜张力变化的感受器。植物也有一个大的环核苷酸门控离子通道(<strong>CNGCs</strong>)家族以及类谷氨酸受体(<strong>GLR</strong>)家族,可能对于调控胁迫应答的胞质Ca2+信号具有重要作用。<strong>COLD1</strong>对于水稻亚种日本晴抵抗冷害(0~15℃)是必需的。COLD1是一种细胞膜和ER的跨膜蛋白。<u>COLD1与植物中α-异源三聚体G蛋白的RGA1亚基相互作用</u>。作者推测,COLD1能调节钙通道或者其本身就是一个冷激活钙通道。目前尚不清楚COLD1如何调控钙信号并增强抗冷能力。</p>
+<p>冷和热都能影响细<strong>胞膜磷脂双分子层的流动性</strong>(Sangwan et al.,2002)。这种变化可能被一些整合膜蛋白,包括通道和各种其他转运体以及膜锚定受体激酶(RLKs)所感知。高温胁迫下热变性引起<strong>蛋白的错误折叠</strong>也可能被与其结合的分子伴侣所感知。与错误折叠蛋白的结合使<strong>热胁迫转录因子从与分子伴侣结合态中释放,并激活热敏基因的表达</strong>。最近,<strong>H2A.Z-核小体</strong>被认为是植物和酵母高温感受体。作者认为,H2A.Z-核小体包装DNA比H2A-核小体包装的DNA更加致密,温度导致H2A.Z-核小体解离,使DNA更容易被Pol II转录,从而促进热激蛋白(HSPs)及其他基因的表达。这是一个非常有吸引力的假设,但仍需要进一步验证。</p>
+<p>理论上讲,物理胁迫特别是温度信号,<strong>可以在细胞的任何地方被感知</strong>,只要胁迫信号能导致细胞组分的状态发生改变(蛋白质、DNA、RNA、碳水化合物或脂肪)或区域化(如,代谢反应的区域化),只要这些<strong>改变能够影响其他细胞组分或活性</strong>。胁迫导致的内质网(ER)应激蛋白质折叠的变化,称为内质网胁迫,目前已被广泛认为是一个重要的细胞胁迫应答方式。同样,胁迫也与叶绿体、线粒体、过氧化物酶体、细胞核、细胞壁等细胞器有关,从所有细胞器产生的胁迫信号,被整合后调控逆境相关基因的表达及其他细胞活性,从而恢复细胞稳态。<img src="https://www.cell.com/cms/attachment/b9778048-f6db-4b1d-ad66-d1a07e7bfec2/gr1.jpg" alt="zjk-cell"></p>
+<h5 id="ER-胁迫"><a href="#ER-胁迫" class="headerlink" title="ER 胁迫"></a><strong>ER 胁迫</strong></h5><p>生物和非生物胁迫都会引起<strong>蛋白质错误折叠或者未折叠蛋白质的积累</strong>,这能被内质网膜上由特定的受体蛋白所感受并产生内质网胁迫。<strong>UPR</strong>：通过PKR类似的ER el F2a激酶,内质网胁迫会导致一些编码分子伴侣以及与增强蛋白折叠能力、调控ER相关降解(ERAD)或抑制蛋白质翻译相关基因的表达,从而<strong>降低加载到ER上的新合成蛋白质的总量</strong>。植物中两类主要的ER胁迫受体已被确定:ER膜相关转录因子和一个RNA剪接因子。植物中两类主要的ER胁迫受体已被确定:ER膜相关转录因子和一个RNA剪接因子。<br><strong>bZIP</strong>：在ER中,bZIP28可能通过与分子伴侣蛋白BiP(binding immunoglobulin protein)互作来感知热信号和其他ER胁迫信号。未折叠或错误折叠的蛋白质在胁迫过程中积累并与BiP作用,从而使bZIP28从与BiP的结合状态释放出来并向高尔基体转运。在高尔基体中,bZIP28被切割，bZIP28的胞质部分则重新定位到细胞核,激活胁迫相关基因的表达并重建ER动态平衡。bZIP28也可以感知能量水平和氧化还原状态的改变,或与BIP以及包含DNAJ功能域的分子伴侣的相互作用等,致使其与BIP分离。盐胁迫也以类似的方式激活bZIP17。此外,一些ER或者质膜相关NAC转录因子可以被ER胁迫激活并参与UPR。<br><strong>IRE1</strong>：植物第二种类型的ER胁迫感知器是IRE1,一种从酵母到后生动物保守的剪接因子。据推测,植物IRE1蛋白质以类似酵母中同源蛋白类似的方式结合未折叠蛋白并感知ER胁迫。拟南芥中激活的IRE1蛋白识别并剪接bZIP60和其他靶mRNAs。被剪接后的bZIP60会产生一个bZIP60变体,从而进入细胞核激活UPR基因的表达。</p>
+<h5 id="叶绿体、线粒体、过氧化物酶体胁迫应答"><a href="#叶绿体、线粒体、过氧化物酶体胁迫应答" class="headerlink" title="叶绿体、线粒体、过氧化物酶体胁迫应答"></a><strong>叶绿体、线粒体、过氧化物酶体胁迫应答</strong></h5><p>叶绿体是光合电子传递和许多代谢反应发生的细胞器,叶绿体的代谢平衡很容易被环境胁迫影响。叶绿体稳态的紊乱可以通过<strong>逆向(retrograde)信号</strong>传递到细胞核,以协调细胞活性,使其与叶绿体胁迫程度一致,<strong>调控糖和其他化合物的供应</strong>。叶绿体是产生<strong>超氧阴离子、过氧化氢、羟基自由基和单线态氧</strong>等**<u>ROS的主要场所</u><strong>。各种环境胁迫,特别是高光强会促使ROS产生,严重影响ROS控制系统,产生一系列的次级信号分子。单线态氧触发一个需要核基因编码的定位于类囊体膜上的EXECUTER</strong>(EX1)和EX2<strong>两个蛋白参与的信号途径。高光强和其他胁迫能够导致质体代谢物甲基赤藓醇环焦磷酸(<strong>MEc PP</strong>)含量的增加,MEc PP是一种类异戊二烯前体。MEc PP作为一个逆向信号,激活编码质体蛋白质的逆境应答核基因的表达。另一个对应激反应非常重要的质体代谢物是磷酸核苷3’-磷酸腺苷5’-磷酸盐</strong>(PAP**)。在干旱和高光强条件下PAP的含量增加。<strong>SAL1/FRY1</strong>是双功能磷酸酶,可以使肌醇磷脂和PAP去磷酸化(转变为AMP)。SAL1/FRY1的功能缺失导致体内PAP的积累。其他叶绿体代谢物,如<strong>四吡咯</strong>和<strong>β-胡萝卜素氧化分解产物</strong>(Ramel etal.,2012)也被认为可以作为逆向信号。</p>
+<p>线粒体和过氧化物酶体可产生ROS和许多代谢物,其中一些可能作为逆向信号分子。线粒体<strong>DEXH框RNA解旋酶</strong>或<strong>线粒体PPR</strong>(pentatricopeptide repeat protein)蛋白的突变导致ROS积累,会<u>改变植物对逆境激素ABA的反应</u>(He et al.,2012)。<strong>线粒体复合体I</strong>的突变也导致ROS积累,并降低突变植株冷应答基因的表达,使突变体对冷害和冻害敏感。<strong>CHY1</strong>基因编码一个过氧化物酶体β-羟异丁酰(HI-BYL)辅酶A水解酶,是<u>缬氨酸分解代谢和脂肪酸β-氧化</u>所必需的。CHY1基因的突变也能够导致ROS积累,降低冷害相关基因的表达,从而降低植物耐寒性(Dong et al.,2009)。线粒体和过氧化物酶体产生的ROS信号可能通过影响钙信号调节冷胁迫应答。</p>
+<h5 id="细胞壁胁迫应答"><a href="#细胞壁胁迫应答" class="headerlink" title="细胞壁胁迫应答"></a><strong>细胞壁胁迫应答</strong></h5><p>在植物体中,初级细胞壁是由<strong>纤维素微纤丝</strong>与<strong>木葡聚糖</strong>和<strong>阿糖基木聚糖</strong>等半纤维素相互联结并嵌入在<strong>果胶胶体</strong>组合而成。细胞壁还含有<u>酚醛树脂、过氧化物酶、果胶酯酶以及其他酶类;伸展蛋白,扩张蛋白以及其他蛋白质和Ca2+离子</u>。盐害、干旱胁迫以及其他渗透胁迫导致ROS积累以及细胞壁的变化。ROS的积累会引起酚醛树脂和细胞壁伸展蛋白等糖蛋白的交联,最终导致细胞壁硬化。另一方面,<strong>胁迫可增加扩张蛋白和木葡聚糖修饰酶基因的表达,从而重塑细胞壁</strong>。盐胁迫还能够导致细胞壁Ca2+的损失。在酵母中,细胞壁应激反应主要是由细胞壁结合的质膜蛋白Wsc1-3、Mid2和Mtl1感知,但这些感受器怎样检测到细胞壁变形尚不清楚。因为这些蛋白质都含有一个<strong>大的富含丝氨酸和苏氨酸残基的O-糖基化胞外结构域</strong>,推测这些蛋白质可能有<u><strong>牵张受体</strong></u>的功能。这些感受器的下游依次是GDP/GTP交换因子、小GTP蛋白Rho1、蛋白激酶C和MAPK级联途径。但具体的植物细胞壁胁迫感受器尚未被鉴定。植物有上百个RLKs和其他包含胞外区域、跨膜区和一个胞质激酶域的蛋白激酶,其中一些可能感受细胞壁的变化。</p>
+<h5 id="离子胁迫信号"><a href="#离子胁迫信号" class="headerlink" title="离子胁迫信号"></a><strong>离子胁迫信号</strong></h5><p>土壤盐害影响了相当比例的耕地,是限制全球农业生产的一个主要因素。高盐浓度会导致离子毒性(主要是Na+)、高渗胁迫以及如氧化损伤等次级胁迫。<strong>目前还不清楚植物细胞如何感受Na+<strong>。植物运用一个被称作</strong>SOS途径</strong>的钙依赖蛋白激酶途径介导盐胁迫信号和Na+的耐受性。<strong>SOS途径是植物中建立的第一个非生物胁迫信号途径</strong>，在这个途径中,EF钙结合蛋白SOS3感应盐胁迫介导的胞质钙信号,SOS3（CBL4）与丝氨酸/苏氨酸蛋白激酶SOS2相互作用并激活SOS2（CIPK24）。SOS3主要在根中表达,SOS3的旁系同源蛋白SCaBP8（CBL10）则主要在地上部表达,与SOS3的功能类似。激活的SOS2磷酸化并激活质膜Na+/H+转运体SOS1。SOS1在根表皮细胞和木薄壁组织细胞中表达,激活的SOS1使Na+排出到土壤溶液中,以及装载Na+进入木质部中进行长距离运输,通过蒸腾流一直运输到叶片中。总之,<strong>SOS1可能使Na+从木质部薄壁组织中排出到叶肉细胞的质外空间</strong>。</p>
+<p><strong>HKT1</strong>是另一个重要的转运体,在长距离Na+运输中起着主要作用。在拟南芥中HKT1是Na+主要输入者,在植株木质部薄壁组织细胞和脉管系统中的其他细胞中表达。在根部,HKT1可能卸载木质部中的Na+,限制蒸腾流中的Na+总量。在叶片中HKT1装载Na+到韧皮部中再循环回根部。<strong>任何一个SOS基因功能紊乱,包括SOS1,会显著增加突变植物对盐胁迫的敏感性</strong>。实际上正是由于这些突变体对盐害敏感的表型,SOS基因才被发现。HKT1基因突变材料会增加蒸腾植物的盐胁迫敏感性,但会抑制维持最小蒸腾量的生长在培养基上的SOS突变体的盐敏感性。<strong>SOS1和HKT1拮抗作用如何被协调是盐胁迫研究中的一个重要的问题</strong>。目前尚不清楚SOS1和HKT1是否在维管系统的同一细胞中表达。总之,<strong>SOS1似乎促进Na+从根到叶的运输,然而HKT1似乎限制这一过程</strong>。这两种转运体在Na+长距离运输中的重要性可能取决于盐胁迫的程度。在温和的盐胁迫下,植物激活木薄壁组织细胞SOS1对于本身有利,因为可以转移更多Na+到叶片中,存储在叶肉细胞中的大液泡内参与细胞渗透调节,促进植物生长。在严重盐胁迫下,过量Na+传输到叶片中将超出叶片本身的承载容量,因此必须卸载根部木质部中的Na+,并将叶片中Na+重新富集到根部。几个SOS3类似的钙结合蛋白能被与其结合的类SOS2的蛋白激酶磷酸化。<strong>磷酸化对于钙结合蛋白激酶的激活很重要</strong>。在静止状态或无胁迫条件下,SOS2结合<strong>14-3-3</strong>蛋白,以确保SOS2处于非激活状态。此外,SOS2与<strong>磷酸酶2C类的蛋白磷酸酶ABI2</strong>相互作用,也使SOS2处于非激活状态。</p>
+<p>核心信号组分SOS2代表了一个大的蛋白激酶家族,这些蛋白激酶的催化区域与酵母蔗糖非发酵蛋白激酶SNF1以及和哺乳动物AMP激活的蛋白激酶(AMPK)相似。在拟南芥中,这些蛋白质通常称为SNF1相关激酶**(SnRKs**)。**<u>SnRKs包括3个亚家族,其中亚家族1(SnRK1s)中有3个成员,亚家族2(SnRK2s)中有10个成员,亚家族3(SnRK3s，也被称作PKSs或CIPKs)中有25个成员</u>**。</p>
+<p>**<u>SnRK3s亚家族中的任一成员都能和10个类SOS3钙结合蛋白(SCaBPs,也被称作CBLs)中的一个或多个成员相互作用</u><strong>。这种相互作用是由激酶的N末端的FISL基序介导的。FISL基序或整个调节区域的缺失会导致激酶的持续性激活。大量SCaBP/CBL-PKS/CIPK的可能组合表明,Ca2+-SOS3-SOS2信号途径在植物中被广泛使用。事实上,<strong>CBL-CIPK模块在钙作为第二信使,尤其是调控离子转运蛋白活性的各种非生物信号的信号转导途径中有重要作用</strong>。例如低钾胁迫可能触发胞质钙信号,通过CBL1和CBL9激活CIPK23,磷酸化并激活钾通道AKT1。</strong><u>SCaBP1激活PKS5/CIPK11以及PKS24/CIPK14,继而磷酸化并抑制质膜上H+-ATPase活性。这种抑制作用对于细胞pH值的调节非常重要</u>**。CBL2和CBL3与蛋白CIPK3/9/23/26相互作用,调节液泡中的Mg2+含量,对高浓度Mg2+胁迫的耐受有重要意义。其他已知的CBL-CIPK组合调节不同的转运蛋白,对植物响应硝酸盐、脱落酸和其他非生物胁迫逆境具有重要作用。</p>
+<p>在植物应对生物和非生物胁迫,如盐、干旱、寒冷、炎热和受伤以及应对生长和发育信号过程中观察到多个MAPKs,<strong>主要是MPK3、4和6的快速激活</strong>。在非生物逆境下,<u>MAPK信号途径研究的困难源于上游感受蛋白的鉴别,</u>以及决定MAPK激活的MAP3Ks和MAP2Ks的发现,还有如何将激酶的激活与下游效应蛋白和生理输出联系起来。<br><img src="https://www.cell.com/cms/attachment/3d4b74ac-a5f1-4223-a32b-3d751ab11900/gr2.jpg" alt="gr2.jpg (506×279) (cell.com)"></p>
+<p><strong>盐、干旱和渗透胁迫也可迅速激活SnRK2家族蛋白激酶</strong>。在拟南芥中<u>,除SnRK2.9之外的所有10个SnRK2s都能被渗透调节激活</u>,而<u>SnRK2.2/3/6/7/8则被ABA激活</u>。尽管ABA激活SnRK2s的分子机制已被阐明,但渗透胁迫如何激活SnRK2激酶尚不清楚。遗传学证据表明,<strong>渗透胁迫的耐受依赖于SnRK2s,缺失所有10个SnRK2s的拟南芥十突变体对于渗透胁迫引起的生长抑制超敏感</strong>。snrk2十突变体植物中大量渗透胁迫应答基因的表达,脱落酸、渗透调节物质脯氨酸以及第二信使IP3积累受到影响,但是渗透胁迫诱导的ROS的积累并不受影响。<strong>这些结果表明,Sn RK2激活位于ABA积累的上游</strong>,并控制渗透调节和其他渗透胁迫的适应性反应(图3)。未来的努力应集中于<u>寻找渗透胁迫条件下对于SnRK2激活有重要作用的上游组分,以及鉴定渗透胁迫激活的SnRK2s的底物蛋白</u>。因为渗透胁迫会诱导胞质的钙信号且钙通道OSCA1也是潜在的渗透传感器,SnRK2s上游的候选组分可能有包括钙调节的蛋白激酶如CPKs和SCaBP/CBL-PKS/CIPKs。在Physcomitrella patens中,最近的研究显示,类Raf激酶对于渗透压和ABA处理下SnRK2的激活至关重要。探寻<strong>高等植物是否有相似的蛋白激酶以及这些蛋白激酶如何整合渗透胁迫和ABA信号</strong>,将是一个非常有趣的课题。</p>
+<p>渗透胁迫和温度胁迫引起各种<strong>脂质信号的形成</strong>,包括磷脂酸、磷酸肌醇、鞘脂类、溶血磷脂、氧化脂类,N-酰基乙醇胺等(Hou et al,2016)。对于胁迫是如何调节产生脂质信号的合成酶的活性尚不清楚。一般来说,<strong>脂质分子与信号蛋白结合并影响后者的活性和膜定位</strong>。<img src="https://www.cell.com/cms/attachment/a4a1fa51-170e-42c2-9467-7c4ca062c385/gr3.jpg" alt="gr3.jpg (504×459) (cell.com)"></p>
+<h5 id="ABA-信号转导"><a href="#ABA-信号转导" class="headerlink" title="ABA 信号转导"></a><strong>ABA 信号转导</strong></h5><p>脱落酸信号转导途径是植物中干旱胁迫和盐胁迫的核心。过去十年胁迫信号的研究中,最重要的一个进展就是ABA受体的鉴别以及ABA核心信号转导途径的发现。化学遗传学和蛋白互作研究鉴定出可溶、包<u>含START结构域的PYR/PYL/RCAR(以下称为<strong>PYL</strong>)蛋白家族是ABA的受体</u>。PYL通过微摩尔级别的KD结合ABA,<u>当A类型的PP2Cs如ABI1、ABI2、HAB1和PP2CA存在时,PYL与ABA的亲和力可以增加近100倍</u>。因此A类型的PP2Cs可被认为是ABA的共受体。当<u>没有ABA时,PP2Cs与SnRK2激酶包括SnRK2.2、SnRK2.3和SnRK2.6(又名OST1)结合,通过与去磷酸活化环并覆盖催化中心使激酶处于失活状态</u>。ABA进入PYL的中央疏水区域,诱导疏水区域处于关闭状态,并创建一个PP2Cs结合表面。在<strong>PYL-ABA-PP2C复合物</strong>的里面,PP2C中一个色氨酸残基插入到ABA结合区域,将ABA锁定在该区域,复合物中PP2C的蛋白磷酸酶活性被ABA-PYL复合体所抑制。<strong>ABA-PYL对PP2Cs的结合和抑制导致SnRK2s从PP2Cs的结合中释放出来</strong>。释放的SnRK2s通过自身磷酸化激活,并磷酸化许多下游的效应蛋白。小G蛋白ROP11与ABI1相互作用并保护ABI1使其避免被PYL9抑制。反之,ABI1和其他PP2Cs保护三磷酸鸟苷交换因子Rop GEF1,避免遭受ABA诱导的降解,从而形成一个Rop GEF-ROP-PP2C控制回路,在没有胁迫的条件下消除单体PYL可能导致的ABA信号的部分泄漏。<strong>拟南芥PYLs家族成员间存在功能冗余</strong>,大多数其他PYLs单基因突变体并没有显著的ABA表型。与其相反,pyr1prl1ply2pyl4四突变体植株在发芽和幼苗生长阶段对ABA不敏感,pyr1pyl1pyl2prl4ply5pyl8突变体表现出种子萌发、幼苗生长以及气孔关闭过程中对ABA更强的耐受性。</p>
+<p><strong>ABA强烈激活SnRK2.2、SnRK2.3和SnRK2.6/OST1,也能微弱地激活SnRK2.7和SnRK2.8</strong>。拟南芥snrk2.2/3/6三突变体表现出在种子萌发、幼苗生长、气孔关闭、基因调控等方面对ABA极不敏感。许多响应ABA的效应蛋白是SnRK2激酶的直接底物。bZIP家族转录因子如ABI5和ABFs(ABA响应元件结合因子)能被SnRK2s磷酸化。大部分发生在细胞质膜的ABA信号过程可能由与PYL相互作用的C2结构域蛋白介导。质膜蛋白质如阴离子通道SLAC1是SnRK2的底物。SLAC调控干旱胁迫下ABA介导的气孔关闭以减少水分的蒸腾损失。**<u>最近磷酸化蛋白组学研究鉴定了数十个新的SnRK2的底物蛋白,包括一些调控叶绿体功能、开花时间、miRNA和染色质调节、RNA拼接过程相关的重要蛋白质</u><strong>。PYL-PP2C-SnRK2核心ABA信号途径激活也可以与一个由MAP3Ks MAP3K17/18、MAP2K MKK3以及MAPKs MPK1/2/7/14组成的MAPK级联相关,后者也可能磷酸化许多ABA的效应蛋白。ABA激活的SnRK2s也可以使质膜NADPH氧化酶Rboh F磷酸化</strong>,在质外体空间产生O2-<strong>。O2-随后形成H2O2,作为信号分子调节包括气孔关闭在内的各种ABA应答过程。另一个连接ABA信号和ROS的重要组件是质膜类受体蛋白激酶</strong>GHR1<strong>。H2O2也可以调节钙信号从而影响ABA的应答,H2O2活化质膜钙离子通道也需要GHR1的介导。此外,ABA引起的钙信号可以激活CBL1/9-CIPK26模块,导致Rboh F等效应蛋白的磷酸化。除了诱导H2O2和钙信号,ABA也引发</strong>一氧化氮(NO)和磷脂分子**如磷脂酸的合成。</p>
+<p><strong>冷害和热害胁迫信号</strong></p>
+<p>低温对植物代谢的影响来自<strong>直接抑制代谢酶,或者基因表达的重组</strong>。温带植物暴露于低温,非冻害的温度能提高其对冻害胁迫的耐受能力,这一过程称为冷驯化。冷胁迫能<strong>迅速</strong>引发许多转录因子的表达,包括AP2家族转录因子CBFs,从而激活大量的下游冷应答(COR)基因的表达。CBF基因的表达由包括bHLH转录因子**<u>ICE1</u><strong>在内的上游转录因子控制的。ICE1通过SUMO类泛素化和多聚泛素化及随后的蛋白酶体降解。上述过程</strong>分别由SUMO E3连接SIZ1和E3泛素连接HOS1介导<strong>。冷胁迫诱导的CBF和COR基因的表达也受生物节律控制,后者的活性</strong>受质体逆向信号四吡咯的昼夜的振荡调控<strong>。冷胁迫激活SnRK2.6/OST1,SnRK2.6与ICE1互作并磷酸化ICE1,激活CBF-COR基因表达,并增加冻胁迫的耐受能力。此外,<strong>冷害激活SnRK2.6抑制ICE1和HOS1之间的相互作用,阻止ICE1的降解</strong>。冷害胁迫诱导的SnRK2激活并不依赖于ABA,尽管其仍受ABI1和其他PP2Cs负调控。因此,PYL ABA受体可能并不参与冷诱导的SnRK2的激活。与报道冷胁迫激活Sn RK2.6有所不同,Boudsocq等(2004)的结果显示,所有10个拟南芥SnRK2s都不被冷胁迫激活。冷胁迫和盐胁迫激活拟南芥MAP2K <strong>MKK2</strong>,并控制COR基因表达,调控植物耐冷性和耐盐能力。MKK2上游的MAP3K <strong>MEKK1</strong>以及下游的</strong>MPK4和MPK6**,都能被各种胁迫包括低温所激活。药理学研究表明,<strong>膜流动性、细胞骨架以及钙内流都与冷胁迫调节的COR基因和MAPKs有关</strong>。类受体激酶CRLK1可能连接了冷胁迫介导的钙信号和MAPK级联途径,这是由于CRLK1结合钙和钙调蛋白,并与MEKK1相互作用,是冷胁迫激活MAPK所必需的。由此可见,冷胁迫影响膜流动性,这可能被质膜蛋白如钙通道或相关蛋白感知,导致钙离子内流并激活钙响应的蛋白激酶(CPKs和CRLK1)和MAPK级联,调节COR基因表达。在未来,有必要使用遗传、分子和生化分析方法,进一步阐明这些激酶的作用以及它们之间、它们与Sn RK2.6之间在冷胁迫下的关系。</p>
+<p>热胁迫诱导HSPs表达,其中许多HSP可作为分子伴侣防止蛋白质变性和维持体内蛋白平衡。与哺乳动物热胁迫转录因子(HSFs)类似,**<u>热胁迫下植物HSFs从与HSP70和HSP90结合和抑制状态下释放出来,并结合热胁迫导致的错误折叠的蛋白。因此,HSFs可用来激活热胁迫应答</u>**。热胁迫也激活MAPKs并调节HSP基因的表达。MAPK的激活可能与热胁迫诱发的膜流动性和钙信号改变有关,后者对与HSP基因表达和耐热性很重要。</p>
+<p><img src="https://www.cell.com/cms/attachment/66d12713-be67-4624-9045-2ad4d2722d46/gr4.jpg" alt="gr4.jpg (375×408) (cell.com)"></p>
+<p><img src="https://www.cell.com/cms/attachment/872ce483-1408-4478-9d18-85deae37a329/gr5.jpg" alt="gr5.jpg (769×269) (cell.com)"></p>
+<p>植物细胞信号对盐害、干旱胁迫和胁迫激素ABA的响应,在很大程度上取决于SnRK蛋白激酶家族。SnRKs与酵母和哺乳动物中感应细胞能量状态的关键感受器SNF1和AMPK相关。在植物中,非生物胁迫通过抑制光合作用和释能分解反应,减少能源供给。因此,在进化过程中SNF1/AMPK相关的激酶数量不断增加并表现出多样性,从而调控各种非生物胁迫。**<u>SnRK1s是SNF1/AMPK直系同源物,参与植物代谢的调节过程。所有SnRK2s都参与渗透胁迫和ABA信号转导,而SnRK3s是离子动态平衡的关键调节器,是植物适应土壤中盐胁迫和养分胁迫所必需的。</u>**许多胁迫信号途径也涉及钙依赖的蛋白激酶CPKs。CPKs激酶功能域与Sn RKs的激酶功能域高度同源。此外,事实上<u><strong>几乎所有胁迫途径都涉及到MAPKs</strong></u>,MAPKs是从真菌到植物再到后生动物中保守的胁迫信号。其他保守特性包括广泛使用的钙、ROS、NO和脂质分子作为次级信号分子,但这些次级信号分子的产生和转导在植物中与其他生物有所不同。</p>
+<p>研究植物的非生物胁迫,鉴定胁迫感受器仍然是一个重要但极富挑战性的目标。高效的基因编辑技术和化学遗传方法将帮助我们克服由于基因冗余造成的胁迫感受器的遗传筛选上的困难。目前,各种细胞器在胁迫感受和应答过程中的作用逐渐显现,逐步揭示了胁迫信号分散感受的模型。尽管来自于受干扰的细胞器的分散信号如何整合仍不清楚,但这一模型仍有助于我们理解植物胁迫感受和胁迫抗性<strong>。由于植物胁迫应答必须与生长和发育相协调,理解胁迫信号和激素,以及生长和发育途径之间的相互关联就显得尤为重要</strong>。同样,<strong><u>应当更多关注植物如何同步响应多个非生物胁迫,以及非生物和生物胁迫信号之间的相互关联</u></strong>,因为目前为止大部分的非生物胁迫研究一直在无菌实验室进行。然而在自然环境中,植物与昆虫和微生物共存。根和地上部分很可能包括许多有益的细菌和真菌帮助植物抵御胁迫。了解细菌和真菌如何提高植物抗逆性,可以增加我们利用这些有益生物的能力,同时还有助于我们深入了解植物的胁迫抗性。</p>
+]]></content>
+      <categories>
+        <category>Biology</category>
+      </categories>
+      <tags>
+        <tag>Review</tag>
+        <tag>胁迫</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9. 水稻原生质体制备和转化</title>
     <url>/2022/11/14/%E6%B0%B4%E7%A8%BB%E5%8E%9F%E7%94%9F%E8%B4%A8%E4%BD%93%E5%88%B6%E5%A4%87%E5%92%8C%E8%BD%AC%E5%8C%96%20Protocol/</url>
     <content><![CDATA[<h2 id="水稻原生质体制备和转化-Protocol"><a href="#水稻原生质体制备和转化-Protocol" class="headerlink" title="水稻原生质体制备和转化 Protocol"></a>水稻原生质体制备和转化 Protocol</h2><p>​                                                                                         — edited by <strong>Roc_Yan</strong> 20221113</p>
 <h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p><strong>Rice (Oryza sativa)</strong> is an important cereal crop and a model monocot plant for biology research. The reliable system of foreign DNA transformation and expression is a valuable strategy for basic research and molecular breeding application in rice. The Agrobacterium tumefaciens-mediated foreign DNA transformation system was a powerful tool for genetic research. However, it needs a long period to obtain the stable transformants for further analysis and the transformation rate limits in some organism. Protoplasts are plant cells without a cell wall, and it is much easier for foreign DNA transformation and expression. It has been widely applied in transient expression. Here, we describe a simple method for efficient protoplast isolation and transfection in rice.</p>
-<h3 id="Buffer-准备及储存"><a href="#Buffer-准备及储存" class="headerlink" title="Buffer 准备及储存"></a>Buffer 准备及储存</h3><p><strong>PIB (Protoplast Isolation Buffer)</strong><br>| Final Conc.                | Stock  | 100 mL (10 samples) |<br>| ————————– | —— | ——————- |<br>| 0.6 M Mannitol             | 0.8 M  |                     |<br>| 20 mM MES                  | 100 mM |                     |<br>| 1.5% (w/v) Cellulase R10   |        |                     |<br>| 0.75% (w/v) Macerozyme R10 |        |                     |<br>| 10 mM CaCl<sub>2</sub>     | 0.5 M  |                     |<br>| 0.1% (w/v) BSA             |        |                     |</p>
+  <span id="more"></span>
+
+<h3 id="Buffer-准备及储存"><a href="#Buffer-准备及储存" class="headerlink" title="Buffer 准备及储存"></a>Buffer 准备及储存</h3><p><strong>PIB (Protoplast Isolation Buffer)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Final Conc.</th>
+<th>Stock</th>
+<th>100 mL (10 samples)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0.6 M Mannitol</td>
+<td>0.8 M</td>
+<td></td>
+</tr>
+<tr>
+<td>20 mM MES</td>
+<td>100 mM</td>
+<td></td>
+</tr>
+<tr>
+<td>1.5% (w/v) Cellulase R10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0.75% (w/v) Macerozyme R10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10 mM CaCl<sub>2</sub></td>
+<td>0.5 M</td>
+<td></td>
+</tr>
+<tr>
+<td>0.1% (w/v) BSA</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 <ul>
 <li>KOH 调节至 <strong>pH 5.8</strong>，0.22 μm 滤膜过滤，可分装成 10 mL each，-20℃ 保存 6 month。</li>
 </ul>
@@ -1157,11 +1260,69 @@
 <ul>
 <li>KOH 调节至 <strong>pH 5.8</strong>，0.22 μm 滤膜过滤，可分装成 10 mL each，-20℃ 保存 1 year。</li>
 </ul>
-<p><strong>PEG Buffer</strong><br>| Final Conc.             | Stock | 20 mL |<br>| :———————- | —– | —– |<br>| 0.2 M Mannitol          | 0.8 M |       |<br>| 100 mM CaCl<sub>2</sub> | 0.5 M |       |<br>| 40% (w/v) PEG4000       |       |       |</p>
+<p><strong>PEG Buffer</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Final Conc.</th>
+<th>Stock</th>
+<th>20 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">0.2 M Mannitol</td>
+<td>0.8 M</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">100 mM CaCl<sub>2</sub></td>
+<td>0.5 M</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">40% (w/v) PEG4000</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
 <ul>
 <li>KOH 调节至 <strong>pH 5.8</strong>，0.22 μm 滤膜过滤，可分装成 10 mL each，-20℃ 保存 1 year。</li>
 </ul>
-<p><strong>W5 Solution</strong><br>| Final Conc.             | Stock  | 250 mL |<br>| :———————- | —— | —— |<br>| 2 mM MES                | 100 mM |        |<br>| 5 mM KCl                | 0.5 M  |        |<br>| 154 mM NaCl             | 5 M    |        |<br>| 125 mM CaCl<sub>2</sub> | 0.5 M  |        |<br>| 5 mM Glucose            | 0.5 M  |        |</p>
+<p><strong>W5 Solution</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">Final Conc.</th>
+<th>Stock</th>
+<th>250 mL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">2 mM MES</td>
+<td>100 mM</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">5 mM KCl</td>
+<td>0.5 M</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">154 mM NaCl</td>
+<td>5 M</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">125 mM CaCl<sub>2</sub></td>
+<td>0.5 M</td>
+<td></td>
+</tr>
+<tr>
+<td align="left">5 mM Glucose</td>
+<td>0.5 M</td>
+<td></td>
+</tr>
+</tbody></table>
 <ul>
 <li>KOH 调节至 <strong>pH 5.8</strong>，0.45 μm 滤膜过滤，4℃ 保存 6 month。</li>
 </ul>
@@ -1203,66 +1364,6 @@
       <tags>
         <tag>Methods</tag>
         <tag>Rice</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>4. 拟南芥和水稻中Pi吸收和分配</title>
-    <url>/2022/01/14/%E6%8B%9F%E5%8D%97%E8%8A%A5%E5%92%8C%E6%B0%B4%E7%A8%BB%E4%B8%ADPi%E5%90%B8%E6%94%B6%E5%92%8C%E5%88%86%E9%85%8D/</url>
-    <content><![CDATA[<h1 id="拟南芥和水稻中Pi吸收和分配"><a href="#拟南芥和水稻中Pi吸收和分配" class="headerlink" title="拟南芥和水稻中Pi吸收和分配"></a>拟南芥和水稻中Pi吸收和分配</h1><p>涉及蛋白：PHT1，PHT2，PHT3，PHT4，PHT5(VPT1)，SPX-MFS，PHO1，phosphate translocators</p>
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>&emsp;&emsp;磷是植物生长发育所必需的大量营养元素之一，但由于其在土壤溶液中的溶解度和迁移性较差，以及磷与有机化合物的结合性，磷也是较难获取的元素之一。<span id="more"></span>据估计，土壤中约<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'> 20-80% </span>的磷主要以<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'>植酸</span>的形式存在于有机质中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B139">Richardson, 1994</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B141">Schachtman et al., 1998</a>)</sub>。此外，在<span style='font-size:1.3rem;font-family:楷体;color:red;background:lightblue'>酸性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;color:black;background:lightblue'>磷与铝（Al）和铁（Fe）形成不溶性沉淀</span>，而在<span style='font-size:1.3rem;font-family:楷体;color:red;background:#76EEC6'>碱性</span>土壤中，<span style='font-size:1.3rem;font-family:楷体;background:#76EEC6'>磷与钙（Ca）和镁（Mg）</span><sub>（ <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B50">Hirsch et al., 2006</a>）</sub>。<span style='font-size:1.3rem;font-family:timesnewroman;color:red;background:yellow'><strong>植物磷的主要来源是无机磷酸盐（Pi）</strong></span>，并且在中性pH下，主要形式 <strong>H<sub>2</sub>PO<sub>4</sub><sup>-</sup></strong> 被运输到植物细胞中。尽管其在土壤溶液中的浓度相当低<u><em>（从1到10μM）</em></u>，但在植物组织中的磷酸盐浓度相对较高，约为<u><em>5–20 mM</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B49">Hinsinger, 2001</a>)</sub>。这并不奇怪，因为磷是DNA、RNA、ATP、NADPH和膜磷脂等基本生物分子的基本元素。它还在植物的生命维持过程中起着至关重要的作用，包括<span style='font-size:1.3rem;font-family:times;color:black;background:lightgreen'>光合作用、呼吸作用和通过磷酸化激活蛋白质</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>)</sub>。然而，也有报道称，拟南芥细胞质中的PI浓度仅为<span style='font-size:1.3rem;font-family:;color:black;'>60–80μM</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B126">Pratt et al., 2009</a>)</sub>。<br>&emsp;&emsp;为了应对环境中的Pi限制，植物已经进化出一系列生理和形态反应，这可能会增强Pi的获得：通过共生策略、根结构变化、根排出有机酸和酸性磷酸酶 <sub>(reviewed by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B2">Amtmann et al., 2006</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B202">Zhang Z. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B142">Scheible and Rojas-Triana, 2015</a>)</sub> ，并优化内部PI利用率。<span style='font-size:1.0rem;font-family:楷体0;color:red;'>在磷限制期间，一些膜磷脂被半乳糖脂和硫脂部分取代</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B156">Siebers et al., 2015</a>)</sub>此外，<span style='font-size:1.0rem;font-family:楷;color:red;'>在 Pi 饥饿胁迫下，观察到磷从较老的叶片转移到较年轻的器官</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B160">Smith et al., 2003</a>)</sub>。<br>许多植物中 Pi 饥饿的一个明显可见的症状是花青素积累，导致叶、茎甚至根变成紫色。已知磷和氮缺乏以及其他环境胁迫（盐度、低温、高光强）都能诱导花青素的产生，但环境胁迫对花青素的调控尚不清楚。最近的一份报告表明，花青素在光系统中捕光蛋白的光保护中发挥着重要作用<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B48">Henry et al., 2012</a>)</sub>。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B55">Ito et al.<sub> (2015)</sub></a>将拟南芥的紫化归因于 <code>独脚金内酯</code> 信号通路，并提出独脚金内酯在低 Pi 条件下调节花青素积累。<br>&emsp;&emsp;二十年前，两个拟南芥 Pi 转运蛋白的发现是磷酸盐营养的植物分子生物学的里程碑<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B104">Muchhal et al., 1996</a>)</sub>，在破译特定组织、细胞和细胞器中的 Pi 转运蛋白网络响应磷缺乏的潜在作用机制方面已取得重大进展<sub>(described by <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B119">Péret et al., 2011</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B120">2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B7">Baker et al., 2015</a>)</sub>。最近的文章对野生和栽培植物中（包括水稻和拟南芥）调节编码磷酸盐转运蛋白表达和信号途径的分子机制进行了全面的综述<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B17">Chiou and Lin, 2011</a>)</sub>。先前的研究已经确定了植物根部中高亲和力和低亲和力磷酸盐转运系统的共存<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B114">Nussaume et al., 2010</a>)</sub>。<span style='font-size:1.0rem;font-family:楷;color:red;background:yellow'>高亲和力转运蛋白是负责从土壤中摄取Pi的质膜蛋白，这些蛋白质由 PHT1（磷酸转运蛋白）家族基因编码，是质子偶联的 H<sub>2</sub>PO<sub>4</sub><sup>-</sup> 同向转运蛋白。</span><strong>无机磷酸盐通过 PHT1 的转运是由质膜 H<sup>+</sup>-ATP 酶驱动的</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B174">Ullrich-Eberius et al., 1981</a>)</sub>。<u><strong>Pi 从根部通过<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'> PHO1</span> 转运蛋白装载到木质部，其中Pi被分配到植物的地上部分</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B95">López-Arredondo et al., 2014</a>)</sub>。<u><strong>Pi 的有机形式如核苷酸（ATP）和磷酸己糖在韧皮部汁液中运输</strong></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。为了在细胞水平上维持 Pi 的动态平衡，植物将 Pi <strong><u>储存在液泡</u><strong>中，最近VPT1（Vapolar Phosphate Transporter 1）已被鉴定为液泡膜内流转运蛋白<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B90">Liu et al., 2015</a>)</sub>。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>控制 Pi 水平的重要性还延伸到其他细胞器，包括质体、线粒体和高尔基体。通过</strong>质体</strong>、<strong>线粒体</strong>和<strong>高尔基体</strong>膜的磷酸盐转运分别由 <strong>PHT2/4</strong> 和<strong>PHT3</strong>和<strong>PHT4</strong>家族的蛋白质介导</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>)</sub>。下面将更详细地描述参与细胞区室之间 Pi 的获得和易位的所有蛋白质。</p>
-<h2 id="Part-1-质膜磷转运体（Phosphate-Transporters）"><a href="#Part-1-质膜磷转运体（Phosphate-Transporters）" class="headerlink" title="Part.1 质膜磷转运体（Phosphate Transporters）"></a>Part.1 质膜磷转运体（Phosphate Transporters）</h2><p>&emsp;&emsp;如上所述，两种类型的转运蛋白 :<strong>PHT1</strong> 和 <strong>PHO1</strong> 负责从土壤中吸收磷酸盐并将其进一步分配到地上植物器官和植物组织之间。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>PHT1蛋白是研究最多的植物磷酸盐转运蛋白。它们属于主要促进剂超家族（MFS）中的磷酸：H<sup>+</sup> 同向转运体（PHS）家族。对于每个Pi，磷酸盐和质子传输化学计量为2至4个 H<sup>+</sup> 离子。</span></p>
-<h4 id="1-1-PHT1"><a href="#1-1-PHT1" class="headerlink" title="1.1 PHT1"></a>1.1 PHT1</h4><p>&emsp;&emsp;PHT1转运蛋白仅在植物和真菌细胞中被鉴定，计算机分析已经确定它们的二级结构具有共同的结构模式，12个假定的跨膜结构域（TM）通过 TM6 和 TM7 之间的大亲水环分为两组。蛋白质的 N- 和 C- 末端朝向细胞质<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B132">Raghothama, 1999</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B122">Poirier and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。印度梨形孢菌（<em>Piriformospora indica</em>）真菌高亲和力磷酸转运蛋白 PiPT 的晶体结构证实了预测的 PHT1 拓扑结构，并证明该结构<strong>在植物和真菌中是保守</strong>的<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B118">Pedersen et al., 2013</a>)</sub>。PHT1 转运蛋白在许多植物物种中都有描述。但它们在拟南芥（<em>A.thaliana</em>）和栽培稻（<em>O.sativa</em>）中得到了最好的表征，其基因组<span style='font-size:1.0rem;font-family:宋体;color:;background:lightgreen'>分别编码9个和13个PHT1</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B84">Liu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B113">Nussaume et al., 2011</a>)</sub>。在磷剥夺期间，<em>PHT1</em> 的表达被诱导或强烈上调，但一些 <em>PHT1</em> 基因的表达与环境中的磷酸盐浓度无关<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>)</sub>。还报道了<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'> PHT1 蛋白可以转运其它溶质，例如亚磷酸盐、砷酸盐、亚硒酸盐、硝酸盐、硫酸盐或氯离子</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B38">Gu et al., 2016</a>)</sub>。但是在许多情况下，特定 PHT1 蛋白的功能分析是困难的，由于它们在大多数植物器官中广泛表达谱，以及从突变体分析结果的复杂解释。</p>
-<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g001.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g001.jpg"></p>
-<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B115">Omasits et al., 2014</a>）</p>
-<h4 id="1-2-PHO1"><a href="#1-2-PHO1" class="headerlink" title="1.2 PHO1"></a>1.2 PHO1</h4><p>&emsp;&emsp;参与植物体内磷酸盐分布的第二类转运蛋白是 PHO1 蛋白。与 PHT1 相反，<span style='font-size:1.0rem;font-family:宋体;color:red;background:lightgreen'>PHO1 不属于 MFS 而是属于 SPX-EXS 蛋白家族</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>)</sub>。<strong>除了运输特性外，PHO1 蛋白还在信号传导中发挥作用，并参与 Pi 缺乏下的长距离（根到芽）信号转导级联反应</strong>。最近分析了来自拟南芥的PHO1的拓扑结构——它由 <span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'><code>1）含有三部分SPX结构域的长细胞质N末端、 2）含有EXS结构域的细胞质C末端、 3）六个跨膜螺旋组成。</code></span>最后两个跨膜螺旋通过位于细胞质中的环与其他四个分开，它们是EXS结构域的一部分。<span style='font-size:1.0rem;font-family:宋体;color:red;background:yellow'>EXS</span>结构域在PHO1功能中起着至关重要的作用——它负责 PHO1 的信号传导能力和 Pi 转运活性（尽管它本身并不转运 Pi ）以及在高尔基体结构中的适当蛋白质定位<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。PHO1 同系物广泛分布于许多生物中，包括所有陆地植物（苔藓植物、石松植物、裸子植物和被子植物）、真菌和动物（例如在果蝇、秀丽隐杆线虫 <em>Caenorhabditis elegans</em> 和哺乳动物中），但在细菌或单细胞绿藻莱茵衣藻（<em>Chlamydomonas reinhardtii</em>）中尚未发现<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B147">Secco et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B188">Wege et al., 2016</a>)</sub>。生物信息学分析表明，拟南芥基因组中有10个 PHO1 同源物（PHO1;H1–PHO;H10），但到目前为止，仅对 PHO1 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B45">Hamburger et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B163">2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B3">Arpat et al., 2012</a>) </sub>和两个 PHO1 同系物，即 PHO1;H1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B164">Stefanovic et al., 2007</a>) </sub>和 PHO1;H3 <sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。<strong>PHO1;H1 能够补偿 PHO1 功能的丧失，而PHO1；H3调节PHO1在锌缺乏下的功能</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B69">Khan et al., 2014</a>)</sub>。水稻 PHO1<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>家族由三个成员组成：OsPHO1;1，OsPHO1;2和 OsPHO1;3，但只有 OsPHO1;2似乎与拟南芥的PHO1具有类似的作用</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B146">Secco et al., 2010</a>)</sub>。</p>
-<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/bin/fpls-07-01198-g002.jpg" alt="An external file that holds a picture, illustration, etc. Object name is fpls-07-01198-g002.jpg"></p>
-<p>拟南芥PHO1蛋白预测拓扑结构。<br>胞质N端SPX结构域设计为红色，带有EXS结构域的C端设计为橙色。图是在Protter中进行的（Protter：交互式蛋白质特征可视化和与实验蛋白质组数据的整合。)</p>
-<h2 id="Part-2-PHT1家族在土壤直接磷吸收中的作用"><a href="#Part-2-PHT1家族在土壤直接磷吸收中的作用" class="headerlink" title="Part.2 PHT1家族在土壤直接磷吸收中的作用"></a>Part.2 PHT1家族在土壤直接磷吸收中的作用</h2><p>&emsp;&emsp;植物可以<span style='color:red'> <strong>1# 直接从土壤中吸收磷素</strong></span>，也可以通过 <span style=color:red><strong>2# 光合作用产生的碳水化合物与真菌菌丝释放的磷素进行交换</strong></span>，形成菌根 mycorrhizal 联合体间接吸收磷素<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B133">Rausch and Bucher, 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。磷酸盐吸收的直接策略涉及存在于根皮rhizodermis（特别是毛细胞trichoblast cells）中的 PHT1 转运蛋白，以及在较小程度上存在于皮层细胞 cortical cells 中的 PHT1 转运蛋白。<strong>在拟南芥中，9个 PHT1 中的8个在根组织中表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>)</sub>，而在<strong>稻根中检测到所有13个 OsPHT1 的转录本</strong>。尽管从不同的遗传实验中获得的结果有时是不一致的<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>，突变体分析证实，在拟南芥的磷酸盐吸收中主要有四种转运蛋白 <span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>AtPHT1;1–AtPHT1;4</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>和 O.sativa 中至少6个PHT1：<span style='font-size:1.3rem;font-family:宋体;color:green;background:yellow'>OsPHT1;1/2/4/6/8/9/10</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。<br>&emsp;&emsp;综合分析 AtPHT1 基因在高磷胁迫下的拟南芥根中的表达，发现 AtPHT1;1 启动子的活性最高<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。ATPHT1;2–ATPHT1;4 的转录本在磷酸盐喂养的根中也可检测到。另一方面，在缺乏 Pi 的植物中，AtPHT1;1 的 mRNA 水平仅轻微增加：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>3至4倍</span>，而来自AtPHT1家族的其他基因的表达增加更为明显：<span style='font-size:1.0rem;font-family:;color:red;background:yellow'>25至70倍</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。<strong>由 AtPHT1;1 启动子驱动的报告基因（Gus或GFP）表达揭示了其在根皮 rhizodermis 中的定位，主要是在根毛root hairs中，但也在侧根冠 lateral root caps、小柱细胞 columella cells 中，并且在根毛区的皮层细胞 cortical cells 中在相对弱的水平上表达</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>。类似地，AtPHT1;2 在成毛细胞和根较老部分的皮层中表达，AtPHT1;3 分别存在于侧根的生毛细胞和主根近根尖的表皮中，以及在主根的中柱鞘细胞中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，而 AtPHT1;4 在表皮、皮层、中柱和根尖中<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>)</sub>。这些结果表明，<u><em>AtPHT1;1，AtPHT1;2，ATPHT1;3，和AtPht1;4可以具有类似的、部分重叠的功能</em></u><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B105">Mudge et al., 2002</a>)</sub>，后来通过实验证实了这一点<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。即显示在高 Pi 下通过 <em>atpht1;1</em> 插入突变体的磷酸盐吸收<strong>减少到 60% 左右</strong>，而双突变体 <em>atpht1;1Δ4Δ</em> 至野生型比率的<strong>约 30%</strong><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>)</sub>。**<span style='font-size:1.3rem;font-family:宋体;color:red;background:lightgreen'>这些数据表明 AtPHT1;1 的主要作用于高 Pi 条件下拟南芥根系磷吸收</span><strong>。相反，<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在</strong>缺磷<strong>植物中，在 Pi 获得中起主导作用的是 AtPHT1;4，其负责约 40-48% 的 Pi 的摄取，而 AtPHT1;1 仅占摄取的15-20%，和 AtPHT1;2 和 AtPHT1;3 共占 Pi 的30%左右</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B101">Misson et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B154">Shin et al., 2004</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B4">Ayadi et al., 2015</a>)</sub>。除了四种主要转运蛋白（AtPHT1;2–AtPHT1;4）不能排除其他 AtPHT1 成员在 Pi 获得中的作用。例如，<em>atpht1;5</em> 突变体表现出对砷酸盐（Pi 结构类似物，对植物有毒，通过PHT运输）的中等耐受性，提示 AtPht1;5 的可能作用在 Pi 摄取中<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B107">Nagarajan et al., 2011</a>)</sub>。<br>&emsp;&emsp;水稻 OsPHT1 转运蛋白在</strong>敲除或敲低（RNAi）品系中的 Pi 吸收减少和在过表达品系中的吸收增强**已得到证实（也称为OsPT），包括<span style='color:red'>OSPHT1;1<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>)</sub>，OSPHT1;2<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B85">Liu et al., 2010</a>)</sub>，OsPHT1;4<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，OsPHT1;6<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>)</sub>，OsPHT1;8<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>)</sub>，OSPHT1;9，和OsPHT1;10<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub></span>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>其中只有 OsPHT1;1是组成性表达的，而其余的在 Pi 剥夺下显著上调</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:blue;background:lightgreen'>只有一个来自 OsPHT1 家族的蛋白，即 OsPHT1;2 ，是一种低亲和力转运蛋白</span><sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>)</sub>。大多数 OsPHT1 不表现出组织特异性表达，但它们在各种根组织和其他一些植物器官中普遍表达。因此，可以合理地得出结论这些转运蛋白可能在磷酸盐的获取和转运中起着广泛的作用<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B148">Seo et al., 2008</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B1">Ai et al., 2009</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B166">Sun et al., 2012</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B182">Wang X.F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B200">Zhang F. et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>。此外，一些 OsPHT1 的组织特异性表达依赖于植物的发育阶段。一个很好的例子是 OSPHT1;4 ，在胚根的所有组织中均检测到其启动子活性<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B199">Zhang et al., 2015</a>)</sub>，而在正常 Pi 下生长的成熟植物中，仅在外皮层（皮层细胞的外层，参与调节根中水和离子的径向流动）中发现。在长时间的 Pi 饥饿期间，OsPHT1;4 开始在皮层细胞中表达，这表明其在这种应激条件下参与共质体 Pi 运输<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>。考虑到所有这些数据以及 PHT1 之一的过表达或突变可能改变其他表达的事实<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B59">Jia et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B76">Lapis-Gaza et al., 2014</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B198">Ye et al., 2015</a>)</sub>，很难确定这些转运蛋白中的哪一个对 Pi 的吸收和分布至关重要。</p>
-<h2 id="Part-3-PHT1家族蛋白在菌根磷吸收中的作用"><a href="#Part-3-PHT1家族蛋白在菌根磷吸收中的作用" class="headerlink" title="Part.3 PHT1家族蛋白在菌根磷吸收中的作用"></a>Part.3 PHT1家族蛋白在菌根磷吸收中的作用</h2><p>&emsp;&emsp;据估计，<strong>90%的陆生植物物种可以被菌根真菌定殖<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>) </sub>，超过80%的维管植物，包括主要作物，形成丛枝菌根</strong><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。而拟南芥属于少数不形成菌根群丛的植物物种<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B175">Vance, 2008</a>)</sub>，<em>O.Sativa</em> 是一种丛枝菌根（AM: arbuscular mycorrhizal）植物<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。<br>&emsp;<span style='font-size:1.3rem;font-family:宋体;color:blue;background:yellow'>&emsp;丛枝菌根</span>真菌属于球囊菌门（<em>Glomeromycota</em>）。它们的菌丝穿透植物根部，进入皮层细胞，在每个细胞内形成菌丝卷曲或称为丛枝（AM: arbuscular mycorrhizal）的高度分支结构。丛枝或菌丝卷曲不破坏植物质膜的完整性，但通过其内陷形成细胞内空间。真菌感染改变了细胞质膜的结构，允许丛枝/菌丝卷曲的生长，并产生丛枝周膜（在菌丝卷曲形成的情况下称为菌丝周膜）。.这种膜和菌丝质膜之间的界面是共生伙伴之间进行营养交换的地方<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B10">Bucher, 2007</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。<br>&emsp;&emsp;除了 AM 形成的其他积极方面，如保护免受非生物胁迫和病原体以及改善从土壤中获取水分，这类菌根最广为人知的功能是真菌对植物磷营养的贡献<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B58">Jeffries et al., 2003</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B161">Smith and Smith, 2012</a>)</sub>。另一方面，植物的 Pi 状态是调节定殖过程、向菌丝递送糖和共生结构形成的主要因素<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。在接种 AM 真菌的植物中，两种磷吸收途径共存。第一种是从土壤通过根表皮细胞膜的直接途径，涉及上述 PHT1 转运蛋白。第二种是通过真菌菌丝体的间接途径，与位于丛枝分支域的丛枝周围膜中的植物Pht1转运蛋白结合，其被 AM 形成特异性诱导或上调<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B63">Karandashov and Bucher, 2005</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B37">Gu et al., 2011</a>)</sub>。这些 PHT1 转运蛋白的表达与根的定殖程度密切相关，与丛枝的形成和崩溃密切相关-在单细胞水平上<sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B116">Paszkowski et al., 2002</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B71">Kobea and Hata, 2010</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>对几种植物（亚麻、番茄、水稻、蒺藜苜蓿）的生理学研究表明，在低磷浓度下，菌根途径占主导地位</span><sub>(<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。这并不令人惊讶，因为菌根的形成通常伴随着参与直接 Pi 吸收途径的 PHT1 表达的减少<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>)</sub>。<span style='font-size:1.3rem;font-family:宋体;color:red;background:yellow'>在水稻 PHT1 基因中，OsPHT1;11<sub>（Paszkowski等人，2002年；Kobea和Hata，2010年；Yang等人，2012）</sub>和OsPHT1;13<sub>（Güimil等人，2005年；Yang et al.，2012）</sub>被认为参与了<strong>共生 Pi 吸收途径</strong>。</span><br>&emsp;&emsp;事实上，在大多数形成菌根共生体的植物物种中，已经发现了至少一种菌根特异性或上调的 PHT1 基因。此外，PHT1 蛋白序列的系统发育分析表明，与 AM 相关的 PHT1 形成了自己的谱系，与非 AM 相关的 PHT1 在进化上相距较远。在这个谱系中，可以区分出几个类群<sub> (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B57">Javot et al., 2007b</a>; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)</sub>。例如，OsPHT1;11 同源物在单子叶植物和双子叶植物中是常见的，并且在进化上更古老，与来自古老植物小立碗藓的Pht1转运蛋白密切相关（苔藓植物）和江南卷柏（石松植物），而 OsPHT1;13 直向同源物在单子叶植物中是保守的，但在双子叶植物中不是 (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4983557/#B197">Yang et al., 2012</a>)。</p>
-<p>—-<weiwan>—-</p>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>磷信号</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>9. 植物非生物胁迫信号</title>
-    <url>/2022/11/14/%E6%A4%8D%E7%89%A9%E9%9D%9E%E7%94%9F%E7%89%A9%E8%83%81%E8%BF%AB%E4%BF%A1%E5%8F%B7%EF%BC%88Zhu.%202016%EF%BC%89/</url>
-    <content><![CDATA[<h4 id="植物非生物胁迫信号（Zhu-2016）"><a href="#植物非生物胁迫信号（Zhu-2016）" class="headerlink" title="植物非生物胁迫信号（Zhu. 2016）"></a>植物非生物胁迫信号（Zhu. 2016）</h4><p><strong>生物胁迫</strong>(如病原体感染和食草动物的啃食)<br><strong>非生物胁迫</strong>(例如干旱、高温、冷害、营养匮乏、盐害以及土壤中铝、砷、镉等有毒金属毒害)。<br>干旱、盐害以及温度胁迫是影响植物的地理分布、限制农作物产量,并威胁粮食安全的主要环境因子。<br>干旱造成的初级胁迫信号是高渗透压胁迫,通常被简称为<strong>渗透胁迫</strong>。这是由于典型的低渗透压条件对植物细胞来说并不是问题。盐胁迫同时对细胞造成<strong>渗透胁迫和离子毒害</strong>。干旱胁迫和盐胁迫有各自独立和一些共同的信号转导机制。干旱和盐胁迫的一个重要特征是<strong>渗透胁迫信号能够引起植物激素脱落酸(ABA)的累积</strong>，进而引起植物的适应性反应。</p>
-<p><strong>感知</strong>：感受蛋白的功能冗余,即一个<u>感受蛋白的缺失并不导致胁迫应答的显著变化</u>,可能是科学家面临的主要困难。另外一种情形是,某个感受器可能是植物生长必需的,而<u>功能缺失突变体将不会存活</u>,致使无法对其深入研究。此外,<u>很难从技术上证明一种蛋白质或其他大分子是物理信号(如渗透压的变化、离子浓度或温度)的感受器</u>。</p>
-<p><strong>OSCA1</strong>（reduced hyperosmolality-induced calcium increase 1），编码一种质膜定位的渗透压控制的钙离子通道。高盐、冷害、热害导致的渗透胁迫以及氧化胁迫、重金属和ABA处理会导致植物细胞质自由钙离子浓度增加。<em>osca1</em> 功能缺失突变体在山梨醇和甘露醇处理下钙离子释放减少。不清楚OSCA1如何感知渗透胁迫,推测<u>可能是通过减少细胞膨胀,影响膜牵张以及质膜和细胞壁的相互作用</u>。拟南芥Msc S-like蛋白<strong>MSL8</strong>,是花粉在缺水渗透胁迫下生存所必需的,研究表明,MSL8是低渗胁迫诱发的膜张力变化的感受器。植物也有一个大的环核苷酸门控离子通道(<strong>CNGCs</strong>)家族以及类谷氨酸受体(<strong>GLR</strong>)家族,可能对于调控胁迫应答的胞质Ca2+信号具有重要作用。<strong>COLD1</strong>对于水稻亚种日本晴抵抗冷害(0~15℃)是必需的。COLD1是一种细胞膜和ER的跨膜蛋白。<u>COLD1与植物中α-异源三聚体G蛋白的RGA1亚基相互作用</u>。作者推测,COLD1能调节钙通道或者其本身就是一个冷激活钙通道。目前尚不清楚COLD1如何调控钙信号并增强抗冷能力。</p>
-<p>冷和热都能影响细<strong>胞膜磷脂双分子层的流动性</strong>(Sangwan et al.,2002)。这种变化可能被一些整合膜蛋白,包括通道和各种其他转运体以及膜锚定受体激酶(RLKs)所感知。高温胁迫下热变性引起<strong>蛋白的错误折叠</strong>也可能被与其结合的分子伴侣所感知。与错误折叠蛋白的结合使<strong>热胁迫转录因子从与分子伴侣结合态中释放,并激活热敏基因的表达</strong>。最近,<strong>H2A.Z-核小体</strong>被认为是植物和酵母高温感受体。作者认为,H2A.Z-核小体包装DNA比H2A-核小体包装的DNA更加致密,温度导致H2A.Z-核小体解离,使DNA更容易被Pol II转录,从而促进热激蛋白(HSPs)及其他基因的表达。这是一个非常有吸引力的假设,但仍需要进一步验证。</p>
-<p>理论上讲,物理胁迫特别是温度信号,<strong>可以在细胞的任何地方被感知</strong>,只要胁迫信号能导致细胞组分的状态发生改变(蛋白质、DNA、RNA、碳水化合物或脂肪)或区域化(如,代谢反应的区域化),只要这些<strong>改变能够影响其他细胞组分或活性</strong>。胁迫导致的内质网(ER)应激蛋白质折叠的变化,称为内质网胁迫,目前已被广泛认为是一个重要的细胞胁迫应答方式。同样,胁迫也与叶绿体、线粒体、过氧化物酶体、细胞核、细胞壁等细胞器有关,从所有细胞器产生的胁迫信号,被整合后调控逆境相关基因的表达及其他细胞活性,从而恢复细胞稳态。<img src="https://www.cell.com/cms/attachment/b9778048-f6db-4b1d-ad66-d1a07e7bfec2/gr1.jpg" alt="zjk-cell"></p>
-<h5 id="ER-胁迫"><a href="#ER-胁迫" class="headerlink" title="ER 胁迫"></a><strong>ER 胁迫</strong></h5><p>生物和非生物胁迫都会引起<strong>蛋白质错误折叠或者未折叠蛋白质的积累</strong>,这能被内质网膜上由特定的受体蛋白所感受并产生内质网胁迫。<strong>UPR</strong>：通过PKR类似的ER el F2a激酶,内质网胁迫会导致一些编码分子伴侣以及与增强蛋白折叠能力、调控ER相关降解(ERAD)或抑制蛋白质翻译相关基因的表达,从而<strong>降低加载到ER上的新合成蛋白质的总量</strong>。植物中两类主要的ER胁迫受体已被确定:ER膜相关转录因子和一个RNA剪接因子。植物中两类主要的ER胁迫受体已被确定:ER膜相关转录因子和一个RNA剪接因子。<br><strong>bZIP</strong>：在ER中,bZIP28可能通过与分子伴侣蛋白BiP(binding immunoglobulin protein)互作来感知热信号和其他ER胁迫信号。未折叠或错误折叠的蛋白质在胁迫过程中积累并与BiP作用,从而使bZIP28从与BiP的结合状态释放出来并向高尔基体转运。在高尔基体中,bZIP28被切割，bZIP28的胞质部分则重新定位到细胞核,激活胁迫相关基因的表达并重建ER动态平衡。bZIP28也可以感知能量水平和氧化还原状态的改变,或与BIP以及包含DNAJ功能域的分子伴侣的相互作用等,致使其与BIP分离。盐胁迫也以类似的方式激活bZIP17。此外,一些ER或者质膜相关NAC转录因子可以被ER胁迫激活并参与UPR。<br><strong>IRE1</strong>：植物第二种类型的ER胁迫感知器是IRE1,一种从酵母到后生动物保守的剪接因子。据推测,植物IRE1蛋白质以类似酵母中同源蛋白类似的方式结合未折叠蛋白并感知ER胁迫。拟南芥中激活的IRE1蛋白识别并剪接bZIP60和其他靶mRNAs。被剪接后的bZIP60会产生一个bZIP60变体,从而进入细胞核激活UPR基因的表达。</p>
-<h5 id="叶绿体、线粒体、过氧化物酶体胁迫应答"><a href="#叶绿体、线粒体、过氧化物酶体胁迫应答" class="headerlink" title="叶绿体、线粒体、过氧化物酶体胁迫应答"></a><strong>叶绿体、线粒体、过氧化物酶体胁迫应答</strong></h5><p>叶绿体是光合电子传递和许多代谢反应发生的细胞器,叶绿体的代谢平衡很容易被环境胁迫影响。叶绿体稳态的紊乱可以通过<strong>逆向(retrograde)信号</strong>传递到细胞核,以协调细胞活性,使其与叶绿体胁迫程度一致,<strong>调控糖和其他化合物的供应</strong>。叶绿体是产生<strong>超氧阴离子、过氧化氢、羟基自由基和单线态氧</strong>等**<u>ROS的主要场所</u><strong>。各种环境胁迫,特别是高光强会促使ROS产生,严重影响ROS控制系统,产生一系列的次级信号分子。单线态氧触发一个需要核基因编码的定位于类囊体膜上的EXECUTER</strong>(EX1)和EX2<strong>两个蛋白参与的信号途径。高光强和其他胁迫能够导致质体代谢物甲基赤藓醇环焦磷酸(<strong>MEc PP</strong>)含量的增加,MEc PP是一种类异戊二烯前体。MEc PP作为一个逆向信号,激活编码质体蛋白质的逆境应答核基因的表达。另一个对应激反应非常重要的质体代谢物是磷酸核苷3’-磷酸腺苷5’-磷酸盐</strong>(PAP**)。在干旱和高光强条件下PAP的含量增加。<strong>SAL1/FRY1</strong>是双功能磷酸酶,可以使肌醇磷脂和PAP去磷酸化(转变为AMP)。SAL1/FRY1的功能缺失导致体内PAP的积累。其他叶绿体代谢物,如<strong>四吡咯</strong>和<strong>β-胡萝卜素氧化分解产物</strong>(Ramel etal.,2012)也被认为可以作为逆向信号。</p>
-<p>线粒体和过氧化物酶体可产生ROS和许多代谢物,其中一些可能作为逆向信号分子。线粒体<strong>DEXH框RNA解旋酶</strong>或<strong>线粒体PPR</strong>(pentatricopeptide repeat protein)蛋白的突变导致ROS积累,会<u>改变植物对逆境激素ABA的反应</u>(He et al.,2012)。<strong>线粒体复合体I</strong>的突变也导致ROS积累,并降低突变植株冷应答基因的表达,使突变体对冷害和冻害敏感。<strong>CHY1</strong>基因编码一个过氧化物酶体β-羟异丁酰(HI-BYL)辅酶A水解酶,是<u>缬氨酸分解代谢和脂肪酸β-氧化</u>所必需的。CHY1基因的突变也能够导致ROS积累,降低冷害相关基因的表达,从而降低植物耐寒性(Dong et al.,2009)。线粒体和过氧化物酶体产生的ROS信号可能通过影响钙信号调节冷胁迫应答。</p>
-<h5 id="细胞壁胁迫应答"><a href="#细胞壁胁迫应答" class="headerlink" title="细胞壁胁迫应答"></a><strong>细胞壁胁迫应答</strong></h5><p>在植物体中,初级细胞壁是由<strong>纤维素微纤丝</strong>与<strong>木葡聚糖</strong>和<strong>阿糖基木聚糖</strong>等半纤维素相互联结并嵌入在<strong>果胶胶体</strong>组合而成。细胞壁还含有<u>酚醛树脂、过氧化物酶、果胶酯酶以及其他酶类;伸展蛋白,扩张蛋白以及其他蛋白质和Ca2+离子</u>。盐害、干旱胁迫以及其他渗透胁迫导致ROS积累以及细胞壁的变化。ROS的积累会引起酚醛树脂和细胞壁伸展蛋白等糖蛋白的交联,最终导致细胞壁硬化。另一方面,<strong>胁迫可增加扩张蛋白和木葡聚糖修饰酶基因的表达,从而重塑细胞壁</strong>。盐胁迫还能够导致细胞壁Ca2+的损失。在酵母中,细胞壁应激反应主要是由细胞壁结合的质膜蛋白Wsc1-3、Mid2和Mtl1感知,但这些感受器怎样检测到细胞壁变形尚不清楚。因为这些蛋白质都含有一个<strong>大的富含丝氨酸和苏氨酸残基的O-糖基化胞外结构域</strong>,推测这些蛋白质可能有<u><strong>牵张受体</strong></u>的功能。这些感受器的下游依次是GDP/GTP交换因子、小GTP蛋白Rho1、蛋白激酶C和MAPK级联途径。但具体的植物细胞壁胁迫感受器尚未被鉴定。植物有上百个RLKs和其他包含胞外区域、跨膜区和一个胞质激酶域的蛋白激酶,其中一些可能感受细胞壁的变化。</p>
-<h5 id="离子胁迫信号"><a href="#离子胁迫信号" class="headerlink" title="离子胁迫信号"></a><strong>离子胁迫信号</strong></h5><p>土壤盐害影响了相当比例的耕地,是限制全球农业生产的一个主要因素。高盐浓度会导致离子毒性(主要是Na+)、高渗胁迫以及如氧化损伤等次级胁迫。<strong>目前还不清楚植物细胞如何感受Na+<strong>。植物运用一个被称作</strong>SOS途径</strong>的钙依赖蛋白激酶途径介导盐胁迫信号和Na+的耐受性。<strong>SOS途径是植物中建立的第一个非生物胁迫信号途径</strong>，在这个途径中,EF钙结合蛋白SOS3感应盐胁迫介导的胞质钙信号,SOS3（CBL4）与丝氨酸/苏氨酸蛋白激酶SOS2相互作用并激活SOS2（CIPK24）。SOS3主要在根中表达,SOS3的旁系同源蛋白SCaBP8（CBL10）则主要在地上部表达,与SOS3的功能类似。激活的SOS2磷酸化并激活质膜Na+/H+转运体SOS1。SOS1在根表皮细胞和木薄壁组织细胞中表达,激活的SOS1使Na+排出到土壤溶液中,以及装载Na+进入木质部中进行长距离运输,通过蒸腾流一直运输到叶片中。总之,<strong>SOS1可能使Na+从木质部薄壁组织中排出到叶肉细胞的质外空间</strong>。</p>
-<p><strong>HKT1</strong>是另一个重要的转运体,在长距离Na+运输中起着主要作用。在拟南芥中HKT1是Na+主要输入者,在植株木质部薄壁组织细胞和脉管系统中的其他细胞中表达。在根部,HKT1可能卸载木质部中的Na+,限制蒸腾流中的Na+总量。在叶片中HKT1装载Na+到韧皮部中再循环回根部。<strong>任何一个SOS基因功能紊乱,包括SOS1,会显著增加突变植物对盐胁迫的敏感性</strong>。实际上正是由于这些突变体对盐害敏感的表型,SOS基因才被发现。HKT1基因突变材料会增加蒸腾植物的盐胁迫敏感性,但会抑制维持最小蒸腾量的生长在培养基上的SOS突变体的盐敏感性。<strong>SOS1和HKT1拮抗作用如何被协调是盐胁迫研究中的一个重要的问题</strong>。目前尚不清楚SOS1和HKT1是否在维管系统的同一细胞中表达。总之,<strong>SOS1似乎促进Na+从根到叶的运输,然而HKT1似乎限制这一过程</strong>。这两种转运体在Na+长距离运输中的重要性可能取决于盐胁迫的程度。在温和的盐胁迫下,植物激活木薄壁组织细胞SOS1对于本身有利,因为可以转移更多Na+到叶片中,存储在叶肉细胞中的大液泡内参与细胞渗透调节,促进植物生长。在严重盐胁迫下,过量Na+传输到叶片中将超出叶片本身的承载容量,因此必须卸载根部木质部中的Na+,并将叶片中Na+重新富集到根部。几个SOS3类似的钙结合蛋白能被与其结合的类SOS2的蛋白激酶磷酸化。<strong>磷酸化对于钙结合蛋白激酶的激活很重要</strong>。在静止状态或无胁迫条件下,SOS2结合<strong>14-3-3</strong>蛋白,以确保SOS2处于非激活状态。此外,SOS2与<strong>磷酸酶2C类的蛋白磷酸酶ABI2</strong>相互作用,也使SOS2处于非激活状态。</p>
-<p>核心信号组分SOS2代表了一个大的蛋白激酶家族,这些蛋白激酶的催化区域与酵母蔗糖非发酵蛋白激酶SNF1以及和哺乳动物AMP激活的蛋白激酶(AMPK)相似。在拟南芥中,这些蛋白质通常称为SNF1相关激酶**(SnRKs**)。**<u>SnRKs包括3个亚家族,其中亚家族1(SnRK1s)中有3个成员,亚家族2(SnRK2s)中有10个成员,亚家族3(SnRK3s，也被称作PKSs或CIPKs)中有25个成员</u>**。</p>
-<p>**<u>SnRK3s亚家族中的任一成员都能和10个类SOS3钙结合蛋白(SCaBPs,也被称作CBLs)中的一个或多个成员相互作用</u><strong>。这种相互作用是由激酶的N末端的FISL基序介导的。FISL基序或整个调节区域的缺失会导致激酶的持续性激活。大量SCaBP/CBL-PKS/CIPK的可能组合表明,Ca2+-SOS3-SOS2信号途径在植物中被广泛使用。事实上,<strong>CBL-CIPK模块在钙作为第二信使,尤其是调控离子转运蛋白活性的各种非生物信号的信号转导途径中有重要作用</strong>。例如低钾胁迫可能触发胞质钙信号,通过CBL1和CBL9激活CIPK23,磷酸化并激活钾通道AKT1。</strong><u>SCaBP1激活PKS5/CIPK11以及PKS24/CIPK14,继而磷酸化并抑制质膜上H+-ATPase活性。这种抑制作用对于细胞pH值的调节非常重要</u>**。CBL2和CBL3与蛋白CIPK3/9/23/26相互作用,调节液泡中的Mg2+含量,对高浓度Mg2+胁迫的耐受有重要意义。其他已知的CBL-CIPK组合调节不同的转运蛋白,对植物响应硝酸盐、脱落酸和其他非生物胁迫逆境具有重要作用。</p>
-<p>在植物应对生物和非生物胁迫,如盐、干旱、寒冷、炎热和受伤以及应对生长和发育信号过程中观察到多个MAPKs,<strong>主要是MPK3、4和6的快速激活</strong>。在非生物逆境下,<u>MAPK信号途径研究的困难源于上游感受蛋白的鉴别,</u>以及决定MAPK激活的MAP3Ks和MAP2Ks的发现,还有如何将激酶的激活与下游效应蛋白和生理输出联系起来。<br><img src="https://www.cell.com/cms/attachment/3d4b74ac-a5f1-4223-a32b-3d751ab11900/gr2.jpg" alt="gr2.jpg (506×279) (cell.com)"></p>
-<p><strong>盐、干旱和渗透胁迫也可迅速激活SnRK2家族蛋白激酶</strong>。在拟南芥中<u>,除SnRK2.9之外的所有10个SnRK2s都能被渗透调节激活</u>,而<u>SnRK2.2/3/6/7/8则被ABA激活</u>。尽管ABA激活SnRK2s的分子机制已被阐明,但渗透胁迫如何激活SnRK2激酶尚不清楚。遗传学证据表明,<strong>渗透胁迫的耐受依赖于SnRK2s,缺失所有10个SnRK2s的拟南芥十突变体对于渗透胁迫引起的生长抑制超敏感</strong>。snrk2十突变体植物中大量渗透胁迫应答基因的表达,脱落酸、渗透调节物质脯氨酸以及第二信使IP3积累受到影响,但是渗透胁迫诱导的ROS的积累并不受影响。<strong>这些结果表明,Sn RK2激活位于ABA积累的上游</strong>,并控制渗透调节和其他渗透胁迫的适应性反应(图3)。未来的努力应集中于<u>寻找渗透胁迫条件下对于SnRK2激活有重要作用的上游组分,以及鉴定渗透胁迫激活的SnRK2s的底物蛋白</u>。因为渗透胁迫会诱导胞质的钙信号且钙通道OSCA1也是潜在的渗透传感器,SnRK2s上游的候选组分可能有包括钙调节的蛋白激酶如CPKs和SCaBP/CBL-PKS/CIPKs。在Physcomitrella patens中,最近的研究显示,类Raf激酶对于渗透压和ABA处理下SnRK2的激活至关重要。探寻<strong>高等植物是否有相似的蛋白激酶以及这些蛋白激酶如何整合渗透胁迫和ABA信号</strong>,将是一个非常有趣的课题。</p>
-<p>渗透胁迫和温度胁迫引起各种<strong>脂质信号的形成</strong>,包括磷脂酸、磷酸肌醇、鞘脂类、溶血磷脂、氧化脂类,N-酰基乙醇胺等(Hou et al,2016)。对于胁迫是如何调节产生脂质信号的合成酶的活性尚不清楚。一般来说,<strong>脂质分子与信号蛋白结合并影响后者的活性和膜定位</strong>。<img src="https://www.cell.com/cms/attachment/a4a1fa51-170e-42c2-9467-7c4ca062c385/gr3.jpg" alt="gr3.jpg (504×459) (cell.com)"></p>
-<h5 id="ABA-信号转导"><a href="#ABA-信号转导" class="headerlink" title="ABA 信号转导"></a><strong>ABA 信号转导</strong></h5><p>脱落酸信号转导途径是植物中干旱胁迫和盐胁迫的核心。过去十年胁迫信号的研究中,最重要的一个进展就是ABA受体的鉴别以及ABA核心信号转导途径的发现。化学遗传学和蛋白互作研究鉴定出可溶、包<u>含START结构域的PYR/PYL/RCAR(以下称为<strong>PYL</strong>)蛋白家族是ABA的受体</u>。PYL通过微摩尔级别的KD结合ABA,<u>当A类型的PP2Cs如ABI1、ABI2、HAB1和PP2CA存在时,PYL与ABA的亲和力可以增加近100倍</u>。因此A类型的PP2Cs可被认为是ABA的共受体。当<u>没有ABA时,PP2Cs与SnRK2激酶包括SnRK2.2、SnRK2.3和SnRK2.6(又名OST1)结合,通过与去磷酸活化环并覆盖催化中心使激酶处于失活状态</u>。ABA进入PYL的中央疏水区域,诱导疏水区域处于关闭状态,并创建一个PP2Cs结合表面。在<strong>PYL-ABA-PP2C复合物</strong>的里面,PP2C中一个色氨酸残基插入到ABA结合区域,将ABA锁定在该区域,复合物中PP2C的蛋白磷酸酶活性被ABA-PYL复合体所抑制。<strong>ABA-PYL对PP2Cs的结合和抑制导致SnRK2s从PP2Cs的结合中释放出来</strong>。释放的SnRK2s通过自身磷酸化激活,并磷酸化许多下游的效应蛋白。小G蛋白ROP11与ABI1相互作用并保护ABI1使其避免被PYL9抑制。反之,ABI1和其他PP2Cs保护三磷酸鸟苷交换因子Rop GEF1,避免遭受ABA诱导的降解,从而形成一个Rop GEF-ROP-PP2C控制回路,在没有胁迫的条件下消除单体PYL可能导致的ABA信号的部分泄漏。<strong>拟南芥PYLs家族成员间存在功能冗余</strong>,大多数其他PYLs单基因突变体并没有显著的ABA表型。与其相反,pyr1prl1ply2pyl4四突变体植株在发芽和幼苗生长阶段对ABA不敏感,pyr1pyl1pyl2prl4ply5pyl8突变体表现出种子萌发、幼苗生长以及气孔关闭过程中对ABA更强的耐受性。</p>
-<p><strong>ABA强烈激活SnRK2.2、SnRK2.3和SnRK2.6/OST1,也能微弱地激活SnRK2.7和SnRK2.8</strong>。拟南芥snrk2.2/3/6三突变体表现出在种子萌发、幼苗生长、气孔关闭、基因调控等方面对ABA极不敏感。许多响应ABA的效应蛋白是SnRK2激酶的直接底物。bZIP家族转录因子如ABI5和ABFs(ABA响应元件结合因子)能被SnRK2s磷酸化。大部分发生在细胞质膜的ABA信号过程可能由与PYL相互作用的C2结构域蛋白介导。质膜蛋白质如阴离子通道SLAC1是SnRK2的底物。SLAC调控干旱胁迫下ABA介导的气孔关闭以减少水分的蒸腾损失。**<u>最近磷酸化蛋白组学研究鉴定了数十个新的SnRK2的底物蛋白,包括一些调控叶绿体功能、开花时间、miRNA和染色质调节、RNA拼接过程相关的重要蛋白质</u><strong>。PYL-PP2C-SnRK2核心ABA信号途径激活也可以与一个由MAP3Ks MAP3K17/18、MAP2K MKK3以及MAPKs MPK1/2/7/14组成的MAPK级联相关,后者也可能磷酸化许多ABA的效应蛋白。ABA激活的SnRK2s也可以使质膜NADPH氧化酶Rboh F磷酸化</strong>,在质外体空间产生O2-<strong>。O2-随后形成H2O2,作为信号分子调节包括气孔关闭在内的各种ABA应答过程。另一个连接ABA信号和ROS的重要组件是质膜类受体蛋白激酶</strong>GHR1<strong>。H2O2也可以调节钙信号从而影响ABA的应答,H2O2活化质膜钙离子通道也需要GHR1的介导。此外,ABA引起的钙信号可以激活CBL1/9-CIPK26模块,导致Rboh F等效应蛋白的磷酸化。除了诱导H2O2和钙信号,ABA也引发</strong>一氧化氮(NO)和磷脂分子**如磷脂酸的合成。</p>
-<p><strong>冷害和热害胁迫信号</strong></p>
-<p>低温对植物代谢的影响来自<strong>直接抑制代谢酶,或者基因表达的重组</strong>。温带植物暴露于低温,非冻害的温度能提高其对冻害胁迫的耐受能力,这一过程称为冷驯化。冷胁迫能<strong>迅速</strong>引发许多转录因子的表达,包括AP2家族转录因子CBFs,从而激活大量的下游冷应答(COR)基因的表达。CBF基因的表达由包括bHLH转录因子**<u>ICE1</u><strong>在内的上游转录因子控制的。ICE1通过SUMO类泛素化和多聚泛素化及随后的蛋白酶体降解。上述过程</strong>分别由SUMO E3连接SIZ1和E3泛素连接HOS1介导<strong>。冷胁迫诱导的CBF和COR基因的表达也受生物节律控制,后者的活性</strong>受质体逆向信号四吡咯的昼夜的振荡调控<strong>。冷胁迫激活SnRK2.6/OST1,SnRK2.6与ICE1互作并磷酸化ICE1,激活CBF-COR基因表达,并增加冻胁迫的耐受能力。此外,<strong>冷害激活SnRK2.6抑制ICE1和HOS1之间的相互作用,阻止ICE1的降解</strong>。冷害胁迫诱导的SnRK2激活并不依赖于ABA,尽管其仍受ABI1和其他PP2Cs负调控。因此,PYL ABA受体可能并不参与冷诱导的SnRK2的激活。与报道冷胁迫激活Sn RK2.6有所不同,Boudsocq等(2004)的结果显示,所有10个拟南芥SnRK2s都不被冷胁迫激活。冷胁迫和盐胁迫激活拟南芥MAP2K <strong>MKK2</strong>,并控制COR基因表达,调控植物耐冷性和耐盐能力。MKK2上游的MAP3K <strong>MEKK1</strong>以及下游的</strong>MPK4和MPK6**,都能被各种胁迫包括低温所激活。药理学研究表明,<strong>膜流动性、细胞骨架以及钙内流都与冷胁迫调节的COR基因和MAPKs有关</strong>。类受体激酶CRLK1可能连接了冷胁迫介导的钙信号和MAPK级联途径,这是由于CRLK1结合钙和钙调蛋白,并与MEKK1相互作用,是冷胁迫激活MAPK所必需的。由此可见,冷胁迫影响膜流动性,这可能被质膜蛋白如钙通道或相关蛋白感知,导致钙离子内流并激活钙响应的蛋白激酶(CPKs和CRLK1)和MAPK级联,调节COR基因表达。在未来,有必要使用遗传、分子和生化分析方法,进一步阐明这些激酶的作用以及它们之间、它们与Sn RK2.6之间在冷胁迫下的关系。</p>
-<p>热胁迫诱导HSPs表达,其中许多HSP可作为分子伴侣防止蛋白质变性和维持体内蛋白平衡。与哺乳动物热胁迫转录因子(HSFs)类似,**<u>热胁迫下植物HSFs从与HSP70和HSP90结合和抑制状态下释放出来,并结合热胁迫导致的错误折叠的蛋白。因此,HSFs可用来激活热胁迫应答</u>**。热胁迫也激活MAPKs并调节HSP基因的表达。MAPK的激活可能与热胁迫诱发的膜流动性和钙信号改变有关,后者对与HSP基因表达和耐热性很重要。</p>
-<p><img src="https://www.cell.com/cms/attachment/66d12713-be67-4624-9045-2ad4d2722d46/gr4.jpg" alt="gr4.jpg (375×408) (cell.com)"></p>
-<p><img src="https://www.cell.com/cms/attachment/872ce483-1408-4478-9d18-85deae37a329/gr5.jpg" alt="gr5.jpg (769×269) (cell.com)"></p>
-<p>植物细胞信号对盐害、干旱胁迫和胁迫激素ABA的响应,在很大程度上取决于SnRK蛋白激酶家族。SnRKs与酵母和哺乳动物中感应细胞能量状态的关键感受器SNF1和AMPK相关。在植物中,非生物胁迫通过抑制光合作用和释能分解反应,减少能源供给。因此,在进化过程中SNF1/AMPK相关的激酶数量不断增加并表现出多样性,从而调控各种非生物胁迫。**<u>SnRK1s是SNF1/AMPK直系同源物,参与植物代谢的调节过程。所有SnRK2s都参与渗透胁迫和ABA信号转导,而SnRK3s是离子动态平衡的关键调节器,是植物适应土壤中盐胁迫和养分胁迫所必需的。</u>**许多胁迫信号途径也涉及钙依赖的蛋白激酶CPKs。CPKs激酶功能域与Sn RKs的激酶功能域高度同源。此外,事实上<u><strong>几乎所有胁迫途径都涉及到MAPKs</strong></u>,MAPKs是从真菌到植物再到后生动物中保守的胁迫信号。其他保守特性包括广泛使用的钙、ROS、NO和脂质分子作为次级信号分子,但这些次级信号分子的产生和转导在植物中与其他生物有所不同。</p>
-<p>研究植物的非生物胁迫,鉴定胁迫感受器仍然是一个重要但极富挑战性的目标。高效的基因编辑技术和化学遗传方法将帮助我们克服由于基因冗余造成的胁迫感受器的遗传筛选上的困难。目前,各种细胞器在胁迫感受和应答过程中的作用逐渐显现,逐步揭示了胁迫信号分散感受的模型。尽管来自于受干扰的细胞器的分散信号如何整合仍不清楚,但这一模型仍有助于我们理解植物胁迫感受和胁迫抗性<strong>。由于植物胁迫应答必须与生长和发育相协调,理解胁迫信号和激素,以及生长和发育途径之间的相互关联就显得尤为重要</strong>。同样,<strong><u>应当更多关注植物如何同步响应多个非生物胁迫,以及非生物和生物胁迫信号之间的相互关联</u></strong>,因为目前为止大部分的非生物胁迫研究一直在无菌实验室进行。然而在自然环境中,植物与昆虫和微生物共存。根和地上部分很可能包括许多有益的细菌和真菌帮助植物抵御胁迫。了解细菌和真菌如何提高植物抗逆性,可以增加我们利用这些有益生物的能力,同时还有助于我们深入了解植物的胁迫抗性。</p>
-]]></content>
-      <categories>
-        <category>Biology</category>
-      </categories>
-      <tags>
-        <tag>Review</tag>
-        <tag>胁迫</tag>
       </tags>
   </entry>
 </search>
